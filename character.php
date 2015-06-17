@@ -2,8 +2,17 @@
 	include_once 'config.php';
 	include_once INC_PATH.'headleader.php';
 	require_once INC_PATH.'aunav.php';
+	include_once 'dist/character_data.php';
+
+	$get_character = isset($_GET['character']) ? $_GET['character'] : 1;
+
+	$character_index = $aboutCharacter[$get_character-1]['index'];
+	$character_name = $aboutCharacter[$get_character-1]['name'];
+	$character_title = $aboutCharacter[$get_character-1]['title'];
+	$character_col1 = $aboutCharacter[$get_character-1]['col1'];
+	$character_col2 = $aboutCharacter[$get_character-1]['col2'];
 ?>
-<title>康和期貨團隊 - 葉一豐 董事長 | 康和期貨</title>
+<title>康和期貨團隊 - <?php echo $character_name."  ".$character_title; ?> | 康和期貨</title>
 
 <?php
 // -------------------------------
@@ -33,14 +42,20 @@
 //app
   include_once INC_PATH.'header.php';
  ?>
-<section class="banner" style="background-image: url('<?php path_au('img'); ?>banner-char1.jpg')">
+<section class="banner" style="background-image: url('dist/character/banner-char<?php echo strip_tags($get_character); ?>.jpg')">
 	
 </section>
 
-<main class="">
+<main class="character-cnt_page">
 	<section class="fullbg row1">
 		<div class="wrapper small">
-			<img src="<?php path_au('img'); ?>char_cnt1.jpg" alt="" class="temporary">
+			<div class="col col-1">
+				<div class="editorDF"><?php echo $character_col1; ?></div>
+			</div>
+			<div class="col col-2">
+				<div class="editorDF"><?php echo $character_col2; ?></div>
+			</div>
+			<!-- <img src="<?php //path_au('img'); ?>char_cnt1.jpg" alt="" class="temporary"> -->
 		</div>
 	</section>
 	<footer>

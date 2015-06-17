@@ -61,7 +61,58 @@
 		<div class="bg"></div>
 		<div class="wrapper">
 			<div class="cnt">
-				<a href="character.php"><img src="<?php path_au('img'); ?>about-row4.png" alt=""></a>
+				<ul class="character-list cf">
+					<li class="character-item"><a href="character.php?character=1">
+						<figure>
+							<div class="character-pic pic about-character1">
+								<img src="dist/character/character1.png" alt="" class="">
+							</div>
+							<figcaption>
+								<div class="left">
+									<span class="inner character-name">葉一豐</span>
+								</div>
+								<div class="right">
+									<span class="inner character-title">董事長</span>
+								</div>
+							</figcaption>
+						</figure>
+					</a></li>
+<?php
+$aboutCharacter = array(
+	array('index'=> '2', 'name'=> '林彥全', 'title'=>'首席投資顧問<br>總經理'),
+	array('index'=> '3', 'name'=> '林豪威', 'title'=>'投資長'),
+	array('index'=> '4', 'name'=> '方琮櫻', 'title'=>'副總經理'),
+	array('index'=> '5', 'name'=> '高昊岑', 'title'=>'信託事業部<br>協理'),
+	array('index'=> '6', 'name'=> '謝增泉', 'title'=>'全權委託協理<br>交易決定人'),
+	array('index'=> '7', 'name'=> '張資政', 'title'=>'交易室主管'),
+	array('index'=> '8', 'name'=> '簡士傑', 'title'=>'基金事務主管<br>經理'),
+	array('index'=> '9', 'name'=> '簡祥全', 'title'=>'風險管理室'),
+	array('index'=> '10', 'name'=> '廖又瑨', 'title'=>'專案經理'),
+	array('index'=> '11', 'name'=> '許蕙蘭', 'title'=>'襄理'),
+);
+foreach ($aboutCharacter as $key => $value) {
+?>
+					<li class="character-item"><a href="character.php?character=<?php echo $aboutCharacter[$key]['index'];?>">
+						<figure>
+							<div class="character-pic pic about-character<?php echo $aboutCharacter[$key]['index'];?>">
+								<img src="dist/character/character<?php echo $aboutCharacter[$key]['index'];?>.png" alt="" class="">
+							</div>
+							<figcaption>
+								<div class="left">
+									<span class="inner character-name"><?php echo $aboutCharacter[$key]['name'];?></span>
+								</div>
+								<div class="right">
+									<span class="inner character-title"><?php echo $aboutCharacter[$key]['title'];?></span>
+								</div>
+							</figcaption>
+						</figure>
+					</a></li>
+<?php
+}
+?>
+
+				</ul>
+				<!-- <a href="character.php"><img src="<?php //path_au('img'); ?>about-row4.png" alt=""></a> -->
 			</div>
 		</div>
 	</section>
