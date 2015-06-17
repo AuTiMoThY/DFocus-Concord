@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.about_page {
+	.row4 {
+		z-index: 0;
+		&.fullbg {
+			&>.bg {
+				position: fixed;
+				top: 0;
+				z-index: 0;
+				@include bgRWD('bg-about-row4.jpg', 1920, 1000);
+			}
+		}
+		.cnt {
+			padding-bottom: 2em;
+		}
+	}
+	&.aboutCPCS {
+		.row2 {
+			&.fullbg {
+				&>.bg {
+					position: absolute;
+					top: 0;
+					z-index: 0;
+					@include bgRWD('bg-about-row4.jpg', 1920, 1000);
+					overflow: hidden;
+				}
+			}
+			.barbg {
+				position: relative;
+				z-index: 10;
+				@include bgRWD('aboutCPCS-row2-barbg.jpg', 1920, 368);
+				margin-bottom: 2em;
+			}
+		}
+	}
+	&.futures {
+		.row2 {
+			&.fullbg {
+				&>.bg {
+					position: absolute;
+					top: 0;
+					z-index: 0;
+					@include bgRWD('bg-about-row4.jpg', 1920, 1000);
+					overflow: hidden;
+				}
+			}
+		}
+		.cnt {
+			padding: 2em 0;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+footer {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	&.global_ft {
+		min-height: 145px;
+		@include bg(#fff);
+		// @include background-image(linear-gradient(#008ad8, #0066ba));
+		@include rhythm-padding(2, 1);
+		position: relative;
+		section {
+			&.col {
+				
+			}
+		}
+		.site_map {
+			position: absolute;
+			bottom: -5px;
+			right: 5px;
+		}
+	}
+	&.copyright {
+		@include bg(#000);
+		// @include background-image(linear-gradient(#0c141c, #424a54));
+		p, a {
+			color: #f7f8f8;
+			@include adjust-font-size-to(13px, 2);
+		}
+		p {
+			margin-bottom: 0;
+		}
+	}
+}
+
+

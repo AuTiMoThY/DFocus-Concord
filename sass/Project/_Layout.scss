@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.banner {
+	position: relative;
+	z-index: 10;
+	@include bgRWD(null, 1920, 857);
+	.about_page & {
+		@include bgRWD(null, 1920, 478);
+	}
+	.products_page & {
+		@include bgRWD(null, 1920, 478);
+	}
+	.chatroom_page & {
+		@include bgRWD(null, 1920, 478);
+	}
+	.news_page & {
+		@include bgRWD(null, 1920, 478);
+	}
+	.service_page & {
+		@include bgRWD(null, 1920, 478);
+	}
+	.character_page & {
+		@include bgRWD(null, 1920, 650);
+	}
+}
+
+/*========================================================================*\
+		>>	layout main
+\*========================================================================*/
+main {
+	margin-top: 0.1em;
+}
+section[class*="row"] {
+	position: relative;
+	z-index: 9;
+	@include bg(#fff);
+	&:not(.fullbg) {
+		@include rhythm-padding(1.5, 1.8);
+	}
+	.cnt {
+		padding-top: 2em;
+		.editorDF {
+			padding: 3.5em 6em;
+			@include bg(#fff);
+		}
+		.share_bar {
+			width: 100%;
+			@include bg(#fff);
+			padding: 0 6em 3.5em;
+		}
+	}
+}
+
+.fullbg {
+	width: 100%;
+	overflow: hidden;
+}
+/*========================================================================*\
+		>>	layout 內頁
+\*========================================================================*/
+header.cnt_title {
+	position: relative;
+	z-index: 9;
+	@include bg(#fff);
+	@include rhythm-padding(1.5, 1.8);
+}
+
+.editorDF {
+	img {
+		display: block;
+		margin: auto;
+	}
+}

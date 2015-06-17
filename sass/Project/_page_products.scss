@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.products_page, .chatroom_page {
+	.row2 {
+		&.fullbg {
+			&>.bg {
+				position: absolute;
+				top: 0;
+				z-index: 0;
+				@include bgRWD('bg-about-row4.jpg', 1920, 1000);
+				overflow: hidden;
+			}
+		}
+		.cnt {
+			padding: 2em 0;
+		}
+	}
+}
+
+
+
+.prodCnt {
+	h2.title {
+
+	}
+	.row2 {
+		&.fullbg {
+			&>.bg {
+				// position: fixed;
+				top: 0;
+				z-index: 0;
+				@include wh2;
+				@include bg('bg-about-row4.jpg');
+				background-attachment: fixed;
+				overflow: hidden;
+			}
+		}
+	}
+	.cnt {
+		margin: 1em auto 3em;
+		&.editorDF {
+			@include bg(#fff);
+		}
+	}
+}

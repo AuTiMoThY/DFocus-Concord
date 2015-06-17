@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.index_page {
+	.row1 {
+		height: 548px;
+		@include bg('index-bar1.jpg', 50%, 50%);
+		background-size: cover;
+	}
+	.row2 {
+		border-bottom: 1px solid color($colors, gr, 1);
+		h1, h2 {
+			margin: 0 auto 1em;
+		}
+	}
+}

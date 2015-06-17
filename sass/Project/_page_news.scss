@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.news_page {
+	.row2 {
+		&.fullbg {
+			&>.bg {
+				position: absolute;
+				top: 0;
+				z-index: 0;
+				@include wh2;
+				@include bg('bg-about-row4.jpg');
+				background-attachment: fixed;
+				overflow: hidden;
+			}
+		}
+	}
+	.cnt {
+		margin: 1em auto 3em;
+	}
+}
+
