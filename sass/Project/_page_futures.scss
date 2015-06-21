@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.futures {
+	&-list {}
+	&-item {
+		width: 32.5%;
+		margin-left: 1%;
+		&:first-of-type {
+			margin-left: 0;
+		}
+		figure {
+			position: relative;
+			width: 100%;
+			margin-bottom: 1.3em;
+		}
+		figcaption {
+			@include absolute(0, $r:0);
+			width: 100%;
+			height: 100%;
+			@include bg(rgba(black, 0.8));
+			@include opacity(0);
+			transition: all 0.3s ease(in-quad);
+		}
+		&-intro {
+			display: table;
+			width: 80%;
+			margin: auto;
+			@include vc;
+			right: 0;
+			left: 0;
+		}
+		&:hover {
+			figcaption {
+				@include opacity(1);
+			}
+		}
+	}
+}
+
+.index_page {
+	.futures {
+		&-list {}
+		&-item {
+			.txt-1 {
+				line-height: 1.5;
+				letter-spacing: 2px;
+			}
+		}
+	}
+}

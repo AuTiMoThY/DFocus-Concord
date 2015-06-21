@@ -42,7 +42,7 @@
 //app
   include_once INC_PATH.'header.php';
  ?>
-<section class="banner" style="background-image: url('dist/character/banner-char<?php echo strip_tags($get_character); ?>.jpg')">
+<section class="banner" style="background-image: url('upload/character/banner-char<?php echo strip_tags($get_character); ?>.jpg')">
 	
 </section>
 

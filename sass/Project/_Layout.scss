@@ -3,24 +3,25 @@
 .banner {
 	position: relative;
 	z-index: 10;
-	@include bgRWD(null, 1920, 857);
+	@include bgRWD('null', 1920, 857);
+	// @include bg(fixed);
 	.about_page & {
-		@include bgRWD(null, 1920, 478);
+		@include bgRWD('null', 1920, 478);
 	}
 	.products_page & {
-		@include bgRWD(null, 1920, 478);
+		@include bgRWD('null', 1920, 478);
 	}
 	.chatroom_page & {
-		@include bgRWD(null, 1920, 478);
+		@include bgRWD('null', 1920, 478);
 	}
 	.news_page & {
-		@include bgRWD(null, 1920, 478);
+		@include bgRWD('null', 1920, 478);
 	}
 	.service_page & {
-		@include bgRWD(null, 1920, 478);
+		@include bgRWD('null', 1920, 478);
 	}
 	.character_page & {
-		@include bgRWD(null, 1920, 650);
+		@include bgRWD('null', 1920, 650);
 	}
 }
 
@@ -69,5 +70,22 @@ header.cnt_title {
 	img {
 		display: block;
 		margin: auto;
+	}
+}
+
+
+
+.social_share {
+	li {
+		margin-right: 1em;
+	}
+	a {
+		display: block;
+		&:hover {
+			@include bg(rgba(#000, 0.1));
+		}
+		&:active {
+			@include hover;
+		}
 	}
 }

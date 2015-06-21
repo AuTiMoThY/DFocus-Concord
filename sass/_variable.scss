@@ -101,6 +101,7 @@ $normal_font3: Arial, "Helvetica Neue", Helvetica, sans-serif;
 $ff-CenturyGothic: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 $ff-Verdana: Verdana, "Geneva", sans-serif;
 $ff-Helvetica:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$ff-MHeiHK:"MHeiHK", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
 $fz-XL: 19px;
 $fz-LL: 17px;
@@ -139,7 +140,7 @@ $borderRadius: 8px; // 圓角半徑
 //------------------------------------*/
 
 $boxShadow: 0px 9px 21px rgba(0, 0, 0, 0.75);
-$boxShadowHover: 3px 10px 21px rgba(0, 0, 0, 1);
+$boxShadowHover: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 
 
 // $fill_in_table_bg: #edecea;

@@ -40,6 +40,10 @@
 <main class="">
 	<section class="row1">
 		<div class="wrapper small">
+			<hgroup class="txtImg_title-title-team">
+				<h1 class="hidden" data-lang="en">Mangment Team</h1>
+				<h2 class="hidden" data-lang="tw">堅強團隊</h2>
+			</hgroup>
 			<div class="cnt">
 				<img src="<?php path_au('img'); ?>about-row1.jpg" alt="">
 			</div>
@@ -65,7 +69,7 @@
 					<li class="character-item"><a href="character.php?character=1">
 						<figure>
 							<div class="character-pic pic about-character1">
-								<img src="dist/character/character1.png" alt="" class="">
+								<img src="upload/character/character1.png" alt="" class="">
 							</div>
 							<figcaption>
 								<div class="left">
@@ -95,7 +99,7 @@ foreach ($aboutCharacter as $key => $value) {
 					<li class="character-item"><a href="character.php?character=<?php echo $aboutCharacter[$key]['index'];?>">
 						<figure>
 							<div class="character-pic pic about-character<?php echo $aboutCharacter[$key]['index'];?>">
-								<img src="dist/character/character<?php echo $aboutCharacter[$key]['index'];?>.png" alt="" class="">
+								<img src="upload/character/character<?php echo $aboutCharacter[$key]['index'];?>.png" alt="" class="">
 							</div>
 							<figcaption>
 								<div class="left">

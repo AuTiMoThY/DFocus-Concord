@@ -27,7 +27,7 @@
 
 </head>
 
-<body class="news_page">
+<body class="news_page cnt_page">
 
 <?php
 //app
@@ -40,11 +40,11 @@
 <main class="">
 	<header class="cnt_title">
 		<div class="wrapper small">
-			<h2 class="title">
-				<img src="<?php path_au('img'); ?>title-newsCnt.png" alt="" class="temporary">
+			<h2 class="news-title">
+				周線連3黑 520魔咒下周上演?
 			</h2>
 			<p class="news-time">
-				
+				03月24日 2015
 			</p>
 		</div>
 	</header>
@@ -70,12 +70,20 @@
 				<!--<img src="<?php// path_au('img'); ?>news-cnt.jpg" alt="" class="temporary">-->
 				<footer class="share_bar cf">
 					<div class="social_share left" style="margin-top: 2.5em;">
-						<img src="<?php path_au('img'); ?>share.jpg" alt="">
+						<span class="txt-1">分享文章</span>
+						<ul class="cf">
+							<li><a href="javascript:void 0;" class="icon icon-rss"></a></li>
+							<li><a href="javascript:void 0;" class="icon icon-fasebook"></a></li>
+							<li><a href="javascript:void 0;" class="icon icon-googleplus"></a></li>
+							<li><a href="javascript:void 0;" class="icon icon-twitter"></a></li>
+							<li><a href="javascript:void 0;" class="icon icon-in"></a></li>
+							<li><a href="javascript:void 0;" class="icon icon-pinterest"></a></li>
+						</ul>
 					</div>
 				</footer>
 			</div>
 			<div class="" style="margin: 1em auto 5em;">
-				<a href="news.php" class="txt_img-goback btn-getmore hide_txt"></a>
+				<a href="javascript:history.go(-1)" class="btn-goback link-2 txt-1">回上一頁</a>
 			</div>
 		</div>
 	</section>

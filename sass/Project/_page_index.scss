@@ -2,14 +2,52 @@
 
 .index_page {
 	.row1 {
+		position: relative;
 		height: 548px;
-		@include bg('index-bar1.jpg', 50%, 50%);
+		@include bg('bg-index-row1.jpg', 50%, 50%);
 		background-size: cover;
+		.xs {
+			display: table;
+		}
+		&-cnt {
+			display: table-cell;
+			vertical-align: middle;
+			width: 785px;
+			// @include absolute(0, 0, 0, 0);
+			margin: auto;
+			p.txt-2 {
+				width: 100%;
+				margin-top: 3.5em;
+				// margin: auto;
+			}
+		}
 	}
 	.row2 {
 		border-bottom: 1px solid color($colors, gr, 1);
 		h1, h2 {
 			margin: 0 auto 1em;
+		}
+	}
+	.row4 {
+		height: auto;
+		@include bg('bg-index-row4.jpg', 50%, 50%);
+		background-size: cover;
+		padding: 4em 0;
+	}
+	p.txt-1 {
+		text-align: center;
+	}
+	a.txt-r1 {
+		position: relative;
+		margin-left: 0.2em;
+		padding-left: 0.25em;
+		&:after {
+			@include psudoClass(dib);
+			// @include absolute();
+			@include wh2(15 29);
+			@include bg-i(-15, 0);
+			vertical-align: -0.5ex;
+			margin-left: 0.45em;
 		}
 	}
 }

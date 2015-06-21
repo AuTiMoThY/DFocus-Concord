@@ -73,6 +73,27 @@ button {
 	&-getmore {
 		margin: auto;
 	}
+	&-goback {
+		position: relative;
+		margin: auto;
+		display: table;
+		&:before {
+			@include psudoClass(dib);
+			// @include absolute();
+			@include wh2(14 28);
+			@include bg-i(-15, -30);
+			vertical-align: -0.5ex;
+			margin-right: 0.45em;
+		}
+	}
+	&-more {
+		&.btn-black.btn {
+			@include bg(#595757);
+			border-radius: 0;
+			margin: 0;
+		}
+		color: #fff;
+	}
 
 
 }//.btn

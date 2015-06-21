@@ -7,12 +7,18 @@
 <script src="<?php path_au('js'); ?>libs/jquery.preload.min.js"></script>
 <script src="<?php path_au('js'); ?>libs/jquery.easing.1.3.js"></script>
 <script src="<?php path_au('js'); ?>libs/jquery.mousewheel.js"></script>
-<!-- <script src="plugin/bootstrap-material-design/js/material.js"></script> -->
-<!-- <script src="plugin/bootstrap-material-design/js/ripples.js"></script> -->
 <script src="<?php path_au('js'); ?>libs/classie.js"></script>
+<script src="plugin/bootstrap-material-design/js/material.js"></script>
+<script src="plugin/bootstrap-material-design/js/ripples.js"></script>
 <!-- <script src="plugin/pathLoader/main.js"></script> -->
 <!-- <script src="plugin/pathLoader/pathLoader.js"></script> -->
 <script src="plugin/FlexSlider/jquery.flexslider.js"></script>
-<!-- <script src="<?php// path_au('js'); ?>au.js"></script> -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script src="plugin/animation.gsap.js"></script>
+
+<script src="<?php path_au('js'); ?>au.js"></script>
 
 

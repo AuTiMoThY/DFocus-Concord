@@ -44,7 +44,7 @@
 		&:hover {
 			box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 		}
-	}
+	}// .character-item
 	&-pic {
 		position: relative;
 		width: 100%;
@@ -125,98 +125,215 @@
 			background-position: random(100)*1% random(100)*1%;
 		}
 	}
+	.index-character#{$i} {
+		&.character-pic:before {
+			background-position: random(100)*1% random(100)*1%;
+		}
+	}
+}
+
+%w100 {
+	width: 100%;
+	left: 0;
+}
+%hoverImg {
+	width: 110%;
+	// @include scale(1.05);
+	@include transform-origin();
+	left: -5%;
 }
 
 
+
+
 img {
-	@for $i from 1 through 11 {
-		.about-character#{$i} & {
-			width: 450px;
-			top: 2em;
+	.character-pic & {
+		@extend %w100;
+	}
+	.character-pic:hover & {
+		@extend %hoverImg;
+	}
+	// @for $i from 1 through 11 {
+	// 	.about-character#{$i} & {
+	// 		@extend %w100;
+	// 	}
+	// }
+	// @for $i from 1 through 11 {
+	// 	.about-character#{$i}:hover & {
+	// 		@extend %hoverImg;
+	// 	}
+	// }
+	.about-character1 & {
+		// left: 0;
+	}
+
+	.about-character1:hover & {
+		// width: 450px;
+		// left: 20px;
+	}
+	.about-character2 & {
+		// @include rotate(-5deg);
+		// left: -60px;
+	}
+	.about-character2:hover & {
+		// left: -90px;
+	}
+	.about-character3 & {
+		// left: -45px;
+	}
+	.about-character3:hover & {
+		// left: -75px;
+	}
+	.about-character4 & {
+		// left: -65px;
+	}
+	.about-character4:hover & {
+		// left: -95px;
+	}
+	.about-character5 & {
+		// width: 400px;
+		// top: 1em;
+		// left: -25px;
+	}
+	.about-character5:hover & {
+		// width: 450px;
+		// left: -55px;
+	}
+	.about-character6 & {
+		// left: -55px;
+	}
+	.about-character6:hover & {
+		// left: -85px;
+	}
+	.about-character7 & {
+		// left: -25px;
+	}
+	.about-character7:hover & {
+		// left: -55px;
+	}
+	.about-character8 & {
+		// left: -50px;
+	}
+	.about-character8:hover & {
+		// left: -80px;
+	}
+	.about-character9 & {
+		// width: 400px;
+		// left: -30px;
+	}
+	.about-character9:hover & {
+		// width: 450px;
+		// left: -60px;
+	}
+	.about-character10 & {
+		// left: -30px;
+	}
+	.about-character10:hover & {
+		// left: -60px;
+	}
+	.about-character11 & {
+		// width: 400px;
+		// left: 0;
+	}
+	.about-character11:hover & {
+		// width: 450px;
+		// left: -30px;
+	}
+
+
+}
+
+
+
+.index_page {
+	.character {
+		&-wrap {
+			width: 98%;
+			margin: 2em auto;
 		}
-		@for $i from 1 through 11 {
-			.about-character#{$i}:hover & {
-				width: 500px;
-				// top: 2em;
+		&-list {
+			width: 100%;
+			// padding: 2em 1%;
+		}
+		&-item {
+			width: 19.2%;
+			margin-left: 1%;
+			margin-bottom: 0;
+			&:first-of-type {
+				margin-left: 0;
 			}
 		}
 	}
-	.about-character1 & {
-		width: 400px;
-		left: 40px;
+	[class*="index-character"] {
+		// img {
+		// 	width: 100%;
+		// 	// top: 2em;
+		// 	left: 0;
+		// }
+		// &:hover {
+		// 	img {
+		// 		width: 110%;
+		// 		left: -5%;
+		// 	}
+		// }
 	}
-	.about-character1:hover & {
-		width: 450px;
-		left: 20px;
-	}
-	.about-character2 & {
-		@include rotate(-5deg);
-		left: -60px;
-	}
-	.about-character2:hover & {
-		left: -90px;
-	}
-	.about-character3 & {
-		left: -45px;
-	}
-	.about-character3:hover & {
-		left: -75px;
-	}
-	.about-character4 & {
-		left: -65px;
-	}
-	.about-character4:hover & {
-		left: -95px;
-	}
-	.about-character5 & {
-		width: 400px;
-		top: 1em;
-		left: -25px;
-	}
-	.about-character5:hover & {
-		width: 450px;
-		left: -55px;
-	}
-	.about-character6 & {
-		left: -55px;
-	}
-	.about-character6:hover & {
-		left: -85px;
-	}
-	.about-character7 & {
-		left: -25px;
-	}
-	.about-character7:hover & {
-		left: -55px;
-	}
-	.about-character8 & {
-		left: -50px;
-	}
-	.about-character8:hover & {
-		left: -80px;
-	}
-	.about-character9 & {
-		width: 400px;
-		left: -30px;
-	}
-	.about-character9:hover & {
-		width: 450px;
-		left: -60px;
-	}
-	.about-character10 & {
-		left: -30px;
-	}
-	.about-character10:hover & {
-		left: -60px;
-	}
-	.about-character11 & {
-		width: 400px;
-		left: 0;
-	}
-	.about-character11:hover & {
-		width: 450px;
-		left: -30px;
-	}
-
-
+	// .index-character1 {
+	// 	img {
+	// 		width: 350px;
+	// 		left: 30px;
+	// 	}
+	// 	&:hover {
+	// 		img {
+	// 			width: 400px;
+	// 			left: 0;
+	// 		}
+	// 	}
+	// }
+	// .index-character2 {
+	// 	img {
+	// 		// width: 350px;
+	// 		@include rotate(-5deg);
+	// 		left: -50px;
+	// 	}
+	// 	&:hover {
+	// 		img {
+	// 			// width: 450px;
+	// 			left: -80px;
+	// 		}
+	// 	}
+	// }
+	// .index-character3 {
+	// 	img {
+	// 		width: 380px;
+	// 		left: -30px;
+	// 	}
+	// 	&:hover {
+	// 		img {
+	// 			width: 430px;
+	// 			left: -60px;
+	// 		}
+	// 	}
+	// }
+	// .index-character4 {
+	// 	img {
+	// 		left: -50px;
+	// 	}
+	// 	&:hover {
+	// 		img {
+	// 			// width: 450px;
+	// 			left: -80px;
+	// 		}
+	// 	}
+	// }
+	// .index-character6 {
+	// 	img {
+	// 		left: -40px;
+	// 	}
+	// 	&:hover {
+	// 		img {
+	// 			// width: 450px;
+	// 			left: -70px;
+	// 		}
+	// 	}
+	// }
 }

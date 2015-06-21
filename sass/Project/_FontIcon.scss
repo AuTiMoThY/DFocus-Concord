@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+$icon-spacing: 1px;
+$icon-layout: horizontal;
+@import "txtImg_title/*.png";
+@include all-txtImg_title-sprites;
+
+.txtImg_title {
+     &-title {
+          @each $name in team, news, search, index_row1, lu {
+               &-#{$name} {
+                    @include wh2(txtImg_title-sprite-width(title-#{$name}) txtImg_title-sprite-height(title-#{$name}));
+                    margin: auto;
+               }
+          }
+          &-news {
+          	@include bg(transparent);
+          	margin: 2em auto;
+          }
+     }
+}
+
+
+
+
+.txt_img {
+	&-goback {
+		@include wh2(114 28);
+		@include bg-t(-253, -31);
+	}
+	&-getmore {
+		@include wh2(133 29);
+		@include bg-t(-97, 0);
+	}
+	&-BusinessDivisons {
+		&[data-lang="en"] {
+			@include wh2(396 36);
+			@include bg-t(0, -102);
+		}
+		&[data-lang="tw"] {
+			@include wh2(310 33);
+			@include bg-t(0, -139);
+		}
+	}
+	&-morechatroom {
+		@include wh2(154 29);
+		@include bg-t(-97, -30);
+	}
+	&-goProdList {
+		@include wh2(195 28);
+		@include bg-t(-97, -60);
+	}
+	&-goChatList {
+		@include wh2(151 28);
+		@include bg-t(-231, 0);
+	}
+	&-goService {
+		@include wh2(134 28);
+		@include bg-t(-293, -60);
+	}
+}
+
+.txt {
+	&-spec {
+		color: color($colors, nor, 2);
+	}
+	&-1 {
+		color: #000;
+		@include adjFontSize(21px);
+		letter-spacing: 1px;
+	}
+	&-1_1 {
+		color: #000;
+		@include adjFontSize(24px);
+		letter-spacing: 1px;
+	}
+	&-2 {
+		color: white;
+		@include adjFontSize(16px, 1.5);
+		letter-spacing: 1px;
+	}
+	&-r1 {
+		color: color($colors, nor, 2);
+	}
+	&-ff1 {
+		font-family: $ff-MHeiHK;
+	}
+}
+
+.link {
+	&-1 {
+		transition: all 0.3s $easeInOutCubic;
+		border-bottom: 1px solid rgba(color($colors, nor, 2), 0);
+		&:hover {
+			border-bottom: 1px solid rgba(color($colors, nor, 2), 1);
+		}
+		&:active {
+			@include hover;
+		}
+	}
+	&-2 {
+		&:after {
+			@include psudoClass;
+			@include absolute($b:0, $l:0);
+			@include wh(100%, 1);
+			@include bg(rgba(#000, 0));
+			transition: all 0.3s $easeInOutCubic;
+		}
+		&:hover {
+			&:after {
+				@include bg(rgba(#000, 1));
+			}
+		}
+	}
+}
+
+
+
+
+button.icon {
+	margin: 0;
+	border: none;
+}
+
+
+.icon {
+	&-rss {
+		@include wh2(40);
+		@include bg-i(-89, 0);
+	}
+	&-fasebook {
+		@include wh2(40);
+		@include bg-i(-89, -41);
+	}
+	&-googleplus {
+		@include wh2(40);
+		@include bg-i(-89, -82);
+	}
+	&-twitter {
+		@include wh2(40);
+		@include bg-i(-89, -123);
+	}
+	&-in {
+		@include wh2(40);
+		@include bg-i(-89, -164);
+	}
+	&-pinterest {
+		@include wh2(40);
+		@include bg-i(-89, -205);
+	}
+}

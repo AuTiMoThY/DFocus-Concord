@@ -36,6 +36,7 @@
 
 // @include font-face("HelveticaNeueLTCom", font-files("HelveticaNeueLTCom-Th.ttf", "HelveticaNeueLTCom-Th.woff"));
 @include font-face("FutuLt", font-files("FuturaBT-Light.eot", "FutuLt.ttf", "FutuLt.woff"));
+@include font-face("MHeiHK", font-files("MHeiHK-Light-Roman.eot", "MHeiHK-Light-Roman.ttf", "MHeiHK-Light-Roman.woff", "MHeiHK-Light-Roman.svg"));
 
 // @import _animate.sass
 /*------------------------------------------------------------------------*\
@@ -58,7 +59,7 @@
 /*========================================================================*\
 		>	btn
 \*========================================================================*/
-// @import "module/_pageBtn";
+@import "module/_pageBtn";
 @import "module/_btn";
 // @import "_materialBtn";
 
@@ -124,6 +125,7 @@
 @import "project/_page_news";
 @import "project/_page_service";
 @import "project/_page_character";
+@import "project/_page_futures";
 
 
 
@@ -132,8 +134,7 @@
 /*========================================================================*\
 		>	font & icon
 \*========================================================================*/
-@import "project/_font";
-@import "project/_ICON";
+@import "project/_FontIcon";
 
 
 
