@@ -56,7 +56,7 @@
 				</div>
 			</div>
 			<div class="" style="margin: 1em auto 5em;">
-				<a href="news.php" class="txt_img-goback btn-getmore hide_txt"></a>
+				<a href="news.php" class="txt_img-goback btn-getmore hide_txt link-2"></a>
 			</div>
 		</div>
 	</section>

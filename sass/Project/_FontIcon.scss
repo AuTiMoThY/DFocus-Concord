@@ -10,7 +10,7 @@ $icon-layout: horizontal;
 
 .txtImg_title {
      &-title {
-		@each $name in team, news, search, index_row1, lu, solution, cp, cp2, cpComputer1, cpComputer2, cpComputer3 {
+		@each $name in team, news, search, index_row1, lu, solution, cp, cp2, cpComputer1, cpComputer2, cpComputer3, chatroom, futures2, service4, service3, service2, service1, concordInf, map {
 		   &-#{$name} {
 		        @include wh2(txtImg_title-sprite-width(title-#{$name}) txtImg_title-sprite-height(title-#{$name}));
 		        margin: auto;
@@ -28,6 +28,12 @@ $icon-layout: horizontal;
 		}
 		&-cpComputer1, &-cpComputer2, &-cpComputer3 {
 			margin-bottom: 2em;
+		}
+		&-concordInf {
+			margin: 0 0 1.2em;
+		}
+		&-map {
+			margin: 3em 0 1.2em 2em;
 		}
      }
 }
@@ -105,6 +111,11 @@ $icon-layout: horizontal;
 		@include adjFontSize(17px, 1.8);
 		letter-spacing: 2px;
 	}
+	&-1_4 {
+		color: #000;
+		@include adjFontSize(15px);
+		letter-spacing: 1px;
+	}
 	&-2 {
 		@extend %txt-2;
 		&.btn {
@@ -112,6 +123,28 @@ $icon-layout: horizontal;
 				@extend %txt-2;
 			}
 		}
+	}
+	&-2_1 {
+		color: white;
+		@include adjFontSize(21px, 1.5);
+		letter-spacing: 1px;
+		font-family: $normal_font;
+	}
+	&-3 {
+		color: #000;
+		font-family: "MyriadProLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
+		@include adjFontSize(24px);
+		font-weight: normal;
+	}
+	&-3_1 {
+		font-size: em(13);
+		font-family: $normal_font;
+	}
+	&-4 {
+		@include adjFontSize(35px);
+		letter-spacing: 2px;
+		font-weight: normal;
+		font-family: $normal_font;
 	}
 	&-r1 {
 		color: color($colors, nor, 2);
@@ -152,6 +185,23 @@ $icon-layout: horizontal;
 			&:after {
 				width: 100%;
 				@include bg(rgba(#000, 1));
+			}
+		}
+	}
+	&-3 {
+		position: relative;
+		&:after {
+			@include psudoClass;
+			@include absolute($b:0, $l:0, $r:0);
+			@include wh(0%, 1);
+			@include bg(rgba(color($colors, nor, 2), 0));
+			margin: auto;
+			transition: all 0.3s $easeInOutCubic;
+		}
+		&:hover {
+			&:after {
+				width: 100%;
+				@include bg(rgba(color($colors, nor, 2), 1));
 			}
 		}
 	}

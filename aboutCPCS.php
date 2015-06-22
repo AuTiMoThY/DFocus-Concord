@@ -111,7 +111,7 @@
 	<section id="" class="fullbg row4">
 		<div class="bg"></div>
 		<div class="wrapper">
-			<a href="aobut.php" class="btn btn-goback2 link-2 txt-1">回事業介紹</a>
+			<a href="about.php" class="btn btn-goback2 link-2 txt-1">回事業介紹</a>
 		</div>
 	</section>
 

@@ -39,35 +39,201 @@
 
 <main class="">
 	<section class="row1">
-		<div class="wrapper small">
-			<div class="cnt">
-				<map name="serviceLinksMap">
-					<area shape="rect" coords="0, 0, 589, 286" href="monthlyreport.php" alt="投資月報">
-					<area shape="rect" coords="610, 0, 1200, 286" href="download.php" alt="文件下載">
-					<area shape="rect" coords="0, 309, 589, 595" href="saleschannel.php" alt="銷售機構">
-					<area shape="rect" coords="610, 309, 1200, 595" href="qa.php" alt="常見問題">
-				</map>
-				<img src="<?php path_au('img'); ?>service-row1.jpg" alt="" usemap="serviceLinksMap">
+		<div class="wrapper">
+			<div class="cnt service-category">
+				<div class="row1 cf">
+					<div class="service1 service-col">
+						<a href="monthlyreport.php"></a>
+						<div class="service1-bg service-pic pic">
+							<img src="<?php path_au('img'); ?>service1.jpg" alt="">
+						</div>
+						<div class="service-txt">
+							<div class="service-txt-inner txtImg_title-title-service1">
+								<span class="hidden" data-lang="en">Monthly Report</span>
+								<span class="hidden" data-lang="tw">投資月報</span>
+							</div>
+						</div>
+					</div>
+					<div class="service2 service-col">
+						<a href="download.php"></a>
+						<div class="service2-bg service-pic pic">
+							<img src="<?php path_au('img'); ?>service2.jpg" alt="">
+						</div>
+						<div class="service-txt">
+							<div class="service-txt-inner txtImg_title-title-service2">
+								<span class="hidden" data-lang="en">Download</span>
+								<span class="hidden" data-lang="tw">文件下載</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row2 cf">
+					<div class="service3 service-col">
+						<a href="saleschannel.php"></a>
+						<div class="service3-bg service-pic pic">
+							<img src="<?php path_au('img'); ?>service3.jpg" alt="">
+						</div>
+						<div class="service-txt">
+							<div class="service-txt-inner txtImg_title-title-service3">
+								<span class="hidden" data-lang="en">Sales Channel</span>
+								<span class="hidden" data-lang="tw">銷售機構</span>
+							</div>
+						</div>
+					</div>
+					<div class="service4 service-col">
+						<a href="qa.php"></a>
+						<div class="service4-bg service-pic pic">
+							<img src="<?php path_au('img'); ?>service4.jpg" alt="">
+						</div>
+						<div class="service-txt">
+							<div class="service-txt-inner txtImg_title-title-service4">
+								<span class="hidden" data-lang="en">Q&A</span>
+								<span class="hidden" data-lang="tw">常見問題</span>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 	<section class="row2 fullbg map">
-		<img src="<?php path_au('img'); ?>map.jpg" alt="">
+	   <div class="iframe-rwd">
+	        <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7389305396496!2d121.56517119999998!3d25.0429324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbea42bcd13%3A0x82c3dcada6a1a738!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5Z-66ZqG6Lev5LiA5q61MTc26Jmf56uL5qWt5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1434957132505"></iframe><br /><small><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7389305396496!2d121.56517119999998!3d25.0429324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbea42bcd13%3A0x82c3dcada6a1a738!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5Z-66ZqG6Lev5LiA5q61MTc26Jmf56uL5qWt5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1434957132505" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+	    </div>
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7389305396496!2d121.56517119999998!3d25.0429324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbea42bcd13%3A0x82c3dcada6a1a738!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5Z-66ZqG6Lev5LiA5q61MTc26Jmf56uL5qWt5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1434957132505" width="600" height="450" frameborder="0" style="border:0"></iframe> -->
+		<!-- <img src="<?php //path_au('img'); ?>map.jpg" alt=""> -->
 	</section>
 	<section class="row3">
-		<div class="wrapper">
-			<img src="<?php path_au('img'); ?>service-row3.jpg" alt="">
+		<div class="wrapper cf">
+			<div class="col-2">
+				<header class="txtImg_title-title-concordInf">
+					<h1 class="hidden" data-lang="en">Advisory Chat Room</h1>
+					<h2 class="hidden" data-lang="tw">康和期顧相談室</h2>
+				</header>
+				<div class="concordInf">
+					<p class="txt-1_2">許可證字號︰103年金管期經字第001號<br>
+						地址：110 台北市信義區基隆路一段176號14樓<br>
+						客服專線：02-3765-3688 轉702、0800-003-958</p>
+					<p class="txt-1_2">親愛的投資人您好，若您有基金交易相關問題，建議您可先點選<a href="qa.php" class="txt-spec">Q&A</a> 解答，以節省您寶貴時間。若相關解答仍無法排除疑問，請利用右側留言系統，我們將儘速為您處理，謝謝!</p>
+				</div>
+			</div>
+			<div class="col-2">
+				<div class="contact-form">
+					<form action="" class="">
+<ul>
+	<li>
+		<span class="input input--df input_required">
+			<label class="frm__label col" for="c_name">大名：</label>
+			<input class="frm__field col" type="text" name="c_name" id="c_name">
+		</span>
+	</li>
+	<li>
+		<span class="input input--df input_required">
+			<label class="frm__label col" for="c_email">電子信箱：</label>
+			<input class="frm__field col" type="text" name="c_email" id="c_email">
+		</span>
+	</li>
+	<li>
+		<span class="input input--df input_required">
+			<label class="frm__label col" for="c_phone">聯絡電話：</label>
+			<input class="frm__field col" type="text" name="c_phone" id="c_phone">
+		</span>
+	</li>
+	<li>
+		<span class="input input--df input_required">
+			<label class="frm__label col" for="c_calltime">聯絡時間：</label>
+			<select name="" id="" class="frm__field col frm__select">
+				<option value="0">請選擇...</option>
+				<option value="">選項1</option>
+				<option value="">選項2</option>
+				<option value="">選項3</option>
+			</select>
+		</span>
+	</li>
+	<li>
+		<span class="input input--df input_required">
+			<label class="frm__label col" for="c_category">問題或建議類別：</label>
+			<select name="" id="" class="frm__field col frm__select">
+				<option value="0">請選擇...</option>
+				<option value="">選項1</option>
+				<option value="">選項2</option>
+				<option value="">選項3</option>
+			</select>
+		</span>
+	</li>
+	<li>
+		<span class="input input--df input_required">
+			<label class="frm__label col" for="c_msg">留言：</label>
+			<textarea class="frm__field col" type="text" name="c_msg" id="c_msg"></textarea>
+			<button type="button" class="contact-form-send">SEND</button>
+		</span>
+	</li>
+</ul>
+					</form>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section id="siteMap" class="fullbg row4">
 		<div class="bg"></div>
 		<div class="wrapper">
-			<div class="cnt">
-				<img src="<?php path_au('img'); ?>siteMap.png" alt="">
+			<header class="txtImg_title-title-map">
+				<h1 class="hidden" data-lang="en">Site Map</h1>
+				<h2 class="hidden" data-lang="tw">網站地圖</h2>
+			</header>
+			<div class="sitemap-sec cnt cf">
+				<div class="col-2">
+					<ul>
+						<li>
+							<a href="<?php path_au('index'); ?>" class="txt-1">首頁 Home Page</a>
+						</li>
+						<li>
+							<a href="<?php path_au('about'); ?>" class="txt-1">康和期經介紹 About Us</a>
+							<div class="subSitemap">
+								<a href="about.php#futuresBar" class="txt-1_4">康和期經事業</a> / 
+								<a href="aboutCPCS.php" class="txt-1_4">資產保護</a> / 
+								<a href="about.php#futuresBar#teamProfile" class="txt-1_4">堅強團隊</a>
+							</div>
+						</li>
+						<li>
+							<a href="<?php path_au('index_futures'); ?>" class="txt-1">康和期經事業 Business </a>
+							<div class="subSitemap">
+								<a href="<?php path_au('futures_managed'); ?>" class="txt-1_4">期貨經理事業</a> / 
+								<a href="<?php path_au('futures_fund'); ?>" class="txt-1_4">期貨信託事業</a> / 
+								<a href="<?php path_au('futures_advisory'); ?>" class="txt-1_4">期貨顧問事業</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-2">
+					<ul>
+						<li>
+							<a href="<?php path_au('news'); ?>" class="txt-1">市場消息 News</a>
+						</li>
+						<li>
+							<a href="<" class="txt-1">產品介紹 Products</a>
+							<div class="subSitemap">
+								<a href="<?php path_au('products'); ?>" class="txt-1_4">康和期經產品列表</a> / 
+								<a href="chatroom.php" class="txt-1_4">康和期顧相談室</a>
+							</div>
+						</li>
+						<li>
+							<a href="<?php path_au('service'); ?>" class="txt-1">客服中心 Customer Service </a>
+							<div class="subSitemap">
+								<a href="monthlyreport.php" class="txt-1_4">投資月報</a> / 
+								<a href="saleschannel.php" class="txt-1_4">銷售機構</a> / 
+								<a href="download.php" class="txt-1_4">文件下載</a> / 
+								<a href="qa.php" class="txt-1_4">Q&A</a> / 
+								<a href="service.php#map" class="txt-1_4">網站地圖</a>
+							</div>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</section>
 </main>
+
 
 <?php
 //app

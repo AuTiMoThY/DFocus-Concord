@@ -38,10 +38,18 @@
 </section>
 
 <main class="">
+	<header class="cnt_title">
+		<div class="wrapper small">
+			<hgroup class="txtImg_title-title-futures2">
+				<h1 class="hidden" data-lang="en">Futures Fund</h1>
+				<h2 class="hidden" data-lang="tw">期貨信託事業</h2>
+			</hgroup>
+		</div>
+	</header>
 	<section class="row1">
 		<div class="wrapper small">
-			<div class="cnt">
-				<img src="<?php path_au('img'); ?>futures_fund-cnt.jpg" alt="">
+			<div class="cnt editorDF">
+				<img src="<?php path_au('temp'); ?>tem6.jpg" alt="">
 			</div>
 		</div>
 	</section>

@@ -8,6 +8,7 @@
 				top: 0;
 				z-index: 0;
 				@include bgRWD('bg-about-row4.jpg', 1920, 1000);
+				@include bg(fixed);
 				overflow: hidden;
 			}
 		}
@@ -17,6 +18,11 @@
 	}
 }
 
+.products_page {
+	.metro-row {
+		margin-bottom: 1.2em;
+	}
+}
 
 
 .prodCnt {
@@ -40,6 +46,82 @@
 		margin: 1em auto 3em;
 		&.editorDF {
 			@include bg(#fff);
+		}
+	}
+}
+
+
+.metro-block-style1.pdt {
+	width: 100%;
+	height: 410px;
+	.news-pic {
+		width: 50%;
+		&+.metro-art {
+			width: 50%;
+		}
+	}
+	.metro-art {
+		@include bg(#efefef);
+		&:before {
+			border-color: transparent #efefef transparent transparent;
+			@include translateY(-9em);
+		}
+	}
+	hgroup {
+		border-bottom: none;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	h1, h2 {
+		margin-bottom: 0;
+	}
+	.pdt-shrink_text {
+		@include adjFontSize(17px, 1.5);
+		letter-spacing: 1px;
+	}
+	.txt-r1 {
+		color: color($colors, nor, 2);
+		@include adjFontSize(21px);
+		letter-spacing: 1px;
+	}
+	.btn {
+		@include absolute($b:1.5em, $l:2em);
+	}
+}
+
+header.chatroom {
+	@include rhythm-margins(1.2);
+}
+.chatroom {
+	&-list {
+		width: 100%;
+	}
+	&-item {
+		width: (390 / 1200) * 100%;
+		@include bg(#fff);
+		margin-left: 1.2%;
+		margin-bottom: 1em;
+		&:nth-of-type(3n+1) {
+			margin-left: 0;
+		}
+	}
+	&-pic {
+		position: relative;
+		.btn {
+			@include absolute($b:0, $r:0);
+		}
+	}
+	&-during {
+		padding: 0 1.2em;
+		line-height: 40px;
+	}
+	&-block {
+		padding: 1.2em 1.2em 1.8em;
+	}
+	&-title {
+		margin-bottom: 0.8em;
+		&.txt-1_1 {
+			line-height: 1.2;
 		}
 	}
 }

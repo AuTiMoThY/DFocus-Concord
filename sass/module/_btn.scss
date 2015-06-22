@@ -153,6 +153,52 @@ button {
 			}
 		}
 	}
+	&-pdtMore {
+		&.btn {
+			position: relative;
+			width: 88px + 15 + 15;
+			padding: 0;
+			margin: 0;
+			text-align: left;
+			&:before {
+				@include psudoClass();
+				@include absolute(10px, $r:0px);
+				@include wh2(15 29);
+				@include bg-i(-15, 0);
+			}
+			&:hover {
+				box-shadow: none !important;
+			}
+		}
+		&.btn2 {
+			width: 242px + 15 + 15;
+		}
+	}
+	&-gochatroomCnt.btn {
+		position: relative;
+		width: 88px + 15 + 8 + 8*2;
+		padding: 0 8px;
+		margin: 0;
+		border-radius: 0;
+		text-align: left;
+		color: #fff !important;
+		transition: all 0.3s ease-in-out;
+		&:before {
+			@include psudoClass();
+			@include absolute(5px, $r:8px);
+			@include wh2(14 28);
+			@include bg-i(-15, -175);
+		}
+		&:hover {
+			box-shadow: none !important;
+		}
+		.chatroom-item & {
+			@include bg(rgba(#000, 0.8));
+			&:hover {
+				@include bg(rgba(#000, 1));
+			}
+		}
+	}
 
 
 }//.btn
