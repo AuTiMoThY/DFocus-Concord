@@ -38,6 +38,15 @@ function resizeBlock (){
 	// $slidesLi.css('height', viewPortH * 0.8);
 }
 
+function isActive($this, $thisClass) {
+	if (!($this.hasClass('active'))) {
+		$(".futures_bar-item").removeClass('active');
+		$this.addClass('active');
+	} else{
+		// $thisClass.removeClass('active');
+	};
+}
+
 
 $(window).on('resize', function () {
 	resizeBlock();
@@ -93,7 +102,7 @@ $(function () {
 	.setTween(tween)
 	.setPin("#globalHeader")
 	.triggerHook(0)
-	.addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
+	// .addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
 	.addTo(simplePinning);
 
 })

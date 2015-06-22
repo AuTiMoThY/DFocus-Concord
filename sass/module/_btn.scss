@@ -86,6 +86,25 @@ button {
 			margin-right: 0.45em;
 		}
 	}
+	&-goback2 {
+		position: relative;
+		margin: auto;
+		display: table;
+		&:before {
+			@include psudoClass(dib);
+			// @include absolute();
+			@include wh2(14 28);
+			@include bg-i(-15, -30);
+			vertical-align: -0.5ex;
+			margin-right: 0.45em;
+		}
+		&.btn {
+			padding: 0;
+			&:hover {
+				box-shadow: none !important;
+			}
+		}
+	}
 	&-more {
 		&.btn-black.btn {
 			@include bg(#595757);
@@ -93,6 +112,46 @@ button {
 			margin: 0;
 		}
 		color: #fff;
+	}
+	&-goPrev {
+		@include wh2(14 28);
+		@include bg-i(-15, -146);
+		padding: 0;
+		margin: 0;
+	}
+	&-goNext {
+		@include wh2(14 28);
+		@include bg-i(-15, -175);
+		padding: 0;
+		margin: 0;
+	}
+	&-futuresSec1-active {
+		margin: 0 1.2em;
+		padding: 0;
+		&:before {
+			@include psudoClass(dib);
+			@include wh2(14);
+			@include bg-i(0, 0);
+			margin-right: 1.2em;
+		}
+	}
+	&-goComputer.btn {
+		display: block;
+		width: 154px + 15 + 15;
+		margin: auto;
+		padding: 0;
+		text-align: left;
+		&:before {
+			@include psudoClass();
+			@include absolute(9px, $r:0px);
+			@include wh2(14 28);
+			@include bg-i(-15, -88);
+		}
+		&:hover {
+			.cp_computer-intro & {
+				box-shadow: none !important;
+			}
+		}
 	}
 
 

@@ -4,23 +4,43 @@
 $icon-spacing: 1px;
 $icon-layout: horizontal;
 @import "txtImg_title/*.png";
+@import "txtImg_futures/*.png";
 @include all-txtImg_title-sprites;
+@include all-txtImg_futures-sprites;
 
 .txtImg_title {
      &-title {
-          @each $name in team, news, search, index_row1, lu {
-               &-#{$name} {
-                    @include wh2(txtImg_title-sprite-width(title-#{$name}) txtImg_title-sprite-height(title-#{$name}));
-                    margin: auto;
-               }
-          }
-          &-news {
-          	@include bg(transparent);
-          	margin: 2em auto;
-          }
+		@each $name in team, news, search, index_row1, lu, solution, cp, cp2, cpComputer1, cpComputer2, cpComputer3 {
+		   &-#{$name} {
+		        @include wh2(txtImg_title-sprite-width(title-#{$name}) txtImg_title-sprite-height(title-#{$name}));
+		        margin: auto;
+		   }
+		}
+		&-news {
+			@include bg(transparent);
+			margin: 2em auto;
+		}
+		&-cp {
+			margin-bottom: 2em;
+		}
+		&-cp2 {
+			margin: 2em auto;
+		}
+		&-cpComputer1, &-cpComputer2, &-cpComputer3 {
+			margin-bottom: 2em;
+		}
      }
 }
-
+.txtImg_futures-futures {
+	@each $name in 1, 2, 3 {
+		&-#{$name} {
+			@include wh2(txtImg_futures-sprite-width(futures-#{$name}) txtImg_futures-sprite-height(futures-#{$name}));
+		}
+		&-#{$name}active {
+			@include wh2(txtImg_futures-sprite-width(futures-#{$name}active) txtImg_futures-sprite-height(futures-#{$name}active));
+		}
+	}
+}
 
 
 
@@ -75,10 +95,23 @@ $icon-layout: horizontal;
 		@include adjFontSize(24px);
 		letter-spacing: 1px;
 	}
-	&-2 {
-		color: white;
-		@include adjFontSize(16px, 1.5);
+	&-1_2 {
+		color: #221815;
+		@include adjFontSize(17px);
 		letter-spacing: 1px;
+	}
+	&-1_3 {
+		color: #221815;
+		@include adjFontSize(17px, 1.8);
+		letter-spacing: 2px;
+	}
+	&-2 {
+		@extend %txt-2;
+		&.btn {
+			.futures_intro-item & {
+				@extend %txt-2;
+			}
+		}
 	}
 	&-r1 {
 		color: color($colors, nor, 2);
@@ -86,6 +119,12 @@ $icon-layout: horizontal;
 	&-ff1 {
 		font-family: $ff-MHeiHK;
 	}
+}
+
+%txt-2 {
+	color: white;
+	@include adjFontSize(16px, 1.5);
+	letter-spacing: 1px;
 }
 
 .link {
@@ -100,15 +139,18 @@ $icon-layout: horizontal;
 		}
 	}
 	&-2 {
+		position: relative;
 		&:after {
 			@include psudoClass;
-			@include absolute($b:0, $l:0);
-			@include wh(100%, 1);
+			@include absolute($b:0, $l:0, $r:0);
+			@include wh(0%, 1);
 			@include bg(rgba(#000, 0));
+			margin: auto;
 			transition: all 0.3s $easeInOutCubic;
 		}
 		&:hover {
 			&:after {
+				width: 100%;
 				@include bg(rgba(#000, 1));
 			}
 		}

@@ -48,3 +48,89 @@
 		}
 	}
 }
+
+
+.futures_bar {
+	&-banner {
+		position: relative;
+		width: 100%;
+	}
+	&-bg {
+		@include wh2(100% 426);
+		@include bg('futures_bar-banner1.jpg', 50%, 50%);
+	}
+	&-list {
+		height: 255px;
+		@include absolute(0, 0, 0, 0);
+		margin: auto;
+	}
+	&-item {
+		position: relative;
+		@include circle(255px);
+		@include bg(rgba(#fff, 0.5));
+		transition: all 0.3s ease(in-out-cubic);
+		margin-left: (1000 - (255 * 3)) / 2 * 1px;
+		cursor: pointer;
+		&:first-of-type {
+			margin-left: 0;
+		}
+		&:hover {
+			box-shadow: $boxShadowHover;
+		}
+		&:hover, &.active {
+			@include bg(rgba(#000, 0.8));
+		}
+		.txt {
+			@include absolute(0, 0, 0, 0);
+			margin: auto;
+		}
+	}
+	&.futuresSec1-active {
+		.futures_bar-bg {
+			@include bg('futures_bar-banner1.jpg');
+		}
+	}
+	&.futuresSec2-active {
+		.futures_bar-bg {
+			@include bg('futures_bar-banner2.jpg');
+		}
+	}
+	&.futuresSec3-active {
+		.futures_bar-bg {
+			@include bg('futures_bar-banner3.jpg');
+		}
+	}
+	&-container {
+		position: relative;
+		height: 270px;
+		@include bg(#191919);
+	}
+}
+
+.futures_intro {
+	&-list {
+		position: relative;
+		@include wh2;
+	}
+	&-item {
+		display: none;
+		@include absolute(0, $l:0);
+		@include wh2;
+		padding-top: 4em;
+		&:before {
+			@include psudoClass;
+			@include absolute(-20px);
+			margin: auto;
+			@include triTop(#191919, 20px, 23px);
+		}
+	}
+}
+#futuresSec1Intro.futures_intro-item:before {
+	@include absolute($l:(255/2)*1px-20);
+}
+#futuresSec2Intro.futures_intro-item:before {
+	@include absolute($r:0, $l:0);
+}
+#futuresSec3Intro.futures_intro-item:before {
+	@include absolute($r:(255/2)*1px-20);
+}
