@@ -185,22 +185,22 @@
 				<div class="col-2">
 					<ul>
 						<li>
-							<a href="<?php path_au('index'); ?>" class="txt-1">首頁 Home Page</a>
+							<a href="<?php webPageUrlAu('index'); ?>" class="txt-1">首頁 Home Page</a>
 						</li>
 						<li>
-							<a href="<?php path_au('about'); ?>" class="txt-1">康和期經介紹 About Us</a>
+							<a href="<?php webPageUrlAu('about'); ?>" class="txt-1">康和期經介紹 About Us</a>
 							<div class="subSitemap">
 								<a href="about.php#futuresBar" class="txt-1_4">康和期經事業</a> / 
 								<a href="aboutCPCS.php" class="txt-1_4">資產保護</a> / 
-								<a href="about.php#futuresBar#teamProfile" class="txt-1_4">堅強團隊</a>
+								<a href="about.php#teamProfile" class="txt-1_4">堅強團隊</a>
 							</div>
 						</li>
 						<li>
-							<a href="<?php path_au('index_futures'); ?>" class="txt-1">康和期經事業 Business </a>
+							<a href="<?php webPageUrlAu('index_futures'); ?>" class="txt-1">康和期經事業 Business </a>
 							<div class="subSitemap">
-								<a href="<?php path_au('futures_managed'); ?>" class="txt-1_4">期貨經理事業</a> / 
-								<a href="<?php path_au('futures_fund'); ?>" class="txt-1_4">期貨信託事業</a> / 
-								<a href="<?php path_au('futures_advisory'); ?>" class="txt-1_4">期貨顧問事業</a>
+								<a href="<?php webPageUrlAu('futures_managed'); ?>" class="txt-1_4">期貨經理事業</a> / 
+								<a href="<?php webPageUrlAu('futures_fund'); ?>" class="txt-1_4">期貨信託事業</a> / 
+								<a href="<?php webPageUrlAu('futures_advisory'); ?>" class="txt-1_4">期貨顧問事業</a>
 							</div>
 						</li>
 					</ul>
@@ -208,17 +208,17 @@
 				<div class="col-2">
 					<ul>
 						<li>
-							<a href="<?php path_au('news'); ?>" class="txt-1">市場消息 News</a>
+							<a href="<?php webPageUrlAu('news'); ?>" class="txt-1">市場消息 News</a>
 						</li>
 						<li>
-							<a href="<" class="txt-1">產品介紹 Products</a>
+							<a href="<?php webPageUrlAu('products'); ?>" class="txt-1">產品介紹 Products</a>
 							<div class="subSitemap">
-								<a href="<?php path_au('products'); ?>" class="txt-1_4">康和期經產品列表</a> / 
+								<a href="<?php webPageUrlAu('products'); ?>" class="txt-1_4">康和期經產品列表</a> / 
 								<a href="chatroom.php" class="txt-1_4">康和期顧相談室</a>
 							</div>
 						</li>
 						<li>
-							<a href="<?php path_au('service'); ?>" class="txt-1">客服中心 Customer Service </a>
+							<a href="<?php webPageUrlAu('service'); ?>" class="txt-1">客服中心 Customer Service </a>
 							<div class="subSitemap">
 								<a href="monthlyreport.php" class="txt-1_4">投資月報</a> / 
 								<a href="saleschannel.php" class="txt-1_4">銷售機構</a> / 

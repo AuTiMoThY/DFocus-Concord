@@ -9,6 +9,8 @@ $(window).load(function(){
 
 // init controller
 var simplePinning = new ScrollMagic.Controller();
+// var controller = new ScrollMagic.Controller();
+var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onLeave", duration: "400"}});
 
 function viewPortWidthHeight() {
   var wh = {};
@@ -69,7 +71,10 @@ $(function () {
 	}
 
 
-	$.preload();
+	$.preload('dist/images/futures_bar-banner1.jpg',
+	          'dist/images/futures_bar-banner2.jpg',
+	          'dist/images/futures_bar-banner3.jpg'
+	          );
 
 	// var $win = $(window),
 	// 	_moveSpeed = 1000,	// 移動的速度
@@ -91,8 +96,8 @@ $(function () {
 	// 	};
 	// }).scroll();
 	var tween = TweenMax.to("#globalHeader", 0.3, {
-		height: 50, 
-		ease: Power1.easeInOut 
+		height: 50,
+		ease: Power1.easeInOut
 	});
 
 	new ScrollMagic.Scene({
@@ -105,4 +110,29 @@ $(function () {
 	// .addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
 	.addTo(simplePinning);
 
+
+	var bannerTween = TweenMax.to("#pageBanner", {
+		backgroundPosition: "50% 50px",
+		ease: Linear.easeNone
+		// ease: Power1.easeInOut
+	})
+	// var bannerTween = new TimelineMax()
+	// 	.to("#pageBanner", 0.5, {backgroundPosition: "50% 50px"})
+	// 	.to("#pageBanner", 0.3, {backgroundPosition: "50% 100px"});
+
+	// var bannerScene = new ScrollMagic.Scene({
+	// 	triggerElement: "#bannerTrigger",
+	// 	triggerHook: "onLeave",
+	// 	offset: 50
+	// 	// duration: 300
+	// })
+	// .setTween(bannerTween)
+	// // .triggerHook(0)
+	// .addIndicators({name: "2 (duration: 300)"}) // add indicators (requires plugin)
+	// .addTo(controller);
+	// 
+	var bannerScene = new ScrollMagic.Scene({triggerElement: "#bannerTrigger", offset: 50})
+				.setTween("#pageBanner", {backgroundPosition: "50% 200px",ease: Linear.easeNone})
+				.addIndicators()
+				.addTo(controller);
 })
