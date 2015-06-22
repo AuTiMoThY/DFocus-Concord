@@ -26,14 +26,14 @@
 <![endif]-->
 
 </head>
-
 <body class="about_page aboutCPCS">
 
 <?php
 //app
   include_once INC_PATH.'header.php';
  ?>
-<section class="banner" style="background-image: url('<?php path_au('img'); ?>banner-aboutCPCS.jpg')">
+<div id="bannerTrigger"></div>
+<section id="pageBanner" class="banner" style="background-image: url('<?php path_au('img'); ?>banner-aboutCPCS.jpg')">
 	
 </section>
 

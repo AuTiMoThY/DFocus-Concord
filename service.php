@@ -33,8 +33,10 @@
 //app
   include_once INC_PATH.'header.php';
  ?>
+
+  <div id="bannerTrigger"></div>
 <section id="bigBanner" >
-	<div class="banner" style="background-image: url('<?php path_au('img'); ?>banner-service.jpg')"></div>
+	<div  id="pageBanner" class="banner" style="background-image: url('<?php path_au('img'); ?>banner-service.jpg')"></div>
 </section>
 
 <main class="">

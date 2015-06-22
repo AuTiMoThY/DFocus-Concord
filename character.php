@@ -42,7 +42,8 @@
 //app
   include_once INC_PATH.'header.php';
  ?>
-<section class="banner" style="background-image: url('upload/character/banner-char<?php echo strip_tags($get_character); ?>.jpg')">
+ <div id="bannerTrigger"></div>
+<section id="pageBanner" class="banner" style="background-image: url('upload/character/banner-char<?php echo strip_tags($get_character); ?>.jpg')">
 	
 </section>
 
