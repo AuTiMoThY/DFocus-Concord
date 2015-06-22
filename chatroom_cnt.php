@@ -58,7 +58,7 @@
 				</div>
 			</div>
 			<div class="" style="margin: 1em auto 5em;">
-				<a href="news.php" class="txt_img-goback btn-getmore hide_txt link-2"></a>
+				<a href="javascript:history.go(-1);" class="txt_img-goback btn-getmore hide_txt link-2">回上一頁</a>
 			</div>
 		</div>
 	</section>

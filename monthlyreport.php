@@ -42,23 +42,111 @@
 <main class="">
 	<section class="row1">
 		<div class="wrapper small">
-			<h2 class="title">
-				<img src="<?php path_au('img'); ?>title-monthlyreport.png" alt="" class="temporary">
-			</h2>
+			<header class="txtImg_title-title-monthlyreport cnt_title">
+				<h1 class="hidden" data-lang="en">Monthly Report</h1>
+				<h2 class="hidden" data-lang="tw">投資月報</h2>
+			</header>
 		</div>
 	</section>
-	<section class="fullbg row2">
+	<section class="fullbg row2 monthlyreport-wrap serviceCnt-wrap">
 		<div class="bg"></div>
 		<div class="wrapper">
-			<div class="cnt editorDF cf">
-				<img src="<?php path_au('img'); ?>monthlyreport-cnt.jpg" alt="" class="temporary">
+			<div class="monthlyreport-container">
+				<div class="row1 cf">
+					<div class="col-2">
+						<span class="txt-1">分類</span>
+						<select name="" id="" class="monthlyreport-select">
+							<option value="">2015 年 Q1</option>
+							<option value="">2014 年 Q4</option>
+							<option value="">2014 年 Q3</option>
+							<option value="">2014 年 Q2</option>
+							<option value="">2014 年 Q1</option>
+						</select>
+					</div>
+					<div class="col-2">
+						<span class="txt-1">搜尋</span>
+						<form action="" class="art_search-form cf">
+							<input type="text" name="" id="" class="art_search-input frm__field left" placeholder="輸入關鍵字...">
+							<input type="button" name="" id="" class="art_search-btn frm__btn left" value="search" onclick="">
+						</form>
+					</div>
+				</div>
+				<ul class="art_search-list monthlyreport-list">
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">5</span>月</span>
+								<span class="txt-1">2015 / Q1 / MAY</span>
+							</div>
+							<div class="news-link">
+								<a href="" class="txt-r1">http://www.concordmanagedfutures.com/what-we-do/investment-management/</a>
+							</div>
+						</div>
+					</li>
+
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">4</span>月</span>
+								<span class="txt-1">2015 / Q1 / MAY</span>
+							</div>
+							<div class="news-link">
+								<a href="" class="txt-r1">http://www.concordmanagedfutures.com/what-we-do/investment-management/</a>
+							</div>
+						</div>
+					</li>
+
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">3</span>月</span>
+								<span class="txt-1">2015 / Q1 / MAY</span>
+							</div>
+							<div class="news-link">
+								<a href="" class="txt-r1">http://www.concordmanagedfutures.com/what-we-do/investment-management/</a>
+							</div>
+						</div>
+					</li>
+
+				</ul>
+
+
 			</div>
-			<div class="" style="margin: 1em auto 5em;">
-				<!-- <a href="news.php" class="txt_img-goback btn-getmore hide_txt"></a> -->
-				<img src="<?php path_au('img'); ?>pageNum.png" alt="" class="temporary">
-			</div>
-			<div class=""><a href="service.php" class="txt_img-goService hide_txt">回客服中心</a></div>
+
+			<!-- <div class="" style="display: table; margin: auto; width: 134px;"><a href="service.php" class="btn txt_img-goService hide_txt link-2">回客服中心</a></div> -->
 		</div>
+<div class="pages_btn">
+	<ul>
+		<li class="prev"><a href="#"><i class="icon ib"></i><span class="txt ib">上一頁</span></a></li><!-- 在第一頁時不顯示 -->
+		<li class="number active"><a href="#">1</a></li>
+		<li class="number"><a href="#">2</a></li>
+		<li class="number"><a href="#">3</a></li>
+		<li class="number"><a href="#">4</a></li>
+		<li class="number"><a href="#">5</a></li>
+		<li class="next"><a href="#"><span class="txt ib">下一頁</span><i class="icon ib"></i></a></li><!-- 在最後一頁時不顯示 -->
+	</ul>
+</div>
 	</section>
 
 </main>

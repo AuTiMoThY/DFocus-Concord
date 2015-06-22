@@ -216,3 +216,61 @@
 		}
 	}
 }
+
+.serviceCnt-wrap {
+	.wrapper {
+		@include bg(#fff);
+		@include rhythm-margins(2);
+	}
+
+}
+
+
+.monthlyreport {
+	&-container {
+		width: 1000px;
+		margin: auto;
+		@include rhythm-padding(2);
+		.col-2 {
+			width: (475 / 1000) * 100%;
+			float: left;
+			&:first-of-type {
+				margin-right: ((1000 - (475 * 2)) / 1000) * 100%;
+			}
+			form {
+				width: 100%;
+			}
+			.frm__field {
+				width: (350 / 475) * 100%;
+			}
+		}
+	}
+	&-select {
+		height: 2.3125em;
+		line-height: 2.3125em;
+		padding: 0 0.5em;
+	}
+	&-list {
+		@include rhythm-margins(1.2);
+		li {
+			float: none;
+		}
+	}
+	&-item {
+		overflow: hidden;
+		height: 240px;
+		h1.txt-1_1 {
+			margin-top: 0;
+			margin-bottom: 0;
+			font-weight: normal;
+			font-family: $normal_font;
+		}
+		.txt-4, .txt-5, .txt-1 {
+			line-height: 40px;
+			vertical-align: -0.2ex;
+		}
+		.txt-1 {
+			vertical-align: -0.5ex;
+		}
+	}
+}

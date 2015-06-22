@@ -114,25 +114,12 @@ $(function () {
 	var bannerTween = TweenMax.to("#pageBanner", {
 		backgroundPosition: "50% 50px",
 		ease: Linear.easeNone
-		// ease: Power1.easeInOut
 	})
-	// var bannerTween = new TimelineMax()
-	// 	.to("#pageBanner", 0.5, {backgroundPosition: "50% 50px"})
-	// 	.to("#pageBanner", 0.3, {backgroundPosition: "50% 100px"});
 
-	// var bannerScene = new ScrollMagic.Scene({
-	// 	triggerElement: "#bannerTrigger",
-	// 	triggerHook: "onLeave",
-	// 	offset: 50
-	// 	// duration: 300
-	// })
-	// .setTween(bannerTween)
-	// // .triggerHook(0)
-	// .addIndicators({name: "2 (duration: 300)"}) // add indicators (requires plugin)
-	// .addTo(controller);
-	// 
-	var bannerScene = new ScrollMagic.Scene({triggerElement: "#bannerTrigger", offset: 50})
-				.setTween("#pageBanner", {backgroundPosition: "50% 200px",ease: Linear.easeNone})
-				.addIndicators()
-				.addTo(controller);
+	var bannerScene = new ScrollMagic.Scene({
+		triggerElement: "#bannerTrigger", offset: 50
+	})
+	.setTween("#pageBanner", {backgroundPosition: "50% 200px",ease: Linear.easeNone})
+	// .addIndicators()
+	.addTo(controller);
 })

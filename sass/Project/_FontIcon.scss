@@ -10,7 +10,7 @@ $icon-layout: horizontal;
 
 .txtImg_title {
      &-title {
-		@each $name in team, news, search, index_row1, lu, solution, cp, cp2, cpComputer1, cpComputer2, cpComputer3, chatroom, futures2, service4, service3, service2, service1, concordInf, map {
+		@each $name in team, news, search, index_row1, lu, solution, cp, cp2, cpComputer1, cpComputer2, cpComputer3, chatroom, futures2, service4, service3, service2, service1, concordInf, map, monthlyreport {
 		   &-#{$name} {
 		        @include wh2(txtImg_title-sprite-width(title-#{$name}) txtImg_title-sprite-height(title-#{$name}));
 		        margin: auto;
@@ -145,6 +145,9 @@ $icon-layout: horizontal;
 		letter-spacing: 2px;
 		font-weight: normal;
 		font-family: $normal_font;
+	}
+	&-5 {
+		@include adjFontSize(51px);
 	}
 	&-r1 {
 		color: color($colors, nor, 2);

@@ -1846,6 +1846,67 @@ header.chatroom {
   color: #d7000f;
 }
 
+.serviceCnt-wrap .wrapper {
+  background-color: #fff;
+  margin-top: 48px;
+  margin-top: 3rem;
+  margin-bottom: 48px;
+  margin-bottom: 3rem;
+}
+
+.monthlyreport-container {
+  width: 1000px;
+  margin: auto;
+  padding-top: 48px;
+  padding-top: 3rem;
+  padding-bottom: 48px;
+  padding-bottom: 3rem;
+}
+.monthlyreport-container .col-2 {
+  width: 47.5%;
+  float: left;
+}
+.monthlyreport-container .col-2:first-of-type {
+  margin-right: 5%;
+}
+.monthlyreport-container .col-2 form {
+  width: 100%;
+}
+.monthlyreport-container .col-2 .frm__field {
+  width: 73.68421%;
+}
+.monthlyreport-select {
+  height: 2.3125em;
+  line-height: 2.3125em;
+  padding: 0 0.5em;
+}
+.monthlyreport-list {
+  margin-top: 29px;
+  margin-top: 1.8rem;
+  margin-bottom: 29px;
+  margin-bottom: 1.8rem;
+}
+.monthlyreport-list li {
+  float: none;
+}
+.monthlyreport-item {
+  overflow: hidden;
+  height: 240px;
+}
+.monthlyreport-item h1.txt-1_1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-family: "Microsoft JhengHei", "微軟正黑體", \5FAE\x8F6F\6B63\9ED1\4F53, Arial, "Helvetica Neue", Helvetica;
+}
+.monthlyreport-item .txt-4, .monthlyreport-item .txt-5, .monthlyreport-item .txt-1 {
+  line-height: 40px;
+  vertical-align: -0.2ex;
+}
+.monthlyreport-item .txt-1 {
+  vertical-align: -0.5ex;
+}
+
 .character-item {
   width: 32.5%;
   margin-left: 1%;
@@ -1969,91 +2030,91 @@ header.chatroom {
 }
 
 .about-character1.character-pic:before {
-  background-position: 27% 97%;
+  background-position: 12% 41%;
 }
 
 .index-character1.character-pic:before {
-  background-position: 81% 43%;
+  background-position: 8% 58%;
 }
 
 .about-character2.character-pic:before {
-  background-position: 5% 42%;
+  background-position: 4% 37%;
 }
 
 .index-character2.character-pic:before {
-  background-position: 82% 59%;
+  background-position: 71% 45%;
 }
 
 .about-character3.character-pic:before {
-  background-position: 69% 97%;
+  background-position: 76% 79%;
 }
 
 .index-character3.character-pic:before {
-  background-position: 92% 26%;
+  background-position: 86% 25%;
 }
 
 .about-character4.character-pic:before {
-  background-position: 68% 46%;
+  background-position: 33% 34%;
 }
 
 .index-character4.character-pic:before {
-  background-position: 35% 20%;
+  background-position: 32% 62%;
 }
 
 .about-character5.character-pic:before {
-  background-position: 29% 11%;
+  background-position: 75% 84%;
 }
 
 .index-character5.character-pic:before {
-  background-position: 23% 88%;
+  background-position: 58% 32%;
 }
 
 .about-character6.character-pic:before {
-  background-position: 21% 4%;
+  background-position: 39% 36%;
 }
 
 .index-character6.character-pic:before {
-  background-position: 23% 87%;
+  background-position: 52% 84%;
 }
 
 .about-character7.character-pic:before {
-  background-position: 73% 73%;
+  background-position: 49% 88%;
 }
 
 .index-character7.character-pic:before {
-  background-position: 2% 31%;
+  background-position: 74% 3%;
 }
 
 .about-character8.character-pic:before {
-  background-position: 98% 32%;
+  background-position: 21% 32%;
 }
 
 .index-character8.character-pic:before {
-  background-position: 53% 31%;
+  background-position: 35% 14%;
 }
 
 .about-character9.character-pic:before {
-  background-position: 94% 57%;
+  background-position: 1% 86%;
 }
 
 .index-character9.character-pic:before {
-  background-position: 67% 89%;
+  background-position: 25% 26%;
 }
 
 .about-character10.character-pic:before {
-  background-position: 2% 79%;
+  background-position: 53% 94%;
 }
 
 .index-character10.character-pic:before {
-  background-position: 27% 59%;
+  background-position: 10% 53%;
 }
 
 .about-character11.character-pic:before {
-  background-position: 95% 60%;
+  background-position: 24% 37%;
 }
 
 .index-character11.character-pic:before {
-  background-position: 83% 67%;
+  background-position: 35% 74%;
 }
 
 .character-pic img {
@@ -2463,6 +2524,11 @@ header.chatroom {
   height: 46px;
   margin: auto;
 }
+.txtImg_title-title-monthlyreport {
+  width: 354px;
+  height: 92px;
+  margin: auto;
+}
 .txtImg_title-title-news {
   background-color: transparent;
   margin: 2em auto;
@@ -2622,6 +2688,12 @@ header.chatroom {
   letter-spacing: 2px;
   font-weight: normal;
   font-family: "Microsoft JhengHei", "微軟正黑體", \5FAE\x8F6F\6B63\9ED1\4F53, Arial, "Helvetica Neue", Helvetica;
+}
+.txt-5 {
+  font-size: 51px;
+  font-size: 3.1875rem;
+  line-height: 72px;
+  line-height: 4.5rem;
 }
 .txt-r1 {
   color: #d7000f;
