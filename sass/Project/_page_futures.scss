@@ -48,6 +48,14 @@
 		}
 	}
 }
+.futures {
+	&-item {
+		.txt-1 {
+			line-height: 1.5;
+			letter-spacing: 2px;
+		}
+	}
+}
 
 
 .futures_bar {
@@ -87,17 +95,17 @@
 	}
 	&.futuresSec1-active {
 		.futures_bar-bg {
-			@include bg('futures_bar-banner1.jpg');
+			@include bg('futures_bar-banner1.jpg', 50%, 50%);
 		}
 	}
 	&.futuresSec2-active {
 		.futures_bar-bg {
-			@include bg('futures_bar-banner2.jpg');
+			@include bg('futures_bar-banner2.jpg', 50%, 50%);
 		}
 	}
 	&.futuresSec3-active {
 		.futures_bar-bg {
-			@include bg('futures_bar-banner3.jpg');
+			@include bg('futures_bar-banner3.jpg', 50%, 50%);
 		}
 	}
 	&-container {

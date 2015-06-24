@@ -8,11 +8,22 @@
 	@include wh($cnt_width, 100%);
 	margin: 0 auto;
 	position: relative;
+	@include respondTo(Mobile){
+		width: 100%;
+	};
 	&.small {
 		width: 1000px;
+		@include respondTo(Mobile){
+			width: (1000 / 1200) * 100%;
+			margin: auto;
+		};
 	}
 	&.xs {
 		width: 785px;
+		@include respondTo(Mobile){
+			width: 80%;
+			margin: auto;
+		};
 	}
 }
 
@@ -27,6 +38,9 @@
 html, body {
 	min-height: 100%;
 	min-width: $cnt_width;
+	@include respondTo(Mobile){
+		min-width: 0;
+	};
 }
 
 body {

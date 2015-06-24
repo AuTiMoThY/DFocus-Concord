@@ -53,6 +53,14 @@ function isActive($this, $thisClass) {
 	};
 }
 
+function isOpen($this, $thisClass) {
+     if (!($this.hasClass('open'))) {
+          $this.addClass('open');
+     } else{
+          $thisClass.removeClass('open');
+     };
+}
+
 /*------------------------------------------------------------------------*\
 /*------------------------------------------------------------------------*\
 /*========================================================================*\
@@ -100,6 +108,13 @@ $(window).on('resize', function () {
 $(function () {
 	resizeBlock();
 
+	var viewPortWH = viewPortWidthHeight(),
+		viewPortW = viewPortWH.width;
+
+	[].slice.call( document.querySelectorAll( '.si-icons-default > .si-icon' ) ).forEach( function( el ) {
+		var svgicon = new svgIcon( el, svgIconConfig );
+	} );
+
 	// if (!/*@cc_on!@*/false) {
 	// 	console.log('ie?');
 	// 	$.material.init('#ftCtrl');
@@ -111,6 +126,10 @@ $(function () {
 	}else {
 		// console.log('not ie');
 		$.material.init();
+		if(!userAgent.match(/(iPhone|iPod|Android)/)){
+
+		}
+
 	}
 
      var $tabs = $("#infTab");
@@ -143,6 +162,8 @@ $(function () {
 	// 		}, _moveSpeed, 'easeOutQuint');
 	// 	};
 	// }).scroll();
+
+	// header fixed
 	var tween = TweenMax.to("#globalHeader", 0.3, {
 		height: 50,
 		ease: Power1.easeInOut
@@ -159,18 +180,36 @@ $(function () {
 	.addTo(simplePinning);
 
 
-	var bannerTween = TweenMax.to("#pageBanner", {
-		backgroundPosition: "50% 50px",
-		ease: Linear.easeNone
-	})
+	var $indexpage = $(".index_page");
+	if (!$indexpage.length) {
+		var bannerTween = TweenMax.to("#pageBanner", {
+			backgroundPosition: "50% 50px",
+			ease: Linear.easeNone
+		})
 
-	var bannerScene = new ScrollMagic.Scene({
-		triggerElement: "#bannerTrigger", offset: 50
-	})
-	.setTween("#pageBanner", {backgroundPosition: "50% 200px",ease: Linear.easeNone})
-	// .addIndicators()
-	.addTo(controller);
+		var bannerScene = new ScrollMagic.Scene({
+			triggerElement: "#bannerTrigger", offset: 50
+		})
+		.setTween("#pageBanner", {backgroundPosition: "50% 200px",ease: Linear.easeNone})
+		// .addIndicators()
+		.addTo(controller);
+	};
 
+	if (viewPortW <= 480) {
+		$("#txtImg1").removeClass();
+		$("#txtImg1").children('h1').removeClass().addClass('txt-2_1').css({
+			fontWeight: 'normal'
+			// property2: 'value2'
+		});;
+	};
 
+	$("#menu").click(function() {
+		isOpen($("#menu"), $("#menu.open"));
+		if ($("#menu").hasClass('open')) {
+			$("nav.main_nav").addClass('js-nav_open');
+		}else {
+			$("nav.main_nav").removeClass('js-nav_open');
+		};
+	});
 
 })

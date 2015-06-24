@@ -26,3 +26,4 @@
 
 <script src="<?php path_au('js'); ?>libs/modernizr-2.7.1.dev.js"></script>
 <script src="<?php path_au('js'); ?>ModernizrAu.js"></script>
+<script src="plugin/AnimatedSVGIcons/js/snap.svg-min.js"></script>

@@ -41,9 +41,9 @@
 <main class="">
 	<header class="cnt_title">
 		<div class="wrapper small">
-			<hgroup class="txtImg_title-title-futures2">
-				<h1 class="hidden" data-lang="en">Futures Fund</h1>
-				<h2 class="hidden" data-lang="tw">期貨信託事業</h2>
+			<hgroup class="txtImg_title-title-futures3">
+				<h1 class="hidden" data-lang="en">Futures Advisory</h1>
+				<h2 class="hidden" data-lang="tw">期貨顧問事業</h2>
 			</hgroup>
 		</div>
 	</header>
@@ -58,12 +58,35 @@
 		<div class="bg"></div>
 		<div class="wrapper">
 			<div class="cnt">
-				<map name="futuresMap">
-					<area shape="rect" coords="0, 0, 387, 363" href="futures_managed.php" alt="期貨經理事業">
-					<area shape="rect" coords="405, 0, 792, 363" href="futures_fund.php" alt="期貨經理事業">
-					<area shape="rect" coords="811, 0, 1198, 363" href="futures_advisory.php" alt="期貨經理事業">
-				</map>
-				<img src="<?php path_au('img'); ?>futures_managed-row2.png" alt="" usemap="futuresMap">
+				<ul class="futures-list cf">
+					<li class="futures-item">
+						<figure><a href="<?php webPageUrlAu('futures_managed'); ?>">
+							<div class="futures-pic pic">
+								<img src="<?php path_au('img'); ?>pic1_1.jpg" alt="">
+							</div>
+						</a></figure>
+						<p class="txt-ff1 txt-1 text-center">Futures Managed Account</p>
+						<p class="txt-ff1 txt-1 text-center">期貨經理事業</p>
+					</li>
+					<li class="futures-item">
+						<figure><a href="<?php webPageUrlAu('futures_fund'); ?>">
+							<div class="futures-pic pic">
+								<img src="<?php path_au('img'); ?>pic2_1.jpg" alt="">
+							</div>
+						</a></figure>
+						<p class="txt-ff1 txt-1 text-center">Futures Fund</p>
+						<p class="txt-ff1 txt-1 text-center">期貨信託事業</p>
+					</li>
+					<li class="futures-item">
+						<figure><a href="<?php webPageUrlAu('futures_advisory'); ?>">
+							<div class="futures-pic pic">
+								<img src="<?php path_au('img'); ?>pic3_1.jpg" alt="">
+							</div>
+						</a></figure>
+						<p class="txt-ff1 txt-1 text-center">Futures Advisory</p>
+						<p class="txt-ff1 txt-1 text-center">期貨顧問事業</p>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</section>

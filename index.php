@@ -2,6 +2,7 @@
 	include_once 'config.php';
 	include_once INC_PATH.'headleader.php';
 	require_once INC_PATH.'aunav.php';
+	include_once 'dist/character_data.php';
 ?>
 <title>康和期貨</title>
 
@@ -41,7 +42,7 @@
 	<section class="fullbg row1">
 		<div class="wrapper xs">
 			<div class="row1-cnt">
-				<hgroup class="txtImg_title-title-index_row1">
+				<hgroup id="txtImg1" class="txtImg_title-title-index_row1">
 					<h1 class="hidden">康和期貨經理事業，國內唯一專營期貨經理與期貨信託<br>滿足您資產配置及財務風險規劃的服務需求</h1>
 				</hgroup>
 				<!-- <p class="txt-2">康和期貨經理事業股份有限公司為康和證券集團成員，資本額3億，基於金融市場長期的發展趨勢，陸續設置期貨服務事業之相關部門，秉持專業、積極的服務態度，提供客戶健全、客制化的投資工具及多樣化的金融商品，滿足投資人資產配置及財務風險規劃的服務需求，替大型投資法人與一般自然人做完整之金融代工、商品設計、顧問輔導咨詢與期貨信託受益憑證發行服務，相關業務拓展至兩岸三地華人市場。 </p> -->
@@ -106,7 +107,38 @@
 				<h2 class="hidden" data-lang="tw">堅強團隊</h2>
 			</hgroup>
 		</div>
-<div class="character-wrap">
+		<footer class="character-ft">
+			<div id="charMarquee" class="character-caroul">
+				<ul class="character-caroul-list cf">
+				<?php foreach ($aboutCharacter as $key => $value) { ?>
+					<li class="character-item"><a href="character.php?character=<?php echo $aboutCharacter[$key]['index'];?>">
+						<figure>
+							<div class="character-pic pic about-character<?php echo $aboutCharacter[$key]['index'];?>">
+								<img src="upload/character/character<?php echo $aboutCharacter[$key]['index'];?>.png" alt="" class="">
+							</div>
+							<figcaption>
+								<div class="left">
+									<span class="inner character-name"><?php echo $aboutCharacter[$key]['name'];?></span>
+								</div>
+								<div class="right">
+									<span class="inner character-title"><?php echo $aboutCharacter[$key]['title'];?></span>
+								</div>
+							</figcaption>
+						</figure>
+					</a></li>
+					<?php } ?>
+				</ul>
+			</div>
+			<div class="character-caroul-ctrl">
+				<div id="marquee_prev_btn" class="btn btn-faq-tabs-prev faq-tabs-btn">
+					<i class="fa fa-caret-left"></i>
+				</div>
+				<div id="marquee_next_btn" class="btn btn-faq-tabs-next faq-tabs-btn">
+					<i class="fa fa-caret-right"></i>
+				</div>
+			</div>
+		</footer>
+<!-- <div class="character-wrap">
 	<ul class="cf character-list">
 		<li class="character-item"><a href="character.php?character=6">
 			<figure>
@@ -184,7 +216,7 @@
 			</figure>
 		</a></li>
 	</ul>
-</div>
+</div> -->
 		<p class="txt-1">繼2014年多空成長成功募集後，2015年康和期經再度網羅業內菁英，完整不同投資人投資標的。
 		<a href="about.php#teamProfile" class="txt-r1 link-1">認識我們的團隊</a>
 		</p>
@@ -288,7 +320,32 @@
 // -------------------------------
   include_once INC_PATH.'scriptfoot.php';
  ?>
+<script>
+$(function() {
+	var $charMarquee = $("#charMarquee");
+	var charMarqueeH = $charMarquee.outerHeight();
+	console.log(charMarqueeH);
+	$("#marquee_prev_btn").css({
+		top: (charMarqueeH-100)/2
+	});
+	$("#marquee_next_btn").css({
+		top: (charMarqueeH-100)/2
+	});
 
+     var dis = $('.character-item').outerHeight();
+     $("#charMarquee").scrollbox({
+               // distance: dis,
+               speed: 60,
+               direction: 'h'
+          })
+     $('#marquee_prev_btn').click(function () {
+          $('#charMarquee').trigger('backward');
+     });
+     $('#marquee_next_btn').click(function () {
+          $('#charMarquee').trigger('forward');
+     });
+});
+</script>
 <?php
 // -------------------------------
 // google analytics

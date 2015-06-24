@@ -58,7 +58,11 @@
 			</div>
 			<!-- <img src="<?php //path_au('img'); ?>char_cnt1.jpg" alt="" class="temporary"> -->
 		</div>
+		<div class="" style="margin: 1em auto 5em;">
+			<a href="javascript:history.go(-1);" class="txt_img-goback btn-getmore hide_txt link-2">回上一頁</a>
+		</div>
 	</section>
+
 	<footer class="character-ft">
 		<h2 class="txtImg_title-title-MemberProfile hide_txt"></h2>
 		<div id="charMarquee" class="character-caroul">

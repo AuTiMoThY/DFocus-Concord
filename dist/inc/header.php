@@ -17,6 +17,11 @@
 				</li>
 			</ul>
 		</nav>
+		<div id="menu">
+			<div class="si-icons si-icons-default">
+				<span class="si-icon si-icon-hamburger-cross" data-icon-name="hamburgerCross"></span>
+			</div>
+		</div>
 
 	<!-- </div> -->
 </header>

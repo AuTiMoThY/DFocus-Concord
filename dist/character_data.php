@@ -202,8 +202,6 @@ $aboutCharacter = array(
 	array(
 	      'index'=> '6', 'name'=> '謝增泉', 'title'=>'全權委託協理<br>交易決定人',
 'col1'=> '
-<p>擁有美國期貨資產管理(CTA&CPO)20餘年經驗，曾任曼氏期貨大中華區總經理16年，並於1992年 榮獲國際期貨實盤交易 Robbin’s Trading Cup 亞軍。</p>
-
 <span>現任 /</span><br>
 <ul>
 	<li>康和期貨經理事業股份有限公司  全權委託協理 交易決定人</li>

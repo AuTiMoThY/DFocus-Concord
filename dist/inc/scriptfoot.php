@@ -20,6 +20,8 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 <script src="plugin/animation.gsap.js"></script>
 
+<script src="plugin/AnimatedSVGIcons/js/svgicons-config.js"></script>
+<script src="plugin/AnimatedSVGIcons/js/svgicons.js"></script>
 <script src="<?php path_au('js'); ?>au.js"></script>
 
 

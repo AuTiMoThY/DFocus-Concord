@@ -57,11 +57,28 @@ html {
   margin: 0 auto;
   position: relative;
 }
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 100%;
+  }
+}
 .wrapper.small {
   width: 1000px;
 }
+@media screen and (max-width: 480px) {
+  .wrapper.small {
+    width: 83.33333%;
+    margin: auto;
+  }
+}
 .wrapper.xs {
   width: 785px;
+}
+@media screen and (max-width: 480px) {
+  .wrapper.xs {
+    width: 80%;
+    margin: auto;
+  }
 }
 
 .well {
@@ -73,6 +90,11 @@ html {
 html, body {
   min-height: 100%;
   min-width: 1200px;
+}
+@media screen and (max-width: 480px) {
+  html, body {
+    min-width: 0;
+  }
 }
 
 body {
@@ -832,6 +854,20 @@ select {
   background-color: #d7000f;
 }
 
+#menu {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  #menu {
+    position: absolute;
+    top: 0;
+    right: 0.8em;
+    bottom: 0;
+    display: block;
+    margin: auto;
+  }
+}
+
 /*========================================================================*\
 		>>	global_hd  quick_bar  logo
 \*========================================================================*/
@@ -844,6 +880,11 @@ header.global_hd {
   background: url('../images/bg-header.png?1433241441') 50% 50% no-repeat;
   background-size: cover;
   padding: 0 1em;
+}
+@media screen and (max-width: 480px) {
+  header.global_hd {
+    height: 50px;
+  }
 }
 header.global_hd nav {
   float: right;
@@ -862,12 +903,31 @@ header#logo a {
   height: 100%;
   display: block;
 }
+@media screen and (max-width: 480px) {
+  header#logo {
+    width: 80%;
+    height: auto;
+    padding-top: 5px;
+  }
+}
 
 /*========================================================================*\
 		>>	main_nav
 \*========================================================================*/
 .main_nav {
   height: 100%;
+}
+@media screen and (max-width: 480px) {
+  .main_nav {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background: url('../images/bg-header.png?1433241441') 50% 50% repeat-y;
+    display: none;
+  }
+  .main_nav.js-nav_open {
+    display: block;
+  }
 }
 .main_nav ul {
   height: 100%;
@@ -905,30 +965,36 @@ header#logo a {
   display: block;
   text-align: center;
 }
-.main_nav-item.item1 {
+.main_nav-item.item1 a {
   width: 94px;
   height: 16px;
   background: url('../images/txts.png?1433316553') 0px 0px no-repeat;
 }
-.main_nav-item.item2 {
+.main_nav-item.item2 a {
   width: 96px;
   height: 16px;
   background: url('../images/txts.png?1433316553') 0px -17px no-repeat;
 }
-.main_nav-item.item3 {
+.main_nav-item.item3 a {
   width: 62px;
   height: 16px;
   background: url('../images/txts.png?1433316553') 0px -34px no-repeat;
 }
-.main_nav-item.item4 {
+.main_nav-item.item4 a {
   width: 63px;
   height: 16px;
   background: url('../images/txts.png?1433316553') 0px -51px no-repeat;
 }
-.main_nav-item.item5 {
+.main_nav-item.item5 a {
   width: 64px;
   height: 16px;
   background: url('../images/txts.png?1433316553') 0px -68px no-repeat;
+}
+@media screen and (max-width: 480px) {
+  .main_nav-item {
+    width: 100%;
+    height: 40px;
+  }
 }
 
 footer {
@@ -2326,11 +2392,11 @@ header.chatroom {
   width: 1000%;
 }
 .character-caroul-list .character-item {
-  width: 360px;
-  margin-left: 18px;
+  width: 360px !important;
+  margin-left: 18px !important;
 }
 .character-caroul-list .character-item:nth-of-type(3n+1) {
-  margin-left: 18px;
+  margin-left: 18px !important;
 }
 .character-caroul-ctrl {
   position: absolute;
@@ -2376,91 +2442,91 @@ header.chatroom {
 }
 
 .about-character1.character-pic:before {
-  background-position: 22% 25%;
+  background-position: 58% 14%;
 }
 
 .index-character1.character-pic:before {
-  background-position: 33% 87%;
+  background-position: 38% 3%;
 }
 
 .about-character2.character-pic:before {
-  background-position: 87% 66%;
+  background-position: 13% 83%;
 }
 
 .index-character2.character-pic:before {
-  background-position: 40% 98%;
+  background-position: 9% 87%;
 }
 
 .about-character3.character-pic:before {
-  background-position: 34% 38%;
+  background-position: 85% 18%;
 }
 
 .index-character3.character-pic:before {
-  background-position: 33% 35%;
+  background-position: 8% 49%;
 }
 
 .about-character4.character-pic:before {
-  background-position: 71% 55%;
+  background-position: 56% 23%;
 }
 
 .index-character4.character-pic:before {
-  background-position: 2% 55%;
+  background-position: 89% 40%;
 }
 
 .about-character5.character-pic:before {
-  background-position: 84% 98%;
+  background-position: 13% 68%;
 }
 
 .index-character5.character-pic:before {
-  background-position: 23% 79%;
+  background-position: 87% 41%;
 }
 
 .about-character6.character-pic:before {
-  background-position: 36% 73%;
+  background-position: 87% 85%;
 }
 
 .index-character6.character-pic:before {
-  background-position: 83% 30%;
+  background-position: 45% 67%;
 }
 
 .about-character7.character-pic:before {
-  background-position: 34% 97%;
+  background-position: 21% 3%;
 }
 
 .index-character7.character-pic:before {
-  background-position: 22% 16%;
+  background-position: 31% 62%;
 }
 
 .about-character8.character-pic:before {
-  background-position: 59% 82%;
+  background-position: 79% 67%;
 }
 
 .index-character8.character-pic:before {
-  background-position: 65% 82%;
+  background-position: 91% 24%;
 }
 
 .about-character9.character-pic:before {
-  background-position: 49% 29%;
+  background-position: 37% 100%;
 }
 
 .index-character9.character-pic:before {
-  background-position: 55% 75%;
+  background-position: 30% 72%;
 }
 
 .about-character10.character-pic:before {
-  background-position: 90% 72%;
+  background-position: 36% 6%;
 }
 
 .index-character10.character-pic:before {
-  background-position: 97% 27%;
+  background-position: 47% 27%;
 }
 
 .about-character11.character-pic:before {
-  background-position: 22% 22%;
+  background-position: 85% 26%;
 }
 
 .index-character11.character-pic:before {
-  background-position: 17% 85%;
+  background-position: 10% 85%;
 }
 
 .character-pic img {
@@ -2537,6 +2603,11 @@ header.chatroom {
   letter-spacing: 2px;
 }
 
+.futures-item .txt-1, .futures-item .download-title, .futures-item .sales-title {
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
 .futures_bar-banner {
   position: relative;
   width: 100%;
@@ -2583,13 +2654,13 @@ header.chatroom {
   margin: auto;
 }
 .futures_bar.futuresSec1-active .futures_bar-bg {
-  background: url('../images/futures_bar-banner1.jpg?1434918240') 0 0 no-repeat;
+  background: url('../images/futures_bar-banner1.jpg?1434918240') 50% 50% no-repeat;
 }
 .futures_bar.futuresSec2-active .futures_bar-bg {
-  background: url('../images/futures_bar-banner2.jpg?1434918295') 0 0 no-repeat;
+  background: url('../images/futures_bar-banner2.jpg?1434918295') 50% 50% no-repeat;
 }
 .futures_bar.futuresSec3-active .futures_bar-bg {
-  background: url('../images/futures_bar-banner3.jpg?1434918362') 0 0 no-repeat;
+  background: url('../images/futures_bar-banner3.jpg?1434918362') 50% 50% no-repeat;
 }
 .futures_bar-container {
   position: relative;
@@ -2645,8 +2716,8 @@ header.chatroom {
 /*========================================================================*\
 		>	font & icon
 \*========================================================================*/
-.txtImg_title-sprite, .txtImg_title-title-MemberProfile, .txtImg_title-title-chatroom, .txtImg_title-title-concordInf, .txtImg_title-title-cp, .txtImg_title-title-cp2, .txtImg_title-title-cpComputer1, .txtImg_title-title-cpComputer2, .txtImg_title-title-cpComputer3, .txtImg_title-title-download, .txtImg_title-title-futures2, .txtImg_title-title-index_row1, .txtImg_title-title-lu, .txtImg_title-title-map, .txtImg_title-title-monthlyreport, .txtImg_title-title-news, .txtImg_title-title-prodCnt, .txtImg_title-title-qa, .txtImg_title-title-sales1, .txtImg_title-title-sales2, .txtImg_title-title-saleschannel, .txtImg_title-title-search, .txtImg_title-title-service1, .txtImg_title-title-service2, .txtImg_title-title-service3, .txtImg_title-title-service4, .txtImg_title-title-solution, .txtImg_title-title-team {
-  background-image: url('../images/txtImg_title-s872acf4ea8.png');
+.txtImg_title-sprite, .txtImg_title-title-MemberProfile, .txtImg_title-title-chatroom, .txtImg_title-title-concordInf, .txtImg_title-title-cp, .txtImg_title-title-cp2, .txtImg_title-title-cpComputer1, .txtImg_title-title-cpComputer2, .txtImg_title-title-cpComputer3, .txtImg_title-title-download, .txtImg_title-title-futures1, .txtImg_title-title-futures2, .txtImg_title-title-futures3, .txtImg_title-title-index_row1, .txtImg_title-title-lu, .txtImg_title-title-map, .txtImg_title-title-monthlyreport, .txtImg_title-title-news, .txtImg_title-title-prodCnt, .txtImg_title-title-qa, .txtImg_title-title-sales1, .txtImg_title-title-sales2, .txtImg_title-title-saleschannel, .txtImg_title-title-search, .txtImg_title-title-service1, .txtImg_title-title-service2, .txtImg_title-title-service3, .txtImg_title-title-service4, .txtImg_title-title-solution, .txtImg_title-title-team {
+  background-image: url('../images/txtImg_title-sc6343322fd.png');
   background-repeat: no-repeat;
 }
 
@@ -2691,76 +2762,84 @@ header.chatroom {
   background-position: 0 -428px;
 }
 
-.txtImg_title-title-futures2 {
+.txtImg_title-title-futures1 {
   background-position: 0 -520px;
 }
 
-.txtImg_title-title-index_row1 {
+.txtImg_title-title-futures2 {
   background-position: 0 -616px;
 }
 
+.txtImg_title-title-futures3 {
+  background-position: 0 -712px;
+}
+
+.txtImg_title-title-index_row1 {
+  background-position: 0 -808px;
+}
+
 .txtImg_title-title-lu {
-  background-position: 0 -720px;
+  background-position: 0 -912px;
 }
 
 .txtImg_title-title-map {
-  background-position: 0 -767px;
+  background-position: 0 -959px;
 }
 
 .txtImg_title-title-monthlyreport {
-  background-position: 0 -813px;
+  background-position: 0 -1005px;
 }
 
 .txtImg_title-title-news {
-  background-position: 0 -905px;
+  background-position: 0 -1097px;
 }
 
 .txtImg_title-title-prodCnt {
-  background-position: 0 -997px;
+  background-position: 0 -1189px;
 }
 
 .txtImg_title-title-qa {
-  background-position: 0 -1089px;
+  background-position: 0 -1281px;
 }
 
 .txtImg_title-title-sales1 {
-  background-position: 0 -1185px;
+  background-position: 0 -1377px;
 }
 
 .txtImg_title-title-sales2 {
-  background-position: 0 -1218px;
+  background-position: 0 -1410px;
 }
 
 .txtImg_title-title-saleschannel {
-  background-position: 0 -1254px;
+  background-position: 0 -1446px;
 }
 
 .txtImg_title-title-search {
-  background-position: 0 -1346px;
+  background-position: 0 -1538px;
 }
 
 .txtImg_title-title-service1 {
-  background-position: 0 -1439px;
+  background-position: 0 -1631px;
 }
 
 .txtImg_title-title-service2 {
-  background-position: 0 -1503px;
+  background-position: 0 -1695px;
 }
 
 .txtImg_title-title-service3 {
-  background-position: 0 -1567px;
+  background-position: 0 -1759px;
 }
 
 .txtImg_title-title-service4 {
-  background-position: 0 -1632px;
+  background-position: 0 -1824px;
 }
 
 .txtImg_title-title-solution {
-  background-position: 0 -1697px;
+  background-position: 0 -1889px;
 }
 
 .txtImg_title-title-team {
-  background-position: 0 -1789px;
+  background-position: 0 -1981px;
 }
 
 .txtImg_futures-futures-1 {
@@ -2847,8 +2926,18 @@ header.chatroom {
   height: 92px;
   margin: auto;
 }
+.txtImg_title-title-futures1 {
+  width: 604px;
+  height: 96px;
+  margin: auto;
+}
 .txtImg_title-title-futures2 {
   width: 296px;
+  height: 96px;
+  margin: auto;
+}
+.txtImg_title-title-futures3 {
+  width: 380px;
   height: 96px;
   margin: auto;
 }
@@ -2906,6 +2995,9 @@ header.chatroom {
   width: 250px;
   height: 27px;
   margin: auto;
+}
+.txtImg_title-title-team {
+  margin-bottom: 3em;
 }
 .txtImg_title-title-news {
   background-color: transparent;

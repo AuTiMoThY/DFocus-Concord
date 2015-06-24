@@ -142,10 +142,10 @@ $ctrlSize: 100px;
 	&-caroul-list {
 		width: 1000%;
 		.character-item {
-			width: 360px;
-			margin-left: 18px;
+			width: 360px !important;
+			margin-left: 18px !important;
 			&:nth-of-type(3n+1) {
-				margin-left: 18px;
+				margin-left: 18px !important;
 			}
 		}
 	}
