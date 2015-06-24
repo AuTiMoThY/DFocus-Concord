@@ -190,47 +190,51 @@ $(function() {
 	function futuresSec3() {
 		$("#futuresSec3 .txt").removeClass('txtImg_futures-futures-3active').addClass('txtImg_futures-futures-3');
 	}
-	function futuresSec1Hover() {
-		$("#futuresSec1 .txt").removeClass('txtImg_futures-futures-1').addClass('txtImg_futures-futures-1active');
-	}
 	function futuresSec1Click() {
-		$("#futuresSec1Intro").css({
-			display: 'block'
-		});
-		$("#futuresSec2Intro").css({
-			display: 'none'
-		});
-		$("#futuresSec3Intro").css({
-			display: 'none'
-		});
+		$("#futuresSec1Intro").css({display: 'block'});
+		$("#futuresSec2Intro").css({display: 'none'});
+		$("#futuresSec3Intro").css({display: 'none'});
 	}
 	function futuresSec2Click() {
-		$("#futuresSec1Intro").css({
-			display: 'none'
-		});
-		$("#futuresSec2Intro").css({
-			display: 'block'
-		});
-		$("#futuresSec3Intro").css({
-			display: 'none'
-		});
+		$("#futuresSec1Intro").css({display: 'none'});
+		$("#futuresSec2Intro").css({display: 'block'});
+		$("#futuresSec3Intro").css({display: 'none'});
 	}
 	function futuresSec3Click() {
-		$("#futuresSec1Intro").css({
-			display: 'none'
-		});
-		$("#futuresSec2Intro").css({
-			display: 'none'
-		});
-		$("#futuresSec3Intro").css({
-			display: 'block'
-		});
+		$("#futuresSec1Intro").css({display: 'none'});
+		$("#futuresSec2Intro").css({display: 'none'});
+		$("#futuresSec3Intro").css({display: 'block'});
+	}
+	function futuresSec1Hover() {
+		$("#futuresSec1 .txt").removeClass('txtImg_futures-futures-1').addClass('txtImg_futures-futures-1active');
 	}
 	function futuresSec2Hover() {
 		$("#futuresSec2 .txt").removeClass('txtImg_futures-futures-2').addClass('txtImg_futures-futures-2active');
 	}
 	function futuresSec3Hover() {
 		$("#futuresSec3 .txt").removeClass('txtImg_futures-futures-3').addClass('txtImg_futures-futures-3active');
+	}
+
+	function futuresSec1Active() {
+		futuresSec1Hover();
+		futuresSec2();
+		futuresSec3();
+		futuresSec1Click();
+		isActive($("#futuresSec1"), $("#futuresSec1.active"));
+	}
+	function futuresSec2Active() {
+		futuresSec2Hover();
+		futuresSec1();
+		futuresSec3();
+		futuresSec2Click();
+		isActive($("#futuresSec2"), $("#futuresSec2.active"));
+	}
+	function futuresSec3Active() {
+		futuresSec3Hover();
+		futuresSec1();
+		futuresSec2();
+		futuresSec3Click();
+		isActive($("#futuresSec3"), $("#futuresSec3.active"));
 	}
 
 (function() {
@@ -265,11 +269,7 @@ $(function() {
 })();
 
 	$("#futuresSec1").click(function() {
-		futuresSec1Hover();
-		futuresSec2();
-		futuresSec3();
-		futuresSec1Click();
-		isActive($("#futuresSec1"), $("#futuresSec1.active"));
+		futuresSec1Active();
 		if ($("#futuresBar").hasClass('futuresSec2-active')) {
 			$("#futuresBar").removeClass('futuresSec2-active').addClass('futuresSec1-active');
 		} else if($("#futuresBar").hasClass('futuresSec3-active')){
@@ -279,11 +279,7 @@ $(function() {
 		};
 	});
 	$("#futuresSec2").click(function() {
-		futuresSec2Hover();
-		futuresSec1();
-		futuresSec3();
-		futuresSec2Click();
-		isActive($("#futuresSec2"), $("#futuresSec2.active"));
+		futuresSec2Active();
 		if ($("#futuresBar").hasClass('futuresSec1-active')) {
 			$("#futuresBar").removeClass('futuresSec1-active').addClass('futuresSec2-active');
 		} else if($("#futuresBar").hasClass('futuresSec3-active')){
@@ -293,11 +289,7 @@ $(function() {
 		};
 	});
 	$("#futuresSec3").click(function() {
-		futuresSec3Hover();
-		futuresSec1();
-		futuresSec2();
-		futuresSec3Click();
-		isActive($("#futuresSec3"), $("#futuresSec3.active"));
+		futuresSec3Active();
 		if ($("#futuresBar").hasClass('futuresSec2-active')) {
 			$("#futuresBar").removeClass('futuresSec2-active').addClass('futuresSec3-active');
 		} else if($("#futuresBar").hasClass('futuresSec1-active')){
@@ -310,18 +302,42 @@ $(function() {
 	if ($("#futuresSec1").hasClass('active')) {
 		futuresSec1Hover();
 		futuresSec1Click();
-
 	};
 	if ($("#futuresSec2").hasClass('active')) {
 		futuresSec2Hover();
 		futuresSec2Click();
-
 	};
 	if ($("#futuresSec3").hasClass('active')) {
 		futuresSec3Hover();
 		futuresSec3Click();
-
 	};
+
+	$(".btn-goPrev").click(function() {
+		if ($("#futuresBar").hasClass('futuresSec1-active')) {
+			$("#futuresBar").removeClass('futuresSec1-active').addClass('futuresSec3-active');
+			futuresSec3Active();
+		} else if($("#futuresBar").hasClass('futuresSec2-active')){
+			$("#futuresBar").removeClass('futuresSec2-active').addClass('futuresSec1-active');
+			futuresSec1Active();
+		} else if($("#futuresBar").hasClass('futuresSec3-active')){
+			$("#futuresBar").removeClass('futuresSec3-active').addClass('futuresSec2-active');
+			futuresSec2Active();
+		};
+	});
+
+	$(".btn-goNext").click(function() {
+		if ($("#futuresBar").hasClass('futuresSec1-active')) {
+			$("#futuresBar").removeClass('futuresSec1-active').addClass('futuresSec2-active');
+			futuresSec2Active();
+		} else if($("#futuresBar").hasClass('futuresSec2-active')){
+			$("#futuresBar").removeClass('futuresSec2-active').addClass('futuresSec3-active');
+			futuresSec3Active();
+		} else if($("#futuresBar").hasClass('futuresSec3-active')){
+			$("#futuresBar").removeClass('futuresSec3-active').addClass('futuresSec1-active');
+			futuresSec1Active();
+		};
+	});
+
 });
 </script>
 <?php

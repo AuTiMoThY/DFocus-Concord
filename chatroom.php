@@ -60,7 +60,7 @@
 						</div>
 						<div class="chatroom-pic pic">
 							<img src="<?php path_au('temp'); ?>tem-chat1.jpg" alt="">
-							<a href="products_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
+							<a href="chatroom_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
 						</div>
 						<div class="chatroom-block">
 							<div class="chatroom-title txt-1_1">
@@ -90,7 +90,7 @@
 						</div>
 						<div class="chatroom-pic pic">
 							<img src="<?php path_au('temp'); ?>tem-chat1.jpg" alt="">
-							<a href="products_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
+							<a href="chatroom_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
 						</div>
 						<div class="chatroom-block">
 							<div class="chatroom-title txt-1_1">
@@ -120,7 +120,7 @@
 						</div>
 						<div class="chatroom-pic pic">
 							<img src="<?php path_au('temp'); ?>tem-chat1.jpg" alt="">
-							<a href="products_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
+							<a href="chatroom_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
 						</div>
 						<div class="chatroom-block">
 							<div class="chatroom-title txt-1_1">
@@ -150,7 +150,7 @@
 						</div>
 						<div class="chatroom-pic pic">
 							<img src="<?php path_au('temp'); ?>tem-chat1.jpg" alt="">
-							<a href="products_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
+							<a href="chatroom_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
 						</div>
 						<div class="chatroom-block">
 							<div class="chatroom-title txt-1_1">
@@ -180,7 +180,7 @@
 						</div>
 						<div class="chatroom-pic pic">
 							<img src="<?php path_au('temp'); ?>tem-chat1.jpg" alt="">
-							<a href="products_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
+							<a href="chatroom_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
 						</div>
 						<div class="chatroom-block">
 							<div class="chatroom-title txt-1_1">
@@ -210,7 +210,7 @@
 						</div>
 						<div class="chatroom-pic pic">
 							<img src="<?php path_au('temp'); ?>tem-chat1.jpg" alt="">
-							<a href="products_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
+							<a href="chatroom_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
 						</div>
 						<div class="chatroom-block">
 							<div class="chatroom-title txt-1_1">

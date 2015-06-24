@@ -209,16 +209,6 @@ $aboutCharacter = array(
 	<li>康和期貨經理事業股份有限公司  全權委託協理 交易決定人</li>
 </ul>
 
-<span>學歷 /</span><br>
-<ul>
-	<li>美國南加州大學-商學院</li>
-</ul>
-
-<span>獎項 /</span><br>
-<ul>
-	<li>1992 Robbin’s Trading Cup <br>期貨實盤交易 亞軍</li>
-</ul>
-
 ',
 'col2'=> '
 <span>經歷</span><br>

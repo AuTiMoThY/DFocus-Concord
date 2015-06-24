@@ -91,7 +91,7 @@
 			</div>
 		</div>
 	</footer>
-		<img src="<?php path_au('img'); ?>char_footer.jpg" alt="" class="temporary">
+		<!-- <img src="<?php //path_au('img'); ?>char_footer.jpg" alt="" class="temporary"> -->
 
 </main>
 
@@ -111,6 +111,12 @@ $(function() {
 	var $charMarquee = $("#charMarquee");
 	var charMarqueeH = $charMarquee.outerHeight();
 	console.log(charMarqueeH);
+	$("#marquee_prev_btn").css({
+		top: (charMarqueeH-100)/2+27
+	});
+	$("#marquee_next_btn").css({
+		top: (charMarqueeH-100)/2+27
+	});
 
      var dis = $('.character-item').outerHeight();
      $("#charMarquee").scrollbox({

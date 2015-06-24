@@ -150,7 +150,7 @@ $ctrlSize: 100px;
 		}
 	}
 	&-caroul-ctrl {
-		@include absolute(((455-100px)/2), $l:0);
+		@include absolute(0, $l:0);
 		z-index: 90;
 		width: 100%;
 		// height: 0;
@@ -163,13 +163,13 @@ $ctrlSize: 100px;
 			}
 		}
 		.btn-faq-tabs-prev {
-			@include absolute(0, $b:0, $l:2.5em);
+			@include absolute(0, $l:2.5em);
 			.fa {
 				margin-right: 5px;
 			}
 		}
 		.btn-faq-tabs-next {
-			@include absolute(0, $b:0, $r:2.5em);
+			@include absolute(0, $r:2.5em);
 			.fa {
 				margin-left: 5px;
 			}
