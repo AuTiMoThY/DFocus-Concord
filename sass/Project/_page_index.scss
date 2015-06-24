@@ -51,3 +51,12 @@
 		}
 	}
 }
+
+.index-banner {
+	@include absolute($r:18%, $b:33%);
+	@include wh2(115 26);
+	@include bg-i(-203, -15);
+	&:active {
+		@include hover;
+	}
+}

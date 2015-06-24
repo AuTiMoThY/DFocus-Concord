@@ -47,17 +47,80 @@
 			</h2>
 		</div>
 	</section>
-	<section class="fullbg row2">
+	<section class="fullbg row2 serviceCnt-wrap sales-wrap">
 		<div class="bg"></div>
 		<div class="wrapper">
-			<div class="cnt editorDF cf">
-				<img src="<?php path_au('img'); ?>saleschannel-cnt.jpg" alt="" class="temporary">
+			<div class="sales-container serviceCnt-container cf">
+				<div class="row1 left">
+					<h3 class="txtImg_title-title-sales1 hide_txt">銀行</h3>
+					<ul class="sales-list cf">
+						<li class="sales-item"><a href="#">
+							<div class="sales-title">上海商業儲蓄銀行</div>
+							<p class="txt-1_4">(02)2818-0282</p>
+							<i class="icon icon-sales"></i>
+						</a></li>
+						<li class="sales-item"><a href="#">
+							<div class="sales-title">日盛商業銀行</div>
+							<p class="txt-1_4">0800-060-888／(02)2923-889</p>
+							<i class="icon icon-sales"></i>
+						</a></li>
+						<li class="sales-item"><a href="#">
+							<div class="sales-title">永豐商業銀行</div>
+							<p class="txt-1_4">(02)2505-9999</p>
+							<i class="icon icon-sales"></i>
+						</a></li>
+						<li class="sales-item"><a href="#">
+							<div class="sales-title">台中商業銀行</div>
+							<p class="txt-1_4">0800-005-999</p>
+							<i class="icon icon-sales"></i>
+						</a></li>
+						<li class="sales-item"><a href="#">
+							<div class="sales-title">國泰世華商業銀行</div>
+							<p class="txt-1_4">0800-818-001／(02)2383-1000</p>
+							<i class="icon icon-sales"></i>
+						</a></li>
+						<li class="sales-item"><a href="#">
+							<div class="sales-title">華南商業銀行</div>
+							<p class="txt-1_4">(02)2181-0101</p>
+							<i class="icon icon-sales"></i>
+						</a></li>
+					</ul>
+				</div>
+				<div class="row2 left">
+					<h3 class="txtImg_title-title-sales2 hide_txt">證券 ／期貨</h3>
+					<ul class="cf">
+						<li class="sales-item"><a href="#">
+							<div class="sales-title">康和證券</div>
+							<p class="txt-1_4">0800-886-016</p>
+							<i class="icon icon-sales"></i>
+						</a></li>
+						<li class="sales-item"><a href="#">
+							<div class="sales-title">康和期貨</div>
+							<p class="txt-1_4">(02)2717-1339</p>
+							<i class="icon icon-sales"></i>
+						</a></li>
+						<li class="sales-item"><a href="#">
+							<div class="sales-title">永豐期貨</div>
+							<p class="txt-1_4">(02)2381-1799</p>
+							<i class="icon icon-sales"></i>
+						</a></li>
+						<li class="sales-item"><a href="#">
+							<div class="sales-title">富邦期貨</div>
+							<p class="txt-1_4">(02)2388-2626</p>
+							<i class="icon icon-sales"></i>
+						</a></li>
+						<li class="sales-item"><a href="#">
+							<div class="sales-title">群益期貨</div>
+							<p class="txt-1_4">(02)2700-2888</p>
+							<i class="icon icon-sales"></i>
+						</a></li>
+					</ul>
+				</div>
 			</div>
-<!-- 			<div class="" style="margin: 1em auto 5em;">
-				<img src="<?php path_au('img'); ?>pageNum.png" alt="" class="temporary">
-			</div> -->
-			<div class=""><a href="service.php" class="txt_img-goService hide_txt">回客服中心</a></div>
+
+
 		</div>
+<div class="" style="display: table; margin: auto; width: 134px;"><a href="service.php" class="txt_img-goService hide_txt btn-goService btn link-2">回客服中心</a></div>
 	</section>
 
 </main>
@@ -73,7 +136,17 @@
 // -------------------------------
   include_once INC_PATH.'scriptfoot.php';
  ?>
+<script>
+$(function() {
+	
+	$(".sales-item").hover(function() {
+		$(this).find(".icon-sales").addClass('animated').addClass('flip');
+	}, function() {
+		$(this).find(".icon-sales").removeClass('animated');
+	});
 
+});
+</script>
 <?php
 // -------------------------------
 // google analytics

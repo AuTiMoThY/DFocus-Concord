@@ -59,9 +59,39 @@
 			<!-- <img src="<?php //path_au('img'); ?>char_cnt1.jpg" alt="" class="temporary"> -->
 		</div>
 	</section>
-	<footer>
-		<img src="<?php path_au('img'); ?>char_footer.jpg" alt="" class="temporary">
+	<footer class="character-ft">
+		<h2 class="txtImg_title-title-MemberProfile hide_txt"></h2>
+		<div id="charMarquee" class="character-caroul">
+			<ul class="character-caroul-list cf">
+			<?php foreach ($aboutCharacter as $key => $value) { ?>
+				<li class="character-item"><a href="character.php?character=<?php echo $aboutCharacter[$key]['index'];?>">
+					<figure>
+						<div class="character-pic pic about-character<?php echo $aboutCharacter[$key]['index'];?>">
+							<img src="upload/character/character<?php echo $aboutCharacter[$key]['index'];?>.png" alt="" class="">
+						</div>
+						<figcaption>
+							<div class="left">
+								<span class="inner character-name"><?php echo $aboutCharacter[$key]['name'];?></span>
+							</div>
+							<div class="right">
+								<span class="inner character-title"><?php echo $aboutCharacter[$key]['title'];?></span>
+							</div>
+						</figcaption>
+					</figure>
+				</a></li>
+				<?php } ?>
+			</ul>
+		</div>
+		<div class="character-caroul-ctrl">
+			<div id="marquee_prev_btn" class="btn btn-faq-tabs-prev faq-tabs-btn">
+				<i class="fa fa-caret-left"></i>
+			</div>
+			<div id="marquee_next_btn" class="btn btn-faq-tabs-next faq-tabs-btn">
+				<i class="fa fa-caret-right"></i>
+			</div>
+		</div>
 	</footer>
+		<img src="<?php path_au('img'); ?>char_footer.jpg" alt="" class="temporary">
 
 </main>
 
@@ -76,7 +106,26 @@
 // -------------------------------
   include_once INC_PATH.'scriptfoot.php';
  ?>
+<script>
+$(function() {
+	var $charMarquee = $("#charMarquee");
+	var charMarqueeH = $charMarquee.outerHeight();
+	console.log(charMarqueeH);
 
+     var dis = $('.character-item').outerHeight();
+     $("#charMarquee").scrollbox({
+               // distance: dis,
+               speed: 60,
+               direction: 'h'
+          })
+     $('#marquee_prev_btn').click(function () {
+          $('#charMarquee').trigger('backward');
+     });
+     $('#marquee_next_btn').click(function () {
+          $('#charMarquee').trigger('forward');
+     });
+});
+</script>
 <?php
 // -------------------------------
 // google analytics

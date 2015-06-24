@@ -51,7 +51,7 @@
 	<section class="fullbg row2 monthlyreport-wrap serviceCnt-wrap">
 		<div class="bg"></div>
 		<div class="wrapper">
-			<div class="monthlyreport-container">
+			<div class="monthlyreport-container serviceCnt-container">
 				<div class="row1 cf">
 					<div class="col-2">
 						<span class="txt-1">分類</span>
@@ -134,7 +134,6 @@
 
 			</div>
 
-			<!-- <div class="" style="display: table; margin: auto; width: 134px;"><a href="service.php" class="btn txt_img-goService hide_txt link-2">回客服中心</a></div> -->
 		</div>
 <div class="pages_btn">
 	<ul>
@@ -147,6 +146,7 @@
 		<li class="next"><a href="#"><span class="txt ib">下一頁</span><i class="icon ib"></i></a></li><!-- 在最後一頁時不顯示 -->
 	</ul>
 </div>
+<div class="" style="display: table; margin: auto; width: 134px;"><a href="service.php" class="txt_img-goService hide_txt btn-goService btn link-2">回客服中心</a></div>
 	</section>
 
 </main>

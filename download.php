@@ -33,29 +33,104 @@
 //app
   include_once INC_PATH.'header.php';
  ?>
-<section class="banner" style="background-image: url('<?php path_au('img'); ?>banner-service.jpg')">
+<div id="bannerTrigger"></div>
+<section id="pageBanner" class="banner" style="background-image: url('<?php path_au('img'); ?>banner-service.jpg')">
 	
 </section>
 
 <main class="">
 	<section class="row1">
 		<div class="wrapper small">
-			<h2 class="title">
-				<img src="<?php path_au('img'); ?>title-download.png" alt="" class="temporary">
-			</h2>
+			<hgroup class="txtImg_title-title-download">
+				<h1 class="hidden" data-lang="en">Downloads</h1>
+				<h2 class="hidden" data-lang="tw">文件下載</h2>
+			</hgroup>
 		</div>
 	</section>
-	<section class="fullbg row2">
+	<section class="fullbg row2 serviceCnt-wrap download-wrap">
 		<div class="bg"></div>
 		<div class="wrapper">
-			<div class="cnt editorDF cf">
-				<img src="<?php path_au('img'); ?>download-cnt.jpg" alt="" class="temporary">
+			<div id="infTab" class="download-container serviceCnt-container tab_block">
+				<div class="row1">
+				    <ul class="tabs cf">
+				        <li> <a href="#tab1" id="" class="txt-2">開戶文件</a></li>
+				        <li> <a href="#tab2" id="" class="txt-2">交易文件</a></li>
+				        <li> <a href="#tab3" id="" class="txt-2">異動文件</a></li>
+				        <li> <a href="#tab4" id="" class="txt-2">公開資料</a></li>
+				    </ul>
+				</div>
+				<div class="row2 tab_container">
+					<!--  #tab1 .tab_content  START  !!  -->
+					<div id="tab1" class="tab_content">
+					   <section class="mod mod-tab_cnt">
+					        <!-- 內容 -->
+							<ul class="download-list cf">
+								<li class="download-item"><a href="">
+									<div class="download-title">定期定額懶人包</div>
+									<p class="txt-1_4">定期定額開戶-全文件(壓縮檔)</p>
+									<i class="icon icon-download"></i>
+								</a></li>
+								<li class="download-item"><a href="">
+									<div class="download-title">定期定額懶人包</div>
+									<p class="txt-1_4">定期定額開戶-全文件(壓縮檔)</p>
+									<i class="icon icon-download"></i>
+								</a></li>
+								<li class="download-item"><a href="">
+									<div class="download-title">定期定額懶人包</div>
+									<p class="txt-1_4">定期定額開戶-全文件(壓縮檔)</p>
+									<i class="icon icon-download"></i>
+								</a></li>
+							</ul>
+					   </section>
+					</div><!--  /#tab1 .tab_content  END  !!  -->
+
+					<!--  #tab2 .tab_content  START  !!  -->
+					<div id="tab2" class="tab_content">
+					   <section class="mod mod-tab_cnt">
+					        <!-- 內容 -->
+							<ul class="download-list cf">
+								<li class="download-item"><a href="">
+									<div class="download-title">交易文件</div>
+									<p class="txt-1_4">交易文件(壓縮檔)</p>
+									<i class="icon icon-download"></i>
+								</a></li>
+							</ul>
+					   </section>
+					</div><!--  /#tab2 .tab_content  END  !!  -->
+
+					<!--  #tab3 .tab_content  START  !!  -->
+					<div id="tab3" class="tab_content">
+					   <section class="mod mod-tab_cnt">
+					        <!-- 內容 -->
+							<ul class="download-list cf">
+								<li class="download-item"><a href="">
+									<div class="download-title">異動文件</div>
+									<p class="txt-1_4">異動全文件(壓縮檔)</p>
+									<i class="icon icon-download"></i>
+								</a></li>
+							</ul>
+					   </section>
+					</div><!--  /#tab3 .tab_content  END  !!  -->
+
+					<!--  #tab4 .tab_content  START  !!  -->
+					<div id="tab4" class="tab_content">
+					   <section class="mod mod-tab_cnt">
+					        <!-- 內容 -->
+							<ul class="download-list cf">
+								<li class="download-item"><a href="">
+									<div class="download-title">公開資料</div>
+									<p class="txt-1_4">公開資料(壓縮檔)</p>
+									<i class="icon icon-download"></i>
+								</a></li>
+							</ul>
+					   </section>
+					</div><!--  /#tab4 .tab_content  END  !!  -->
+				</div>
+
 			</div>
-<!-- 			<div class="" style="margin: 1em auto 5em;">
-				<img src="<?php path_au('img'); ?>pageNum.png" alt="" class="temporary">
-			</div> -->
-			<div class=""><a href="service.php" class="txt_img-goService hide_txt">回客服中心</a></div>
+
 		</div>
+<div class="" style="display: table; margin: auto; width: 134px;"><a href="service.php" class="txt_img-goService hide_txt btn-goService btn link-2">回客服中心</a></div>
 	</section>
 
 </main>
@@ -71,7 +146,17 @@
 // -------------------------------
   include_once INC_PATH.'scriptfoot.php';
  ?>
+<script>
+$(function() {
+	
+	$(".download-item").hover(function() {
+		$(this).find(".icon-download").addClass('animated').addClass('flip');
+	}, function() {
+		$(this).find(".icon-download").removeClass('animated');
+	});
 
+});
+</script>
 <?php
 // -------------------------------
 // google analytics

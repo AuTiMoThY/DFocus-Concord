@@ -21,6 +21,7 @@
 <!-- <link rel="stylesheet" href="plugin/FlexSlider/flexslider.css" /> -->
 <!-- <link rel="stylesheet" href="css/effect2.css" /> -->
 
+<link rel="stylesheet" href="<?php path_au('css'); ?>animate.css" />
 <link rel="stylesheet" href="<?php path_au('css'); ?>style.css" />
 
 <script src="<?php path_au('js'); ?>libs/modernizr-2.7.1.dev.js"></script>

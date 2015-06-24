@@ -1,4 +1,4 @@
-$tabsUlH: 32px;
+$tabsUlH: 40px;
 
 .tab_block {
 	// width: 650px;
@@ -9,19 +9,21 @@ $tabsUlH: 32px;
 	// @at-root {
 	ul.tabs {
 		width: 100%;
-		height: $tabsUlH;
+		// height: 100%;
 		position: relative;
 		z-index: 1;
 		li {
-			@include wh(auto, 100%);
-			// @include bg(#e1e1e1);
+			@include wh(25%, $tabsUlH);
+			@include bg(#efefef);
 			float: left;
 			// overflow: hidden;
 			position: relative;
 			// margin-bottom: -1px;
+			transition: all 0.3s ease-in-out;
 			&:hover, &.active {
+				@include bg(#cd0714);
 				a {
-					color: #b3175a;
+					color: #fff;
 				}
 			}
 		}
@@ -29,10 +31,12 @@ $tabsUlH: 32px;
 			@include wh;
 			display: block;
 			// margin: 0 auto 0 45px;
-			color: #fff;
+			color: #000;
 			font-size: 15px;
 			text-decoration: none;
 			text-align: center;
+			transition: all 0.3s ease-out;
+			line-height: $tabsUlH;
 		}
 
 	}
@@ -52,7 +56,7 @@ div.tab_container {
 	.tab_content {
 		width: 100%;
 		min-height: 170px;
-		padding: 15px 10px 10px;
+		padding: 1em 0;
 		position: relative;
 		top: 0;
 	}

@@ -82,9 +82,9 @@ header {
 				@include bg-t($x, $y);
 			}
 		}
-		&:hover {
-			@include bg(rgba(#000, 0.5));
-		}
+		// &:hover {
+		// 	@include bg(rgba(#000, 0.5));
+		// }
 	}// .main_nav-item  END
 
 }

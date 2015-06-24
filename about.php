@@ -42,11 +42,11 @@
 	<section class="row1">
 		<div class="wrapper small">
 			<hgroup class="txtImg_title-title-solution">
-				<h1 class="hidden" data-lang="en">Customize Solution</h1>
+				<h1 class="hidden" data-lang="en">Customized Solutions</h1>
 				<h2 class="hidden" data-lang="tw">選擇康和期經</h2>
 			</hgroup>
 			<div class="cnt">
-				<p class="txt-1_3">康和期貨經理事業/期貨信託事業為康和證券集團的成員。專營期貨與避險基金管理公司。<br>我們秉持專業、積極的服務態度，替國內外的法人機構與自然人提供健全、客製化的投資工具及多元化的金融產品，滿足客戶資產配置與財務風險規劃的需求。 </p>
+				<p class="txt-1_3">康和期貨經理事業股份有限公司為康和證券集團成員，基於金融市場長期的發展趨勢，陸續設置期貨服務事業之相關部門，秉持專業、積極的服務態度，提供客戶健全、客制化的投資工具及多樣化的金融商品，滿足投資人資產配置及財務風險規劃的服務需求，替大型投資法人與一般自然人做完整之金融代工、商品設計、顧問輔導咨詢與期貨信託受益憑證發行服務，相關業務拓展至兩岸三地華人市場。</p>
 			</div>
 		</div>
 	</section>

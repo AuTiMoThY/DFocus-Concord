@@ -172,7 +172,7 @@ $aboutCharacter = array(
 	<li>台灣牙醫師公會-專任理財講師</li>
 	<li>臺灣期貨業商業同業公會在職訓練<br>【期貨、期經、期顧、期信】-專任講師</li>
 	<li>世新大學客座講師</li>
-	<li>CTA學術場學合作專案總召集人</li>
+	<li>CTA學術產學合作專案總召集人</li>
 </ul>
 ',
 	      ),
@@ -221,15 +221,26 @@ $aboutCharacter = array(
 
 ',
 'col2'=> '
-<span>經歷 /</span><br>
+<span>經歷</span><br>
 <ul>
-	<li>MF Global Taiwan 總經理</li>
-	<li>Global Investment Network,Inc. 創辦人兼總經理</li>
-	<li>元大寶來期貨董事</li>
-	<li>中華民國期貨業商業同業公會理事/監事</li>
-	<li>中華民國證券暨期貨市場發展基金會講師</li>
-	<li>中華民國期貨業商業同業公會講師</li>
+	<li>群益期貨自營部交易員</li>
+	<li>元大寶來期貨經理事業主管</li>
+	<li>證基會期權講師</li>
+	<li>大陸期權講師</li>
 </ul>
+<span>學歷</span><br>
+<ul>
+	<li>加拿大皇家大學企管碩士</li>
+</ul>
+<span>證照</span><br>
+<ul>
+	<li>證券高級業務員、期貨業務員、理財規劃、保險業務員</li>
+</ul>
+<span>獎項</span><br>
+<ul>
+	<li>期貨交易所小期兵競賽優異獎</li>
+</ul>
+
 ',
 	      ),
 	array(

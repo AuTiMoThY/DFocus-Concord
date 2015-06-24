@@ -222,15 +222,19 @@
 		@include bg(#fff);
 		@include rhythm-margins(2);
 	}
-
+}
+.serviceCnt-container {
+	width: 1000px;
+	margin: auto;
+	@include rhythm-padding(2);
+	.mod-tab_cnt {
+		padding-top: 3em;
+	}
 }
 
 
 .monthlyreport {
 	&-container {
-		width: 1000px;
-		margin: auto;
-		@include rhythm-padding(2);
 		.col-2 {
 			width: (475 / 1000) * 100%;
 			float: left;
@@ -274,3 +278,148 @@
 		}
 	}
 }
+
+.download {
+	&-list {}
+	&-item {
+		position: relative;
+		width: 47%;
+		height: 130px;
+		border: 1px solid #cbcbcb;
+		margin-bottom: 2em;
+		&:nth-of-type(2n+1) {
+			margin-right: 3%;
+		}
+		.icon-download {
+			@include absolute($r:2em, $t:0, $b:0);
+			margin: auto;
+		}
+		p {
+			width: 90%;
+		}
+		&>a {
+			@include wh2;
+			display: block;
+			padding: 2em 2em 0;
+		}
+		&:hover {
+			// @include bg(rgba(#e3e3e3, 1));
+			box-shadow: $boxShadowHover;
+		}
+	}
+	&-title {
+		width: 90%;
+		line-height: 1 !important;
+		@extend .txt-1;
+		margin-bottom: 0.3em;
+		// font-weight: bold;
+	}
+}
+
+.sales {
+	&-container {
+		.row1, .row2 {
+			width: 47%;
+		}
+		.row1 {
+			margin-right: 6%;
+		}
+	}
+	&-item {
+		position: relative;
+		@include wh2(100% 130);
+		border: 1px solid #cbcbcb;
+		margin-bottom: 2em;
+		.icon-sales {
+			@include absolute($r:2em, $t:0, $b:0);
+			margin: auto;
+		}
+		.sales-title, p {
+			width: 90%;
+		}
+		&>a {
+			@include wh2;
+			display: block;
+			padding: 2em 2em 0;
+		}
+		&:hover {
+			box-shadow: $boxShadowHover;
+		}
+	}
+	&-title {
+		line-height: 1 !important;
+		@extend .txt-1;
+		margin-bottom: 0.3em;
+	}
+}
+
+.faq {
+	&-container {
+		.row1 {
+			height: 40px;
+			overflow: hidden;
+		}
+	}
+	&-tabs {
+		position: absolute !important;
+		top: 0;
+		left: 0;
+		&-wrap {
+			position: relative;
+			width: 85%;
+			height: 100%;
+		}
+		&-change {
+			width: 15%;
+			height: 100%;
+		}
+		&-btn {
+			width: 50%;
+			height: 100%;
+			.fa {
+				font-size: 2.3em;
+			}
+		}
+		li {
+			width: 20% !important;
+			.tab_block & {
+			}
+		}
+	}
+	&-list{
+		width: 100%;
+	}
+	&-item {
+		width: 100%;
+		&-q {
+			position: relative;
+			@include wh2(100% auto);
+			border: 1px solid #e9e9e9;
+			padding: 1em 1em 0.8em 1.8em;
+			color: #000;
+			font-size: em(21);
+			font-weight: normal;
+			line-height: 1.8;
+			cursor: pointer;
+			span {
+				width: 87%;
+				&:first-of-type {
+					width: 9%;
+				}
+			}
+			// &:after {
+			// 	@include psudoClass;
+			// 	@include absolute(0, 1em, 0);
+			// 	margin: auto;
+			// }
+		}
+		&-a {
+			width: 83%;
+			margin-left: 1.8em;
+			padding-left: 9%;
+		}
+	}
+}
+
+
+
