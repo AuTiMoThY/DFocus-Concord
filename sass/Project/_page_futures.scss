@@ -20,14 +20,21 @@
 			@include bg(rgba(black, 0.8));
 			@include opacity(0);
 			transition: all 0.3s ease(in-quad);
+			// &:before {
+			// 	@include psudoClass(dib);
+			// 	vertical-align: middle;
+			// 	width: 0;
+			// 	height: 100%;
+			// }
 		}
 		&-intro {
-			display: table;
+			// display: table;
 			width: 80%;
 			margin: auto;
-			@include vc;
-			right: 0;
-			left: 0;
+			@include absolute($t:50%, $r:0, $l:0);
+			vertical-align: middle;
+			text-align: center;
+			@include translateY(-50%);
 		}
 		&:hover {
 			figcaption {

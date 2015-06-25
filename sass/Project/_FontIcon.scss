@@ -164,6 +164,9 @@ $icon-layout: horizontal;
 	&-ff1 {
 		font-family: $ff-MHeiHK;
 	}
+	&-b1 {
+		color: lighten($normal_color, 20%);
+	}
 }
 
 %txt-2 {

@@ -12,7 +12,7 @@
 	$character_col1 = $aboutCharacter[$get_character-1]['col1'];
 	$character_col2 = $aboutCharacter[$get_character-1]['col2'];
 ?>
-<title>康和期貨團隊 - <?php echo $character_name."  ".$character_title; ?> | 康和期貨</title>
+<title>康和期貨團隊 - <?php echo $character_name."  ".$character_title; ?> | <?php echo $webTitle; ?></title>
 
 <?php
 // -------------------------------

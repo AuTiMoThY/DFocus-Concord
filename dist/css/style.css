@@ -1070,9 +1070,19 @@ footer.copyright p {
   margin-right: 1.8em;
 }
 
-.footer_row2 {
+.footer_row3 {
   margin-top: 14px;
   margin-top: 0.9rem;
+  margin-bottom: 7px;
+  margin-bottom: 0.45rem;
+}
+
+address {
+  font-style: normal;
+  display: inline;
+}
+
+.footer_row2 {
   margin-bottom: 14px;
   margin-bottom: 0.9rem;
 }
@@ -2442,91 +2452,91 @@ header.chatroom {
 }
 
 .about-character1.character-pic:before {
-  background-position: 58% 14%;
+  background-position: 64% 24%;
 }
 
 .index-character1.character-pic:before {
-  background-position: 38% 3%;
+  background-position: 8% 63%;
 }
 
 .about-character2.character-pic:before {
-  background-position: 13% 83%;
+  background-position: 87% 75%;
 }
 
 .index-character2.character-pic:before {
-  background-position: 9% 87%;
+  background-position: 5% 46%;
 }
 
 .about-character3.character-pic:before {
-  background-position: 85% 18%;
+  background-position: 13% 76%;
 }
 
 .index-character3.character-pic:before {
-  background-position: 8% 49%;
+  background-position: 34% 77%;
 }
 
 .about-character4.character-pic:before {
-  background-position: 56% 23%;
+  background-position: 73% 73%;
 }
 
 .index-character4.character-pic:before {
-  background-position: 89% 40%;
+  background-position: 68% 85%;
 }
 
 .about-character5.character-pic:before {
-  background-position: 13% 68%;
+  background-position: 47% 32%;
 }
 
 .index-character5.character-pic:before {
-  background-position: 87% 41%;
+  background-position: 36% 70%;
 }
 
 .about-character6.character-pic:before {
-  background-position: 87% 85%;
+  background-position: 1% 55%;
 }
 
 .index-character6.character-pic:before {
-  background-position: 45% 67%;
+  background-position: 35% 52%;
 }
 
 .about-character7.character-pic:before {
-  background-position: 21% 3%;
+  background-position: 45% 17%;
 }
 
 .index-character7.character-pic:before {
-  background-position: 31% 62%;
+  background-position: 73% 54%;
 }
 
 .about-character8.character-pic:before {
-  background-position: 79% 67%;
+  background-position: 6% 37%;
 }
 
 .index-character8.character-pic:before {
-  background-position: 91% 24%;
+  background-position: 19% 5%;
 }
 
 .about-character9.character-pic:before {
-  background-position: 37% 100%;
+  background-position: 51% 62%;
 }
 
 .index-character9.character-pic:before {
-  background-position: 30% 72%;
+  background-position: 67% 75%;
 }
 
 .about-character10.character-pic:before {
-  background-position: 36% 6%;
+  background-position: 40% 32%;
 }
 
 .index-character10.character-pic:before {
-  background-position: 47% 27%;
+  background-position: 45% 81%;
 }
 
 .about-character11.character-pic:before {
-  background-position: 85% 26%;
+  background-position: 32% 97%;
 }
 
 .index-character11.character-pic:before {
-  background-position: 10% 85%;
+  background-position: 15% 95%;
 }
 
 .character-pic img {
@@ -2583,15 +2593,18 @@ header.chatroom {
   transition: all 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
 .futures-item-intro {
-  display: table;
   width: 80%;
   margin: auto;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  top: 50%;
   right: 0;
   left: 0;
+  vertical-align: middle;
+  text-align: center;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .futures-item:hover figcaption {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -3176,6 +3189,9 @@ header.chatroom {
 }
 .txt-ff1 {
   font-family: "MHeiHK", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.txt-b1 {
+  color: #1f5fd3;
 }
 
 .txt-2, .futures_intro-item .txt-2.btn {

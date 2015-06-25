@@ -73,6 +73,14 @@ footer {
 	}
 }
 
+.footer_row3 {
+	@include rhythm-margins(0.6, 0.3);
+}
+address {
+	font-style: normal;
+	display: inline;
+}
+
 .footer_row2 {
-	@include rhythm-margins(0.6);
+	@include margin-trailer(0.6);
 }

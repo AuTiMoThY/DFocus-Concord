@@ -3,7 +3,7 @@
 	include_once INC_PATH.'headleader.php';
 	require_once INC_PATH.'aunav.php';
 ?>
-<title>常見問題 | 康和期貨</title>
+<title>常見問題 | <?php echo $webTitle; ?></title>
 
 <?php
 // -------------------------------

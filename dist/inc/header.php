@@ -12,7 +12,7 @@
 			<?php headerNavAu(); ?>
 				<li class="quick_bar">
 					<div class="login">
-						<a href="" class="hide_txt">會員登入</a>
+						<a href="https://fm.concordfutures.com.tw/fundM/" class="hide_txt" target="_blank">會員登入</a>
 					</div>
 				</li>
 			</ul>

@@ -3,7 +3,7 @@
 	include_once INC_PATH.'headleader.php';
 	require_once INC_PATH.'aunav.php';
 ?>
-<title>康和期經產品介紹 | 康和期貨</title>
+<title>康和期經產品介紹 | <?php echo $webTitle; ?></title>
 
 <?php
 // -------------------------------
@@ -78,13 +78,13 @@ echo $content;
 						</div>
 						<div class="metro-art right">
 							<hgroup>
-								<h1 class="pdt-title txt-3">Cathay Concord Futures No.1</h1>
-								<h2 class="pdt-subtitle txt-4">國泰康和私募期開得盛信託基金</h2>
+								<h1 class="pdt-title txt-3"><!-- Cathay Concord Futures No.1 --></h1>
+								<h2 class="pdt-subtitle txt-4">康和私募期開得盛信託基金</h2>
 							</hgroup>
 							<p class="pdt-shrink_text">
 <?php
 //  此處示意 顯示內文前 100 個字，超果以...取代
-$cnt0 = "僅限受權專業投資人登入";
+$cnt0 = "僅限授權專業投資人登入";
 $showCount = 100;
 $content0 = strip_tags($cnt0);
 $content = mb_substr($content0,0,$showCount,'UTF-8');
@@ -92,7 +92,7 @@ if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
 echo $content;
 ?>
 							</p>
-							<a href="products_cnt.php" class="btn btn-pdtMore txt-r1 link-3 btn2">僅限受權專業投資人登入</a>
+							<a href="products_cnt.php" class="btn btn-pdtMore txt-r1 link-3 btn2">僅限授權專業投資人登入</a>
 						</div>
 					</div><!-- /.metro-block-style1  END  !! -->
 				</div><!-- /.metro-row  END  !! -->

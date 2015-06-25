@@ -4,7 +4,7 @@
 	require_once INC_PATH.'aunav.php';
 	include_once 'dist/character_data.php';
 ?>
-<title>康和期貨</title>
+<title><?php echo $webTitle; ?></title>
 
 <?php
 // -------------------------------

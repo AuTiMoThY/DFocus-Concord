@@ -37,11 +37,20 @@ function resizeBlock (){
 	var $body = $("body"),
 		$indexPage = $("body.index_page"),
 		viewPortWH = viewPortWidthHeight(),
+		viewPortW = viewPortWH.width;
 		viewPortH = viewPortWH.height;
 
 	// $footerWrap.height(viewPortH * 2 / 5);
 	// $indexPage.css('height', viewPortH);
 	// $slidesLi.css('height', viewPortH * 0.8);
+	// 
+	if (viewPortW <= 480) {
+		$("#txtImg1").removeClass();
+		$("#txtImg1").children('h1').removeClass().addClass('txt-2_1').css({
+			fontWeight: 'normal'
+			// property2: 'value2'
+		});;
+	};
 }
 
 function isActive($this, $thisClass) {
@@ -195,13 +204,7 @@ $(function () {
 		.addTo(controller);
 	};
 
-	if (viewPortW <= 480) {
-		$("#txtImg1").removeClass();
-		$("#txtImg1").children('h1').removeClass().addClass('txt-2_1').css({
-			fontWeight: 'normal'
-			// property2: 'value2'
-		});;
-	};
+
 
 	$("#menu").click(function() {
 		isOpen($("#menu"), $("#menu.open"));
