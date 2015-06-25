@@ -2,6 +2,15 @@
 	include_once 'config.php';
 	include_once INC_PATH.'headleader.php';
 	require_once INC_PATH.'aunav.php';
+	include_once 'dist/products_data.php';
+
+
+	$get_pdt = isset($_GET['products']) ? $_GET['products'] : 1;
+
+	$pdt_index = $pdt[$get_pdt]['index'];
+	$pdt_title = $pdt[$get_pdt]['title'];
+	$pdt_subtitle = $pdt[$get_pdt]['subtitle'];
+	$pdt_editorDF = $pdt[$get_pdt]['editorDF'];
 ?>
 <title>康和期經產品介紹 | <?php echo $webTitle; ?></title>
 
@@ -42,42 +51,22 @@
 <main class="">
 	<section class="row1">
 		<div class="wrapper small">
-			<h2 class="title">
-				<img src="<?php path_au('img'); ?>title-prodCnt.png" alt="" class="temporary">
-			</h2>
+<!-- 			<h2 class="title">
+				<img src="<?php //path_au('img'); ?>title-prodCnt.png" alt="" class="temporary">
+			</h2> -->
+			<hgroup>
+				<h1 class="pdt-title txt-3 text-center"><?php echo $pdt_title; ?></h1>
+				<h2 class="pdt-subtitle txt-4 text-center"><?php echo $pdt_subtitle; ?></h2>
+<!-- 				<h1 class="pdt-title txt-3 text-center">Futures Fund</h1>
+				<h2 class="pdt-subtitle txt-4 text-center">多空成長期貨信託基金</h2>
+ -->			</hgroup>
 		</div>
 	</section>
 	<section class="fullbg row2">
 		<div class="bg"></div>
 		<div class="wrapper">
 			<div class="cnt editorDF">
-				<img src="upload/products/futures_trust_fund/20150608-1.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-2.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-3.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-4.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-5.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-6.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-7.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-8.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-9.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-10.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-11.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-12.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-13.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-14.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-15.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-16.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-17.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-18.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-19.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-20.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-21.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-22.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-23.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-24.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-25.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-26.jpg" alt="" class="temporary">
-				<img src="upload/products/futures_trust_fund/20150608-27.jpg" alt="" class="temporary">
+				<?php echo $pdt_editorDF; ?>
 			</div>
 			<div class="" style="margin: 1em auto 5em;">
 				<a href="products.php" class="txt_img-goProdList btn-getmore hide_txt"></a>

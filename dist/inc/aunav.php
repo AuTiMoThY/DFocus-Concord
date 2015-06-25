@@ -39,7 +39,7 @@ class navAu extends PageUrlAu {
 			foreach ($Nav as $item => $url) {
 
 echo <<<_OUTPUT
-<li class="btn btn-link main_nav-item nav-concord item$NavLen">
+<li class="main_nav-item nav-concord item$NavLen">
 	<a href="$url">
 		<span class="wrap"><span class="main_nav-icon"></span><span class="main_nav-txt">$item</span></span>
 	</a>

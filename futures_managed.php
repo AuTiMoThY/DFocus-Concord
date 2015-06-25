@@ -50,7 +50,9 @@
 	<section class="row1">
 		<div class="wrapper small">
 			<div class="cnt">
-				<img src="<?php path_au('temp'); ?>tem2.jpg" alt="" class="temporary">
+				<div class="editorDF">
+					<img src="<?php path_au('temp'); ?>tem2.jpg" alt="" class="temporary">
+				</div>
 			</div>
 		</div>
 	</section>

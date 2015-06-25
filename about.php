@@ -135,6 +135,7 @@ $aboutCharacter = array(
 	array('index'=> '5', 'name'=> '高昊岑', 'title'=>'信託事業部<br>協理'),
 	array('index'=> '6', 'name'=> '謝增泉', 'title'=>'全權委託協理<br>交易決定人'),
 	array('index'=> '7', 'name'=> '張資政', 'title'=>'協管基金經理人'),
+	array('index'=> '12', 'name'=> '丁啟倫', 'title'=>'協管基金經理人'),
 	array('index'=> '8', 'name'=> '簡士傑', 'title'=>'基金事務主管<br>經理'),
 	array('index'=> '9', 'name'=> '簡祥全', 'title'=>'風險管理室'),
 	array('index'=> '10', 'name'=> '廖又瑨', 'title'=>'專案經理'),
