@@ -33,6 +33,9 @@ $interval: 1.35%;
 	}
 	&-col {
 		width: (793 / 1200) * 100%;
+		@include respondTo(m){
+			width: 100%;
+		};
 	}
 @include atRoot(){
 // >>> .metro-block -------------------------------------------------//
@@ -67,16 +70,19 @@ $interval: 1.35%;
 		&-style1 {
 			width: (793 / 1200) * 100%;
 			height: 288px;
+
 			.news {
 				&-pic {
 					position: relative;
 					width: (407 / 793) * 100%;
 					height: 100%;
+
 					img {
 						@extend %metroPic;
 					}
 					&+.metro-art {
 						width: 100% - (407 / 793) * 100%;
+
 					}
 				}
 			}
@@ -88,6 +94,7 @@ $interval: 1.35%;
 					margin: auto;
 				}
 			}
+
 		}
 		&-style2 {
 			width: 100%;
@@ -115,6 +122,9 @@ $interval: 1.35%;
 		&-style3 {
 			width: (386 / 1200) * 100%;
 			height: 288px * 2 + 24px;
+			@include respondTo(m){
+				width: 100%;
+			};
 			.news-pic {
 				position: relative;
 				height: 48%;
@@ -138,6 +148,11 @@ $interval: 1.35%;
 			.metro-col & {
 				width: 100% - (386 / 793) * 100% - $interval - 1%;
 				margin-right: 1.35%;
+				@include respondTo(m){
+					width: 100%;
+					margin-right: 0;
+					margin-top: 1.2em;
+				};
 			}
 		}
 		&-single {
@@ -151,10 +166,16 @@ $interval: 1.35%;
 %metroSingle {
 	width: (386 / 1200) * 100%;
 	height: 288px;
+	@include respondTo(m){
+		width: 100%;
+	};
 }
 %metroSingle2 {
 	width: (386 / 793) * 100%;
 	height: 288px;
+	@include respondTo(m){
+		width: 100%;
+	};
 }
 };
 	&-art {
@@ -317,6 +338,9 @@ $interval: 1.35%;
 	&-form {
 		position: relative;
 		width: 390px;
+		@include respondTo(m){
+			width: 100%;
+		};
 		.art_search-container & {
 			width: 100%;
 		}
@@ -326,6 +350,9 @@ $interval: 1.35%;
 		z-index: 10;
 		width: 265px;
 		@extend %searchInput;
+		@include respondTo(m){
+			width: 100%;
+		};
 		.art_search-container & {
 			width: (875 / 980) * 100%;
 		}
@@ -352,11 +379,17 @@ $interval: 1.35%;
 		@include rhythm-padding();
 		.news-pic {
 			@include wh2(270 190);
+			@include respondTo(m){
+				width: 100%;
+			};
 		}
 		.news-intro {
 			position: relative;
 			@include wh2((980-270) 190);
 			padding-left: 2em;
+			@include respondTo(m){
+				width: 100%;
+			};
 		}
 		.cnt_title {
 			margin-bottom: 0.8em;
@@ -391,3 +424,21 @@ $interval: 1.35%;
 	border: none;
 }
 
+@include respondTo(m){
+	.metro-col {
+		.metro-block-style3 {
+			position: relative;
+			.metro-art {
+				&:before {
+					@include absolute($r:0, $l:0, $t:310px);
+					@include triBtm(#fff, 23px, 20px);
+				}
+			}
+			a {
+				@include absolute(0, $l:0);
+				display: block;
+				@include wh2;
+			}
+		}
+	}
+};

@@ -9,7 +9,15 @@
 		@include transition(all 0.3s cubic-bezier(0.4, 0, 0.2, 1));
 		&:nth-of-type(3n+1) {
 			margin-left: 0;
+			@include respondTo(m){
+				margin-left: auto;
+			};
 		}
+		@include respondTo(m){
+			// float: none;
+			width: 95%;
+			margin: 0.5em auto;
+		};
 		figure {
 			position: relative;
 			width: 100%;

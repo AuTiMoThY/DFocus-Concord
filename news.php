@@ -42,7 +42,7 @@
 <main class="">
 	<section class="row1">
 		<div class="wrapper">
-			<h2 class="page_title txtImg_title-title-lu hide_txt">Lastest Update</h2>
+			<h2 class="page_title txtImg_title-title-lu hide_txt <?php isPhone('mobile_title'); ?> title-1">Lastest Update</h2>
 			<div class="metro-block-style1 cf ib">
 				<div class="news-pic pic left">
 					<img src="upload/news/news_051701.jpg" alt="">
@@ -71,9 +71,9 @@ echo $content;
 	<section class="fullbg row2">
 		<div class="bg"></div>
 		<div class="wrapper">
-			<header class="txtImg_title-title-news">
-				<h1 class="hidden" data-lang="en">News & Updates</h1>
-				<h2 class="hidden" data-lang="tw">市場消息</h2>
+			<header class="txtImg_title-title-news <?php isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">News & Updates</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">市場消息</h2>
 			</header>
 			<div class="metro-wrap">
 				<div class="metro-container cf">

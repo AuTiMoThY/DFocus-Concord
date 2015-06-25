@@ -22,6 +22,7 @@ header {
 	&.global_hd {
 		position: absolute;
 		top: 7px;
+		// padding-top: 7px;
 		z-index: 50;
 		@include wh(100%, 90px);
 		@include bg('bg-header.png', 50%, 50%);
@@ -29,7 +30,10 @@ header {
 		// @include background-image(linear-gradient(#00a1e9, #0086d1));
 		padding: 0 1em;
 		@include respondTo(Mobile){
+			position: fixed;
+			top: 0;
 			height: 50px;
+			padding: 7px 0.5em 0;
 		};
 		nav {
 			float: right;
@@ -51,9 +55,9 @@ header {
 			display: block;
 		}
 		@include respondTo(Mobile){
-			width: 80%;
+			width: 75%;
 			height: auto;
-			padding-top: 5px;
+			padding-top: 13px;
 		};
 	}// header#logo  END
 }
@@ -64,8 +68,9 @@ header {
 	height: 100%;
 	// position: relative;
 	@include respondTo(Mobile){
-		@include absolute(50px);
+		@include absolute(50px, $l:0);
 		width: 100%;
+		height: auto;
 		@include bg('bg-header.png', 50%, 50%, repeat-y);
 		display: none;
 		&.js-nav_open {
@@ -73,16 +78,29 @@ header {
 		}
 	};
 	ul {
+		position: relative;
 		height: 100%;
+		@include respondTo(m){
+			height: 100vh;
+		};
 	}
 	li {
 		&.quick_bar {
 			@include VerticalAlign;
 			margin: 0 2em;
+			@include respondTo(m){
+				top: 0;
+				width: 100%;
+				height: 40px;
+				margin: 0;
+				@include translateY(0);
+			};
 			.login {
+				@include VerticalAlign;
 				a {
 					@include wh2(80 16);
 					@include bg-t(0, -85px);
+					margin: auto;
 				}
 			}
 		}// header.quick_bar  END
@@ -93,6 +111,24 @@ header {
 	&-item {
 		@include VerticalAlign;
 		margin: 0 1em;
+		@include respondTo(m){
+			top: 0;
+			float: none;
+			width: 100%;
+			height: 40px;
+			margin: 1em 0;
+			@include translateY(0);
+			span.wrap {
+				display: block;
+				width: 100%;
+				// height: 40px;
+				// line-height: 40px;
+			}
+			a {
+				height: 100%;
+				margin: auto;
+			}
+		};
 		a, span {
 			display: block;
 			text-align: center;
@@ -103,15 +139,16 @@ header {
 			(item3, 62, 16, 0, -34px),
 			(item4, 63, 16, 0, -51px),
 			(item5, 64, 16, 0, -68px){
-			&.#{$navItem} a {
+			&.#{$navItem} .main_nav-txt {
 				@include wh2($w $h);
 				@include bg-t($x, $y);
 			}
 		}
-		@include respondTo(Mobile){
-			width: 100%;
-			height: 40px;
-		};
+		.main_nav-txt {
+			margin: auto;
+			// @include VerticalAlign;
+		}
+
 		// &:hover {
 		// 	@include bg(rgba(#000, 0.5));
 		// }

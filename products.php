@@ -128,9 +128,9 @@ echo $content;
 	<section class="fullbg row2">
 		<div class="bg"></div>
 		<div class="wrapper">
-			<header class="txtImg_title-title-chatroom chatroom">
-				<h1 class="hidden" data-lang="en">Advisory Chat Room</h1>
-				<h2 class="hidden" data-lang="tw">康和期顧相談室</h2>
+			<header class="txtImg_title-title-chatroom chatroom <?php isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Advisory Chat Room</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">康和期顧相談室</h2>
 			</header>
 			<div class="cnt">
 				<ul class="chatroom-list cf">

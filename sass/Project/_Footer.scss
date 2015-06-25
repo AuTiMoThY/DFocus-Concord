@@ -33,8 +33,15 @@ footer {
 }
 
 .footer-sec {
+	@include respondTo(m){
+		width: 100%;
+		margin-bottom: 0.8em;
+	};
 	&.sec1 {
 		margin-right: 1em;
+		@include respondTo(m){
+			margin-right: 0;
+		};
 		.footer-sec-txt {
 			width: 120px;
 		}
@@ -42,6 +49,9 @@ footer {
 	&.sec2 {
 		.footer-sec-txt {
 			margin-right: 3em;
+			@include respondTo(m){
+				margin-right: 0;
+			};
 			p:first-of-type {
 				border-bottom: 1px solid #000;
 			}
@@ -51,13 +61,24 @@ footer {
 		position: relative;
 		margin-right: 1em;
 		border: 1px solid #c9caca;
+		@include respondTo(m){
+			margin-right: 0;
+			border: none;
+		};
 		.footer-sec-txt {
 			width: 310px;
 			height: 100%;
 			padding: 0 0.6em;
+			@include respondTo(m){
+				width: 230px;
+				padding: 0;
+			};
 		}
 		.icon-like {
 			border-right: 1px solid #c9caca;
+			@include respondTo(m){
+				border: none;
+			};
 		}
 		a {
 			@include absolute(0, $l:0);
@@ -70,6 +91,22 @@ footer {
 	}
 	&.sec4 {
 		margin-right: 1.8em;
+		@include respondTo(m){
+			width: 49%;
+			margin-right: 0;
+			.icon {
+				margin: auto;
+			}
+		};
+	}
+	&.sec5 {
+		@include respondTo(m){
+			width: 49%;
+			.btn {
+				display: block;
+				margin: auto;
+			}
+		};
 	}
 }
 

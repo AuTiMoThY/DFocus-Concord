@@ -7,24 +7,53 @@
 	@include bg(50%, 0);
 	background-repeat: no-repeat;
 	// @include bg(fixed);
+	@include respondTo(m){
+		padding-bottom: 65%;
+		@include bg(90%, 0);
+	};
 	.about_page & {
 		@include bgRWD('null', 1920, 478);
+		@include respondTo(m){
+			padding-bottom: 35%;
+			@include bg(80%, 0);
+		};
 	}
 	.products_page & {
 		@include bgRWD('null', 1920, 478);
+		@include respondTo(m){
+			padding-bottom: 35%;
+			@include bg(80%, 0);
+		};
 	}
 	.chatroom_page & {
 		@include bgRWD('null', 1920, 478);
+		@include respondTo(m){
+			padding-bottom: 35%;
+			@include bg(80%, 0);
+		};
 	}
 	.news_page & {
 		@include bgRWD('null', 1920, 478);
+		@include respondTo(m){
+			padding-bottom: 35%;
+			@include bg(80%, 0);
+		};
 	}
 	.service_page & {
 		@include bgRWD('null', 1920, 478);
+		@include respondTo(m){
+			padding-bottom: 35%;
+			@include bg(80%, 0);
+		};
 	}
 	.character_page & {
 		@include bgRWD('null', 1920, 650);
+		@include respondTo(m){
+			padding-bottom: 35%;
+			@include bg(80%, 0);
+		};
 	}
+
 }
 
 /*========================================================================*\
@@ -47,11 +76,20 @@ section[class*="row"] {
 		.editorDF {
 			padding: 3.5em 6em;
 			@include bg(#fff);
+			@include respondTo(m){
+				padding: 0.8em 1em;
+			};
+			a {
+				word-wrap: break-word;
+			}
 		}
 		.share_bar {
 			width: 100%;
 			@include bg(#fff);
 			padding: 0 6em 3.5em;
+			@include respondTo(m){
+				padding: 0 1.2em 2em;
+			};
 		}
 	}
 }

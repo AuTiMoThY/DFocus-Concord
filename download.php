@@ -65,17 +65,17 @@
 					   <section class="mod mod-tab_cnt">
 					        <!-- 內容 -->
 							<ul class="download-list cf">
-								<li class="download-item"><a href="">
+								<li class="download-item"><a href="" target="_blank">
 									<div class="download-title">定期定額懶人包</div>
 									<p class="txt-1_4">定期定額開戶-全文件(壓縮檔)</p>
 									<i class="icon icon-download"></i>
 								</a></li>
-								<li class="download-item"><a href="">
+								<li class="download-item"><a href="" target="_blank">
 									<div class="download-title">定期定額懶人包</div>
 									<p class="txt-1_4">定期定額開戶-全文件(壓縮檔)</p>
 									<i class="icon icon-download"></i>
 								</a></li>
-								<li class="download-item"><a href="">
+								<li class="download-item"><a href="" target="_blank">
 									<div class="download-title">定期定額懶人包</div>
 									<p class="txt-1_4">定期定額開戶-全文件(壓縮檔)</p>
 									<i class="icon icon-download"></i>
@@ -89,7 +89,7 @@
 					   <section class="mod mod-tab_cnt">
 					        <!-- 內容 -->
 							<ul class="download-list cf">
-								<li class="download-item"><a href="">
+								<li class="download-item"><a href="" target="_blank">
 									<div class="download-title">交易文件</div>
 									<p class="txt-1_4">交易文件(壓縮檔)</p>
 									<i class="icon icon-download"></i>
@@ -103,7 +103,7 @@
 					   <section class="mod mod-tab_cnt">
 					        <!-- 內容 -->
 							<ul class="download-list cf">
-								<li class="download-item"><a href="">
+								<li class="download-item"><a href="" target="_blank">
 									<div class="download-title">異動文件</div>
 									<p class="txt-1_4">異動全文件(壓縮檔)</p>
 									<i class="icon icon-download"></i>
@@ -117,9 +117,9 @@
 					   <section class="mod mod-tab_cnt">
 					        <!-- 內容 -->
 							<ul class="download-list cf">
-								<li class="download-item"><a href="">
-									<div class="download-title">公開資料</div>
-									<p class="txt-1_4">公開資料(壓縮檔)</p>
+								<li class="download-item"><a href="http://fm.concordfutures.com.tw/adimages/104Q1%E5%BA%B7%E5%92%8C%E5%A4%9A%E7%A9%BA%E6%88%90%E9%95%B7%E5%85%AC%E9%96%8B%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf" target="_blank">
+									<div class="download-title">康和多空成長期貨信託基金</div>
+									<p class="txt-1_4">公開說明書(PDF)</p>
 									<i class="icon icon-download"></i>
 								</a></li>
 							</ul>

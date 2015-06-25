@@ -42,9 +42,9 @@
 <main class="">
 	<section class="row1">
 		<div class="wrapper small">
-			<header class="txtImg_title-title-monthlyreport cnt_title">
-				<h1 class="hidden" data-lang="en">Monthly Report</h1>
-				<h2 class="hidden" data-lang="tw">投資月報</h2>
+			<header class="txtImg_title-title-monthlyreport cnt_title <?php isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Monthly Report</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">投資月報</h2>
 			</header>
 		</div>
 	</section>

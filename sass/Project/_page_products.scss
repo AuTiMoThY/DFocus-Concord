@@ -89,6 +89,18 @@
 	}
 }
 
+@include respondTo(m){
+	.pdt.metro-block-style3 {
+		height: auto;
+		.news-pic {
+			height: 288px;
+		}
+		.metro-art {
+			height: 400px;
+		}
+	}
+};
+
 header.chatroom {
 	@include rhythm-margins(1.2);
 }
@@ -104,6 +116,12 @@ header.chatroom {
 		&:nth-of-type(3n+1) {
 			margin-left: 0;
 		}
+		@include respondTo(m){
+			float: none;
+			width: 100%;
+			margin: 0 auto 0.5em;
+			box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+		};
 	}
 	&-pic {
 		position: relative;

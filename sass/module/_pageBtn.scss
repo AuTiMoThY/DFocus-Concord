@@ -23,6 +23,9 @@
 			@include wh(30px);
 			// background: #cfcfcf;
 			// border: 1px solid #cfcfcf;
+			@include respondTo(m){
+				width: 17%;
+			};
 			&:hover {
 				// background: $normal_color;
 				// border: 1px solid $normal_color;
@@ -58,6 +61,10 @@
 			// padding: 6px;
 			background: none;
 			margin: 0 1.5em;
+			@include respondTo(m){
+				width: 100%;
+				margin: 0;
+			};
 			&>a {
 				color: #898989;
 				// @include triPrev($normal_color, 10px);
@@ -84,6 +91,10 @@
 			// padding: 6px;
 			background: none;
 			margin: 0 1.5em;
+			@include respondTo(m){
+				width: 100%;
+				margin: 0;
+			};
 			&>a {
 				color: #898989;
 				// @include triNext($normal_color, 10px);

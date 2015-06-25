@@ -9,6 +9,10 @@
 				top: 0;
 				z-index: 0;
 				@include bgRWD('bg-about-row4.jpg', 1920, 1000);
+				@include respondTo(m){
+					height: 100%;
+					padding-bottom: 0;
+				};
 			}
 		}
 		.cnt {
@@ -23,6 +27,12 @@
 			width: 50%;
 			float: left;
 			padding-left: 2em;
+			@include respondTo(m){
+				width: 100%;
+				float: none;
+				padding-left: 0.8em;
+				padding-right: 0.8em;
+			};
 		}
 	}
 }
@@ -101,6 +111,11 @@
 		&:nth-of-type(2n+1) {
 			margin-left: 0;
 		}
+		@include respondTo(m){
+			width: 100%;
+			height: auto;
+			margin-left: 0;
+		};
 		&>a {
 			@include absolute(0, $l:0);
 			z-index: 99;
@@ -164,10 +179,16 @@
 	}
 	.frm__label {
 		width: (140 / 568) * 100%;
+		@include respondTo(m){
+			width: 100%;
+		};
 	}
 	.frm__field {
 		width: ((568 - 140) / 568 ) * 100% - 1%;
 		@include bg(#fff);
+		@include respondTo(m){
+			width: 100%;
+		};
 	}
 	.frm__label, .frm__field {
 		line-height: 30px;
@@ -193,14 +214,30 @@
 .sitemap-sec {
 	padding-left: 2em;
 	padding-right: 2em;
+	@include respondTo(m){
+		padding-left: 0.8em;
+		padding-right: 0.8em;
+	};
 	.col-2 {
 		width: 50%;
 		float: left;
+		@include respondTo(m){
+			width: 100%;
+			float: none;
+		};
 		&:first-of-type {
 			padding-right: 20px;
+			@include respondTo(m){
+				padding-right: 0.6em;
+				padding-left: 0.6em;
+			};
 		}
 		&:nth-of-type(2) {
 			padding-left: 20px;
+			@include respondTo(m){
+				padding-right: 0.6em;
+				padding-left: 0.6em;
+			};
 		}
 	}
 	li {
@@ -227,6 +264,9 @@
 	width: 1000px;
 	margin: auto;
 	@include rhythm-padding(2);
+	@include respondTo(m){
+		width: 100%;
+	};
 	.mod-tab_cnt {
 		padding-top: 3em;
 	}
@@ -240,12 +280,23 @@
 			float: left;
 			&:first-of-type {
 				margin-right: ((1000 - (475 * 2)) / 1000) * 100%;
+				@include respondTo(m){
+					margin-right: 0;
+				};
 			}
+			@include respondTo(m){
+				width: 100%;
+				float: none;
+				padding: 0 0.8em;
+			};
 			form {
 				width: 100%;
 			}
 			.frm__field {
 				width: (350 / 475) * 100%;
+				@include respondTo(m){
+					width: 100%;
+				};
 			}
 		}
 	}
@@ -263,6 +314,9 @@
 	&-item {
 		overflow: hidden;
 		height: 240px;
+		@include respondTo(m){
+			height: auto;
+		};
 		h1.txt-1_1 {
 			margin-top: 0;
 			margin-bottom: 0;

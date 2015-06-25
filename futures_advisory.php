@@ -41,9 +41,9 @@
 <main class="">
 	<header class="cnt_title">
 		<div class="wrapper small">
-			<hgroup class="txtImg_title-title-futures3">
-				<h1 class="hidden" data-lang="en">Futures Advisory</h1>
-				<h2 class="hidden" data-lang="tw">期貨顧問事業</h2>
+			<hgroup class="txtImg_title-title-futures3 <?php isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Futures Advisory</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">期貨顧問事業</h2>
 			</hgroup>
 		</div>
 	</header>

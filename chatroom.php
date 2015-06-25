@@ -42,9 +42,10 @@
 <main class="">
 	<section class="row1">
 		<div class="wrapper small">
-			<h2 class="title">
-				<img src="<?php path_au('img'); ?>title-chatroom.png" alt="" class="temporary">
-			</h2>
+			<header class="txtImg_title-title-chatroom chatroom <?php isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Advisory Chat Room</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">康和期顧相談室</h2>
+			</header>
 		</div>
 	</section>
 	<section class="fullbg row2">

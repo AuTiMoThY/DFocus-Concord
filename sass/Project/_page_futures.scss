@@ -12,6 +12,9 @@
 			position: relative;
 			width: 100%;
 			margin-bottom: 1.3em;
+			a {
+				display: block;
+			}
 		}
 		figcaption {
 			@include absolute(0, $r:0);
@@ -26,6 +29,12 @@
 			// 	width: 0;
 			// 	height: 100%;
 			// }
+			@include respondTo(m){
+				height: auto;
+				padding: 0.5em 0;
+				@include opacity(1);
+				position: relative;
+			};
 		}
 		&-intro {
 			// display: table;
@@ -35,12 +44,20 @@
 			vertical-align: middle;
 			text-align: center;
 			@include translateY(-50%);
+			@include respondTo(m){
+				@include relative(0);
+				@include translateY(0);
+			};
 		}
 		&:hover {
 			figcaption {
 				@include opacity(1);
 			}
 		}
+		@include respondTo(m){
+			width: 100%;
+			margin-bottom: 1.2em;
+		};
 	}
 }
 
@@ -52,6 +69,13 @@
 				line-height: 1.5;
 				letter-spacing: 2px;
 			}
+			figure {
+				@include respondTo(m){
+					max-width: 386px;
+					margin: auto;
+				};
+			}
+
 		}
 	}
 }
@@ -86,6 +110,14 @@
 		transition: all 0.3s ease(in-out-cubic);
 		margin-left: (1000 - (255 * 3)) / 2 * 1px;
 		cursor: pointer;
+		@include respondTo(m){
+			@include absolute();
+			margin-left: 0;
+			display: none;
+			&.active {
+				display: block;
+			}
+		};
 		&:first-of-type {
 			margin-left: 0;
 		}
@@ -119,6 +151,9 @@
 		position: relative;
 		height: 270px;
 		@include bg(#191919);
+		@include respondTo(m){
+			height: 450px;
+		};
 	}
 }
 
@@ -132,6 +167,9 @@
 		@include absolute(0, $l:0);
 		@include wh2;
 		padding-top: 4em;
+		@include respondTo(m){
+			padding-top: 1em;
+		};
 		&:before {
 			@include psudoClass;
 			@include absolute(-20px);

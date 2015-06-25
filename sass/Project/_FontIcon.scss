@@ -14,6 +14,10 @@ $icon-layout: horizontal;
 		   &-#{$name} {
 		        @include wh2(txtImg_title-sprite-width(title-#{$name}) txtImg_title-sprite-height(title-#{$name}));
 		        margin: auto;
+		        &.mobile_title-group {
+		        	@include wh2(95% auto);
+		        	background-image: none;
+		        }
 		   }
 		}
 		&-team {
@@ -31,18 +35,33 @@ $icon-layout: horizontal;
 		}
 		&-cpComputer1, &-cpComputer2, &-cpComputer3 {
 			margin-bottom: 2em;
+			&.mobile_title {
+				height: auto;
+				background-image: none;
+			}
 		}
 		&-concordInf {
 			margin: 0 0 1.2em;
 		}
 		&-map {
 			margin: 3em 0 1.2em 2em;
+			&.mobile_title-group {
+				width: 100%;
+				margin: 1.2em 0;
+			}
 		}
 		&-sales1, &-sales2 {
 			margin: 0 0 1.2em;
 		}
 		&-MemberProfile {
 			margin-bottom: 3em;
+		}
+		&-lu {
+			&.mobile_title {
+				width: 100%;
+				height: auto;
+				background-image: none;
+			}
 		}
      }
 }
@@ -76,6 +95,10 @@ $icon-layout: horizontal;
 		&[data-lang="tw"] {
 			@include wh2(310 33);
 			@include bg-t(0, -139);
+		}
+		&.mobile_title {
+			@include wh2(95% auto);
+			background-image: none;
 		}
 	}
 	&-morechatroom {
@@ -141,7 +164,7 @@ $icon-layout: horizontal;
 	}
 	&-3 {
 		color: #000;
-		font-family: "MyriadProLight", Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-family: $ff-MyriadProLight;
 		@include adjFontSize(24px);
 		font-weight: normal;
 	}
@@ -159,7 +182,7 @@ $icon-layout: horizontal;
 		@include adjFontSize(51px);
 	}
 	&-r1 {
-		color: color($colors, nor, 2);
+		color: color($colors, nor, 2) !important;
 	}
 	&-ff1 {
 		font-family: $ff-MHeiHK;
@@ -173,6 +196,23 @@ $icon-layout: horizontal;
 	color: white;
 	@include adjFontSize(16px, 1.5);
 	letter-spacing: 1px;
+}
+
+.mobile_title {
+	text-align: center;
+	&.title-1 {
+		font-family: $ff-MyriadProLight;
+		font-weight: normal;
+		font-size: em(52);
+		letter-spacing: 1px;
+	}
+	&.title-2 {
+		width: 95%;
+		font-family: $normal_font;
+		font-weight: normal;
+		font-size: em(35);
+		letter-spacing: 1px;
+	}
 }
 
 .link {
@@ -247,6 +287,9 @@ $icon-layout: horizontal;
 		&-1 {
 			letter-spacing: 7px;
 		}
+		@include respondTo(m){
+			font-size: 1em;
+		};
 	}
 	&-4 {
 		font-family: $normal_font;
@@ -256,6 +299,9 @@ $icon-layout: horizontal;
 		line-height: 1.2;
 		&-1 {
 			font-size: em(24);
+			@include respondTo(m){
+				font-size: 1.2em;
+			};
 		}
 	}
 	&-5 {

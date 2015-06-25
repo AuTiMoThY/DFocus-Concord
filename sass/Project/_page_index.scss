@@ -27,6 +27,11 @@
 		h1, h2 {
 			margin: 0 auto 1em;
 		}
+		h1 {
+			@include respondTo(m){
+				margin-bottom: 0.5em;
+			};
+		}
 	}
 	.row4 {
 		height: auto;
@@ -59,4 +64,7 @@
 	&:active {
 		@include hover;
 	}
+	@include respondTo(m){
+		bottom: 28%;
+	};
 }

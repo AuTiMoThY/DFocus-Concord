@@ -108,9 +108,9 @@
 	<section class="row3">
 		<div class="wrapper cf">
 			<div class="col-2">
-				<header class="txtImg_title-title-concordInf">
-					<h1 class="hidden" data-lang="en">Advisory Chat Room</h1>
-					<h2 class="hidden" data-lang="tw">康和期顧相談室</h2>
+				<header class="txtImg_title-title-concordInf <?php isPhone('mobile_title-group'); ?>">
+					<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Advisory Chat Room</h1>
+					<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">康和期顧相談室</h2>
 				</header>
 				<div class="concordInf">
 					<p class="txt-1_2">許可證字號︰103年金管期經字第001號<br>
@@ -179,9 +179,9 @@
 	<section id="siteMap" class="fullbg row4">
 		<div class="bg"></div>
 		<div class="wrapper">
-			<header class="txtImg_title-title-map">
-				<h1 class="hidden" data-lang="en">Site Map</h1>
-				<h2 class="hidden" data-lang="tw">網站地圖</h2>
+			<header class="txtImg_title-title-map <?php isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Site Map</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">網站地圖</h2>
 			</header>
 			<div class="sitemap-sec cnt cf">
 				<div class="col-2">

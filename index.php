@@ -54,8 +54,8 @@
 	<section id="futures" class="row2">
 		<div class="wrapper">
 			<hgroup>
-				<h1 class="hide_txt txt_img-BusinessDivisons" data-lang="en">Business Divisons</h1>
-				<h2 class="hide_txt txt_img-BusinessDivisons" data-lang="tw">康和期經三大事業體</h2>
+				<h1 class="hide_txt txt_img-BusinessDivisons <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Business Divisons</h1>
+				<h2 class="hide_txt txt_img-BusinessDivisons <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">康和期經三大事業體</h2>
 			</hgroup>
 			<div class="cnt">
 				<ul class="futures-list cf">
@@ -102,9 +102,9 @@
 	<!--  section.row3  堅強團隊  START  -->
 	<section id="team" class="row3">
 		<div class="wrapper small">
-			<hgroup class="txtImg_title-title-team">
-				<h1 class="hidden" data-lang="en">Mangment Team</h1>
-				<h2 class="hidden" data-lang="tw">堅強團隊</h2>
+			<hgroup class="txtImg_title txtImg_title-title-team <?php isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Mangment Team</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="tw">堅強團隊</h2>
 			</hgroup>
 		</div>
 		<footer class="character-ft">
@@ -225,9 +225,9 @@
 	<!-- section.row4  市場消息  START  -->
 	<section class="fullbg row4">
 		<div class="wrapper">
-			<hgroup class="txtImg_title-title-news">
-				<h1 class="hidden" data-lang="en">News & Updates</h1>
-				<h2 class="hidden" data-lang="tw">市場消息</h2>
+			<hgroup class="txtImg_title-title-news <?php isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">News & Updates</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">市場消息</h2>
 			</hgroup>
 			<div class="metro-wrap">
 				<div class="metro-container">

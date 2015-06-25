@@ -41,9 +41,9 @@
 <main class="">
 	<section class="row1">
 		<div class="wrapper small">
-			<hgroup class="txtImg_title-title-solution">
-				<h1 class="hidden" data-lang="en">Customized Solutions</h1>
-				<h2 class="hidden" data-lang="tw">選擇康和期經</h2>
+			<hgroup class="txtImg_title-title-solution <?php isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Customized Solutions</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">選擇康和期經</h2>
 			</hgroup>
 			<div class="cnt">
 				<p class="txt-1_3">康和期貨經理事業股份有限公司為康和證券集團成員，基於金融市場長期的發展趨勢，陸續設置期貨服務事業之相關部門，秉持專業、積極的服務態度，提供客戶健全、客制化的投資工具及多樣化的金融商品，滿足投資人資產配置及財務風險規劃的服務需求，替大型投資法人與一般自然人做完整之金融代工、商品設計、顧問輔導咨詢與期貨信託受益憑證發行服務，相關業務拓展至兩岸三地華人市場。</p>
@@ -96,9 +96,9 @@
 	</section>
 	<section id="capitalPreservation" class="row3">
 		<div class="wrapper small">
-			<hgroup class="txtImg_title-title-cp">
-				<h1 class="hidden" data-lang="en">Customize Solution</h1>
-				<h2 class="hidden" data-lang="tw">選擇康和期經</h2>
+			<hgroup class="txtImg_title-title-cp <?php isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Customize Solution</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">選擇康和期經</h2>
 			</hgroup>
 			<img src="<?php path_au('img'); ?>about-row3.jpg" alt="">
 			<div class="cnt">
@@ -134,7 +134,7 @@ $aboutCharacter = array(
 	array('index'=> '4', 'name'=> '方琮櫻', 'title'=>'副總經理'),
 	array('index'=> '5', 'name'=> '高昊岑', 'title'=>'信託事業部<br>協理'),
 	array('index'=> '6', 'name'=> '謝增泉', 'title'=>'全權委託協理<br>交易決定人'),
-	array('index'=> '7', 'name'=> '張資政', 'title'=>'交易室主管'),
+	array('index'=> '7', 'name'=> '張資政', 'title'=>'協管基金經理人'),
 	array('index'=> '8', 'name'=> '簡士傑', 'title'=>'基金事務主管<br>經理'),
 	array('index'=> '9', 'name'=> '簡祥全', 'title'=>'風險管理室'),
 	array('index'=> '10', 'name'=> '廖又瑨', 'title'=>'專案經理'),
