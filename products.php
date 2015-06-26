@@ -92,7 +92,7 @@ if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
 echo $content;
 ?>
 							</p>
-							<a href="products_cnt.php" class="btn btn-pdtMore txt-r1 link-3 btn2">僅限授權專業投資人登入</a>
+							<a href="https://fm.concordfutures.com.tw/fundM/" class="btn btn-pdtMore txt-r1 link-3 btn2" target="_blank">僅限授權專業投資人登入</a>
 						</div>
 					</div><!-- /.metro-block-style1  END  !! -->
 				</div><!-- /.metro-row  END  !! -->
