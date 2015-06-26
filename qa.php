@@ -116,23 +116,34 @@
 								<li class="faq-item">
 									<h3 class="faq-item-q">
 										<span class="col">Q 02：</span>
-										<span class="col">問題</span>
+										<span class="col">如何開戶？</span>
 										<i class="fa fa-caret-down"></i>
 									</h3>
 									<div class="faq-item-a">
 									<!-- 圖文編輯器 -->
-										<p>答案</p>
+										<p>請洽官網下載填妥開戶約定書後，將開戶約定書交至康和期貨經理事業基金事務部或郵寄正本至康和期貨經理事業。開戶文件須為正本不可傳真開戶。康和期經基金事務部收到開戶正本，會主動和客戶通知。</p>
 									</div>
 								</li>
 								<li class="faq-item">
 									<h3 class="faq-item-q">
 										<span class="col">Q 03：</span>
-										<span class="col">問題</span>
+										<span class="col">我想幫我子女準備教育基金，我可以幫我子女代為開戶嗎？</span>
 										<i class="fa fa-caret-down"></i>
 									</h3>
 									<div class="faq-item-a">
 									<!-- 圖文編輯器 -->
-										<p>答案</p>
+										<p>如子女未成年，基金商品適合度分析表由法定代理人之經驗填寫。父母為未成年子女之法定代理人，對於未成年子女之權利義務，依民法規定，除法律另有規定外，由父母共同行使或負擔。因此，為善盡公司義務，以及確保父母雙方的權利義務，需同時留存父母親雙方證件資料以及印鑑章。</p>
+									</div>
+								</li>
+								<li class="faq-item">
+									<h3 class="faq-item-q">
+										<span class="col">Q 04：</span>
+										<span class="col">開戶作業流程？</span>
+										<i class="fa fa-caret-down"></i>
+									</h3>
+									<div class="faq-item-a">
+									<!-- 圖文編輯器 -->
+										<p>若您的開戶文件沒有問題，一般的開戶審核作業大約在3個工作天內，若您於開戶時有指定自動扣款帳戶（意即有附上「全國性繳費(稅)業務授權轉帳扣款申請書」），因該文件需經銀行核印，作業時間依各銀行實際作業而定，一般約需15~20個工作天。  </p>
 									</div>
 								</li>
 							</ul>
