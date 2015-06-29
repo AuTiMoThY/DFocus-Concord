@@ -56,6 +56,7 @@
 					<div class="col-2">
 						<span class="txt-1">分類</span>
 						<select name="" id="" class="monthlyreport-select">
+							<option value="">所有</option>
 							<option value="">2015 年 Q1</option>
 							<option value="">2014 年 Q4</option>
 							<option value="">2014 年 Q3</option>

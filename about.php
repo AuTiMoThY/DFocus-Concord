@@ -110,6 +110,13 @@
 	<section id="teamProfile" class="fullbg row4">
 		<div class="bg"></div>
 		<div class="wrapper">
+			<hgroup class="txtImg_title-title-team2 <?php isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Team Profile</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">堅強團隊</h2>
+			</hgroup>
+			<div class="wrapper small">
+				<p class="txt-1_3">康和期經2015年導入金融機構自營交易系統,多空操作活化資產配置管理期貨操作比重提升資產投資效率l策略交易式選股操作,規避系統性風險導入多重經理人交易策略量化配置系統平滑損益曲線有效控制年化報酬區間，降低整體波動影響</p>
+			</div>
 			<div class="cnt">
 				<ul class="character-list cf">
 					<li class="character-item"><a href="character.php?character=1">

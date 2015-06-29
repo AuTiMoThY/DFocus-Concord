@@ -2816,91 +2816,91 @@ header.chatroom {
 }
 
 .about-character1.character-pic:before {
-  background-position: 27% 7%;
+  background-position: 13% 24%;
 }
 
 .index-character1.character-pic:before {
-  background-position: 18% 100%;
+  background-position: 13% 8%;
 }
 
 .about-character2.character-pic:before {
-  background-position: 55% 35%;
+  background-position: 47% 51%;
 }
 
 .index-character2.character-pic:before {
-  background-position: 20% 68%;
+  background-position: 69% 82%;
 }
 
 .about-character3.character-pic:before {
-  background-position: 27% 100%;
+  background-position: 6% 2%;
 }
 
 .index-character3.character-pic:before {
-  background-position: 20% 6%;
+  background-position: 25% 20%;
 }
 
 .about-character4.character-pic:before {
-  background-position: 67% 93%;
+  background-position: 79% 60%;
 }
 
 .index-character4.character-pic:before {
-  background-position: 91% 24%;
+  background-position: 94% 12%;
 }
 
 .about-character5.character-pic:before {
-  background-position: 80% 60%;
+  background-position: 20% 67%;
 }
 
 .index-character5.character-pic:before {
-  background-position: 28% 26%;
+  background-position: 67% 67%;
 }
 
 .about-character6.character-pic:before {
-  background-position: 1% 54%;
+  background-position: 87% 14%;
 }
 
 .index-character6.character-pic:before {
-  background-position: 25% 32%;
+  background-position: 61% 13%;
 }
 
 .about-character7.character-pic:before {
-  background-position: 48% 34%;
+  background-position: 64% 68%;
 }
 
 .index-character7.character-pic:before {
-  background-position: 16% 8%;
+  background-position: 82% 18%;
 }
 
 .about-character8.character-pic:before {
-  background-position: 22% 75%;
+  background-position: 9% 88%;
 }
 
 .index-character8.character-pic:before {
-  background-position: 19% 93%;
+  background-position: 5% 11%;
 }
 
 .about-character9.character-pic:before {
-  background-position: 51% 92%;
+  background-position: 83% 61%;
 }
 
 .index-character9.character-pic:before {
-  background-position: 85% 60%;
+  background-position: 50% 41%;
 }
 
 .about-character10.character-pic:before {
-  background-position: 83% 12%;
+  background-position: 94% 69%;
 }
 
 .index-character10.character-pic:before {
-  background-position: 17% 47%;
+  background-position: 86% 22%;
 }
 
 .about-character11.character-pic:before {
-  background-position: 68% 67%;
+  background-position: 4% 9%;
 }
 
 .index-character11.character-pic:before {
-  background-position: 96% 46%;
+  background-position: 44% 69%;
 }
 
 .character-pic img {
@@ -3147,8 +3147,8 @@ header.chatroom {
 /*========================================================================*\
 		>	font & icon
 \*========================================================================*/
-.txtImg_title-sprite, .txtImg_title-title-MemberProfile, .txtImg_title-title-chatroom, .txtImg_title-title-concordInf, .txtImg_title-title-cp, .txtImg_title-title-cp2, .txtImg_title-title-cpComputer1, .txtImg_title-title-cpComputer2, .txtImg_title-title-cpComputer3, .txtImg_title-title-download, .txtImg_title-title-futures1, .txtImg_title-title-futures2, .txtImg_title-title-futures3, .txtImg_title-title-index_row1, .txtImg_title-title-lu, .txtImg_title-title-map, .txtImg_title-title-monthlyreport, .txtImg_title-title-news, .txtImg_title-title-prodCnt, .txtImg_title-title-qa, .txtImg_title-title-sales1, .txtImg_title-title-sales2, .txtImg_title-title-saleschannel, .txtImg_title-title-search, .txtImg_title-title-service1, .txtImg_title-title-service2, .txtImg_title-title-service3, .txtImg_title-title-service4, .txtImg_title-title-solution, .txtImg_title-title-team {
-  background-image: url('../images/txtImg_title-sc6343322fd.png');
+.txtImg_title-sprite, .txtImg_title-title-MemberProfile, .txtImg_title-title-chatroom, .txtImg_title-title-concordInf, .txtImg_title-title-cp, .txtImg_title-title-cp2, .txtImg_title-title-cpComputer1, .txtImg_title-title-cpComputer2, .txtImg_title-title-cpComputer3, .txtImg_title-title-download, .txtImg_title-title-futures1, .txtImg_title-title-futures2, .txtImg_title-title-futures3, .txtImg_title-title-index_row1, .txtImg_title-title-lu, .txtImg_title-title-map, .txtImg_title-title-monthlyreport, .txtImg_title-title-news, .txtImg_title-title-prodCnt, .txtImg_title-title-qa, .txtImg_title-title-sales1, .txtImg_title-title-sales2, .txtImg_title-title-saleschannel, .txtImg_title-title-search, .txtImg_title-title-service1, .txtImg_title-title-service2, .txtImg_title-title-service3, .txtImg_title-title-service4, .txtImg_title-title-solution, .txtImg_title-title-team, .txtImg_title-title-team2 {
+  background-image: url('../images/txtImg_title-s3a2a7d54e1.png');
   background-repeat: no-repeat;
 }
 
@@ -3271,6 +3271,10 @@ header.chatroom {
 
 .txtImg_title-title-team {
   background-position: 0 -1981px;
+}
+
+.txtImg_title-title-team2 {
+  background-position: 0 -2082px;
 }
 
 .txtImg_futures-futures-1 {
@@ -3557,8 +3561,24 @@ header.chatroom {
   height: auto;
   background-image: none;
 }
+.txtImg_title-title-team2 {
+  width: 283px;
+  height: 92px;
+  margin: auto;
+}
+.txtImg_title-title-team2.mobile_title-group {
+  width: 95%;
+  height: auto;
+  background-image: none;
+}
 .txtImg_title-title-team {
   margin-bottom: 3em;
+}
+.txtImg_title-title-team2 {
+  margin-top: 24px;
+  margin-top: 1.5rem;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 .txtImg_title-title-news {
   background-color: transparent;

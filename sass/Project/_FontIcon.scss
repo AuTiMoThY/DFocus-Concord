@@ -10,7 +10,7 @@ $icon-layout: horizontal;
 
 .txtImg_title {
      &-title {
-		@each $name in team, news, search, index_row1, lu, solution, cp, cp2, cpComputer1, cpComputer2, cpComputer3, chatroom, futures1, futures2, futures3, service4, service3, service2, service1, concordInf, map, monthlyreport, download, sales1, sales2, MemberProfile {
+		@each $name in team, news, search, index_row1, lu, solution, cp, cp2, cpComputer1, cpComputer2, cpComputer3, chatroom, futures1, futures2, futures3, service4, service3, service2, service1, concordInf, map, monthlyreport, download, sales1, sales2, MemberProfile, team2 {
 		   &-#{$name} {
 		        @include wh2(txtImg_title-sprite-width(title-#{$name}) txtImg_title-sprite-height(title-#{$name}));
 		        margin: auto;
@@ -22,6 +22,9 @@ $icon-layout: horizontal;
 		}
 		&-team {
 			margin-bottom: 3em;
+		}
+		&-team2 {
+			@include rhythm-margins;
 		}
 		&-news {
 			@include bg(transparent);
