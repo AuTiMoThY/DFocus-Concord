@@ -1,60 +1,6 @@
 @charset "UTF-8";
 
-.banner {
-	position: relative;
-	z-index: 10;
-	@include bgRWD('null', 1920, 857);
-	@include bg(50%, 0);
-	background-repeat: no-repeat;
-	// @include bg(fixed);
-	@include respondTo(m){
-		padding-bottom: 65%;
-		@include bg(90%, 0);
-	};
-	.about_page & {
-		@include bgRWD('null', 1920, 478);
-		@include respondTo(m){
-			padding-bottom: 35%;
-			@include bg(80%, 0);
-		};
-	}
-	.products_page & {
-		@include bgRWD('null', 1920, 478);
-		@include respondTo(m){
-			padding-bottom: 35%;
-			@include bg(80%, 0);
-		};
-	}
-	.chatroom_page & {
-		@include bgRWD('null', 1920, 478);
-		@include respondTo(m){
-			padding-bottom: 35%;
-			@include bg(80%, 0);
-		};
-	}
-	.news_page & {
-		@include bgRWD('null', 1920, 478);
-		@include respondTo(m){
-			padding-bottom: 35%;
-			@include bg(80%, 0);
-		};
-	}
-	.service_page & {
-		@include bgRWD('null', 1920, 478);
-		@include respondTo(m){
-			padding-bottom: 35%;
-			@include bg(80%, 0);
-		};
-	}
-	.character_page & {
-		@include bgRWD('null', 1920, 650);
-		@include respondTo(m){
-			padding-bottom: 35%;
-			@include bg(80%, 0);
-		};
-	}
 
-}
 
 /*========================================================================*\
 		>>	layout main

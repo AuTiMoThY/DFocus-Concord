@@ -145,8 +145,8 @@ $aboutCharacter = array(
 	array('index'=> '12', 'name'=> '丁啟倫', 'title'=>'協管基金經理人'),
 	array('index'=> '8', 'name'=> '簡士傑', 'title'=>'基金事務主管<br>經理'),
 	array('index'=> '9', 'name'=> '簡祥全', 'title'=>'風險管理室'),
-	array('index'=> '10', 'name'=> '廖又瑨', 'title'=>'專案經理'),
-	array('index'=> '11', 'name'=> '許蕙蘭', 'title'=>'襄理'),
+	array('index'=> '10', 'name'=> '廖又瑨', 'title'=>'顧問事業部主管'),
+	array('index'=> '11', 'name'=> '許蕙蘭', 'title'=>'管理部主管'),
 );
 foreach ($aboutCharacter as $key => $value) {
 ?>

@@ -34,8 +34,14 @@
 //app
   include_once INC_PATH.'header.php';
  ?>
-<section class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index.jpg')">
-	<a href="javascript: txtmsg1();" class="index-banner hide_txt">more info</a>
+<section id="bannerSlider" class="banner flexslider" >
+	<ul class="slides">
+		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index1.jpg')"><a href="javascript: txtmsg1();" class="index-banner hide_txt">more info</a></li>
+		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index2.jpg')"><a href="javascript: txtmsg1();" class="index-banner hide_txt">more info</a></li>
+		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index3.jpg')"><a href="javascript: txtmsg1();" class="index-banner hide_txt">more info</a></li>
+		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index4.jpg')"><a href="javascript: txtmsg1();" class="index-banner hide_txt">more info</a></li>
+	</ul>
+	
 </section>
 
 <main class="">
@@ -321,6 +327,14 @@
   include_once INC_PATH.'scriptfoot.php';
  ?>
 <script>
+$(window).load(function() {
+	$("#bannerSlider").flexslider({
+		animation      : "fade",
+		controlNav     : true,
+		directionNav   : false,
+		slideshowSpeed : 5000
+	})
+});
 $(function() {
 	var $charMarquee = $("#charMarquee");
 	var charMarqueeH = $charMarquee.outerHeight();
