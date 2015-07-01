@@ -227,6 +227,7 @@ echo $content;
 					</div><!-- /.metro-row  END  !! -->
 				</div>
 			</div><!-- /.metro-wrap  END  !! -->
+
 <div class="pages_btn">
 	<ul>
 		<li class="prev"><a href="#"><i class="icon ib"></i><span class="txt ib">上一頁</span></a></li><!-- 在第一頁時不顯示 -->
@@ -242,6 +243,7 @@ echo $content;
 	</section>
 	<section class="row3">
 		<div class="wrapper">
+<iframe src="http://ec.cn.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&features=datepicker,timezone&countries=37,6,110,14,48,46,32,17,10,36,43,35,72,22,41,25,12,5,4,26,11,39,42&calType=day&timeZone=28&lang=6" width="636" height="467" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">实时财经日历由领先金融门户 <a href="http://cn.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link">Investing.com 中文站</a> 提供。</span></div>
 			<footer class="share_bar cf">
 				<div class="social_share left">
 					<span class="txt-1">文章分享</span>

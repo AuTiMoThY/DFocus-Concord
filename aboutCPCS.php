@@ -78,9 +78,9 @@
 						<h3 class="txtImg_title-title-cpComputer2 hide_txt <?php isPhone('mobile_title'); ?> title-2">投資報酬率計算機</h3>
 						<p class="txt-1_3">這個投資報酬率計算機(持有期間報酬率計算機)目的是幫你計算一個投資的投資報酬率，或說持有期間報酬率。它有四個變數可以輸入，然後計算機會算出這段期間的投資報酬率 (持有期間報酬率)，你需要輸入原始投資金額，最後取出的贖回金額，期間所有領回的利息或現金股息，以及以年計算的投資期間，計算機會算出投資期間的年化報酬率。<br>這個投資報酬率計算機的假設是，期間所有領回的利息或現金股息是平均於每年領回，例如投資期間十年，合計領回100萬元，則計算的方式是假定每年都平均地領回10萬元的利息或現金股息，如果實際上不是平均地領回，則本計算機的結果只能當作參考，領回的速度比平均值越快，則表示該投資的實際投資報酬率會比本計算機的結果還要略好。<br>如果是用來做投資計畫的評估時，則當投資報酬率計算機所得的結果，報酬率低於取得的資金成本時，則該投資計畫就不值得去做，如果高於資金機會成本時，還應該衡量投資期限的長短，以及可能的失敗風險，來決定投資計畫的報酬率是否有足夠的風險溢價來投資。</p>
 						<a href="http://www.pjhuang.tw/72rule/annuity_rate.php" class="btn btn-goComputer txt-1 link-2" target="_blank">投資報酬計算機</a>
-						<div class="cp_computer-pic1 pic" style="width: 590px; height:485px;">
+						<!-- <div class="cp_computer-pic1 pic" style="width: 590px; height:485px;">
 							<iframe src="http://www.pjhuang.tw/72rule/annuity_rate.php" frameborder="0" style="width:100%; height: 100%;"></iframe>
-						</div>
+						</div> -->
 					</div>
 				</div>
 				<div class="row3">
