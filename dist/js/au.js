@@ -78,6 +78,20 @@ function isOpen($this, $thisClass) {
      };
 }
 
+function mainNavLink(whereYouGo) {
+	switch(whereYouGo) {
+		case "goto2":
+			location.href="index.php#futures";
+			break;
+		case "goto3":
+			location.href="products.php";
+			break;
+		case "goto5":
+			location.href="service.php";
+			break;
+	}
+}
+
 /*------------------------------------------------------------------------*\
 /*------------------------------------------------------------------------*\
 /*========================================================================*\
@@ -143,22 +157,22 @@ $(function () {
 	}else {
 		// console.log('not ie');
 		$.material.init();
-		if(!userAgent.match(/(iPhone|iPad|Android)/)){
-			var tween = TweenMax.to("#globalHeader", 0.3, {
-				height: 50,
-				ease: Power1.easeInOut
-			});
+		// if(!userAgent.match(/(iPhone|iPad|Android)/)){
+		// 	var tween = TweenMax.to("#globalHeader", 0.3, {
+		// 		height: 50,
+		// 		ease: Power1.easeInOut
+		// 	});
 
-			new ScrollMagic.Scene({
-				triggerElement: "#globalHeader",
-				offset: 0
-			})
-			.setTween(tween)
-			.setPin("#globalHeader")
-			.triggerHook(0)
-			// .addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
-			.addTo(simplePinning);
-				}
+		// 	new ScrollMagic.Scene({
+		// 		triggerElement: "#globalHeader",
+		// 		offset: 0
+		// 	})
+		// 	.setTween(tween)
+		// 	.setPin("#globalHeader")
+		// 	.triggerHook(0)
+		// 	// .addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
+		// 	.addTo(simplePinning);
+		// }
 
 	}
 
@@ -224,6 +238,15 @@ $(function () {
 		}else {
 			$("nav.main_nav").removeClass('js-nav_open');
 		};
+	});
+
+
+	$(".main_nav-item:has('ul')").hover(function() {
+		$(this).addClass('js-hover');
+		// $("#subNavBar").addClass('active');
+	}, function() {
+		$(this).removeClass('js-hover');
+		// $("#subNavBar").removeClass('active');
 	});
 
 })

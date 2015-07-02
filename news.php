@@ -266,6 +266,7 @@ echo $content;
 		</div>
 	</section>
 
+
 </main>
 
 <?php

@@ -4,10 +4,10 @@
  ?>
 
 <div id="top"></div>
-<header id="<?php notPhone('globalHeader'); ?>" class="global_hd">
+<header id="<?php notPhone('globalHeader'); ?>" class="global_hd <?php isPhone('mobile_header'); ?>">
 	<!-- <div class="wrapper"> -->
 		<header id="logo" class="ib"><a href="<?php webPageUrlAu('index'); ?>" title="康和期貨網站首頁"><img src="<?php path_au('img'); ?>LOGO.png" alt=""></a></header>
-		<nav class="main_nav ib">
+		<nav class="main_nav ib ">
 			<ul class="cf">
 			<?php headerNavAu(); ?>
 				<li class="quick_bar">

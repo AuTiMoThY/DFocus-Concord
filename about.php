@@ -2,6 +2,7 @@
 	include_once 'config.php';
 	include_once INC_PATH.'headleader.php';
 	require_once INC_PATH.'aunav.php';
+	include_once 'dist/character_data.php';
 ?>
 <title>康和期經介紹 | <?php echo $webTitle; ?></title>
 
@@ -56,9 +57,18 @@
 				<div class="futures_bar-bg"></div>
 				<div class="futures_bar-list wrapper small">
 					<ul class="cf">
-						<li id="futuresSec1" class="futures_bar-item active"><div class="txtImg_futures-futures-1 hide_txt txt">期貨經理事業</div></li>
-						<li id="futuresSec2" class="futures_bar-item"><div class="txtImg_futures-futures-2 hide_txt txt">期貨信託事業</div></li>
-						<li id="futuresSec3" class="futures_bar-item"><div class="txtImg_futures-futures-3 hide_txt txt">期貨顧問事業</div></li>
+						<li id="futuresSec1" class="futures_bar-item active">
+							<a href="<?php webPageUrlAu('futures_managed'); ?>"></a>
+							<div class="txtImg_futures-futures-1 hide_txt txt">期貨經理事業</div>
+						</li>
+						<li id="futuresSec2" class="futures_bar-item">
+							<a href="<?php webPageUrlAu('futures_fund'); ?>"></a>
+							<div class="txtImg_futures-futures-2 hide_txt txt">期貨信託事業</div>
+						</li>
+						<li id="futuresSec3" class="futures_bar-item">
+							<a href="<?php webPageUrlAu('futures_advisory'); ?>"></a>
+							<div class="txtImg_futures-futures-3 hide_txt txt">期貨顧問事業</div>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -119,7 +129,7 @@
 			</div>
 			<div class="cnt">
 				<ul class="character-list cf">
-					<li class="character-item"><a href="character.php?character=1">
+<!-- 					<li class="character-item"><a href="character.php?character=1">
 						<figure>
 							<div class="character-pic pic about-character1">
 								<img src="upload/character/character1.png" alt="" class="">
@@ -133,23 +143,10 @@
 								</div>
 							</figcaption>
 						</figure>
-					</a></li>
-<?php
-$aboutCharacter = array(
-	array('index'=> '2', 'name'=> '林彥全', 'title'=>'首席投資顧問<br>總經理'),
-	array('index'=> '3', 'name'=> '林豪威', 'title'=>'投資長'),
-	array('index'=> '4', 'name'=> '方琮櫻', 'title'=>'副總經理'),
-	array('index'=> '5', 'name'=> '高昊岑', 'title'=>'信託事業部<br>協理'),
-	array('index'=> '6', 'name'=> '謝增泉', 'title'=>'全權委託協理<br>交易決定人'),
-	array('index'=> '7', 'name'=> '張資政', 'title'=>'協管基金經理人'),
-	array('index'=> '12', 'name'=> '丁啟倫', 'title'=>'協管基金經理人'),
-	array('index'=> '8', 'name'=> '簡士傑', 'title'=>'基金事務主管<br>經理'),
-	array('index'=> '9', 'name'=> '簡祥全', 'title'=>'風險管理室'),
-	array('index'=> '10', 'name'=> '廖又瑨', 'title'=>'顧問事業部主管'),
-	array('index'=> '11', 'name'=> '許蕙蘭', 'title'=>'管理部主管'),
-);
-foreach ($aboutCharacter as $key => $value) {
-?>
+					</a></li> -->
+
+<?php foreach ($aboutCharacter as $key => $value) { ?>
+
 					<li class="character-item"><a href="character.php?character=<?php echo $aboutCharacter[$key]['index'];?>">
 						<figure>
 							<div class="character-pic pic about-character<?php echo $aboutCharacter[$key]['index'];?>">
@@ -229,6 +226,9 @@ $(function() {
 		futuresSec3();
 		futuresSec1Click();
 		isActive($("#futuresSec1"), $("#futuresSec1.active"));
+		// if ($("#futuresSec1").hasClass("active")) {
+		// 	$("#futuresSec1").append("<a href=\"<?php webPageUrlAu('futures_managed'); ?>\"></a>");
+		// };
 	}
 	function futuresSec2Active() {
 		futuresSec2Hover();

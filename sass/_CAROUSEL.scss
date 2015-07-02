@@ -54,6 +54,18 @@ $slider-pb: (857 / 1920) * 100%;
 			@include bg(80%, 0);
 		};
 	}
+	.phone {
+		@include absolute(19em, 2em);
+		width: 175px;
+		text-align: center;
+		@include respondTo(m){
+			display: none;
+			// position: relative;
+			// top: 160px;
+			// left: 0;
+			// width: 100%;
+		};
+	}
 
 }
 

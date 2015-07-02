@@ -36,11 +36,24 @@
 
   <div id="bannerTrigger"></div>
 <section id="bigBanner" >
-	<div  id="pageBanner" class="banner" style="background-image: url('<?php path_au('img'); ?>banner-service.jpg')"></div>
+	<div  id="pageBanner" class="banner" style="background-image: url('<?php path_au('img'); ?>banner-service.jpg')">
+		<div class="wrapper">
+<div class="phone">
+	<a href="tel:0800-003-958"><span class="txt-1_1 txt-ff1">0800-003-958</span></a>
+	<a href="tel:02-3765-3688"><span class="txt-1_1 txt-ff1">(02)3765-3688</span></a>
+</div>
+		</div>
+	</div>
 </section>
 
 <main class="">
-	<section class="row1">
+<?php 	if ($deviceType == 'phone') { ?>
+	<div class="phone" style="text-align: center;">
+		<a href="tel:0800-003-958"><span class="txt-1_1 txt-ff1">0800-003-958</span></a><br>
+		<a href="tel:02-3765-3688"><span class="txt-1_1 txt-ff1">(02)3765-3688</span></a>
+	</div>
+<?php } ?>
+	<section class="row1" <?php if ($deviceType == 'phone') { echo "style=\"padding-top:0;\"";} ?>>
 		<div class="wrapper">
 			<div class="cnt service-category">
 				<div class="row1 cf">
@@ -99,9 +112,11 @@
 		</div>
 	</section>
 	<section class="row2 fullbg map">
-	   <div class="iframe-rwd">
-	        <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7389305396496!2d121.56517119999998!3d25.0429324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbea42bcd13%3A0x82c3dcada6a1a738!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5Z-66ZqG6Lev5LiA5q61MTc26Jmf56uL5qWt5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1434957132505"></iframe><br /><small><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7389305396496!2d121.56517119999998!3d25.0429324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbea42bcd13%3A0x82c3dcada6a1a738!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5Z-66ZqG6Lev5LiA5q61MTc26Jmf56uL5qWt5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1434957132505" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-	    </div>
+<div class="wrapper">
+	<div class="iframe-rwd">
+	     <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7389305396496!2d121.56517119999998!3d25.0429324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbea42bcd13%3A0x82c3dcada6a1a738!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5Z-66ZqG6Lev5LiA5q61MTc26Jmf56uL5qWt5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1434957132505"></iframe><br /><small><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7389305396496!2d121.56517119999998!3d25.0429324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbea42bcd13%3A0x82c3dcada6a1a738!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5Z-66ZqG6Lev5LiA5q61MTc26Jmf56uL5qWt5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1434957132505" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+	 </div>
+</div>
 <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7389305396496!2d121.56517119999998!3d25.0429324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abbea42bcd13%3A0x82c3dcada6a1a738!2zMTEw5Y-w5YyX5biC5L-h576p5Y2A5Z-66ZqG6Lev5LiA5q61MTc26Jmf56uL5qWt5aSn5qiT!5e0!3m2!1szh-TW!2stw!4v1434957132505" width="600" height="450" frameborder="0" style="border:0"></iframe> -->
 		<!-- <img src="<?php //path_au('img'); ?>map.jpg" alt=""> -->
 	</section>

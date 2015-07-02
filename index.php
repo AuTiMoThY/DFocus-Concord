@@ -71,7 +71,7 @@
 								<img src="<?php path_au('img'); ?>pic1.jpg" alt="">
 							</div>
 							<figcaption>
-								<p class="futures-item-intro txt-2">期貨經理事業係指經營接受特定人委任，對委任人之委託交易資產，就有關期貨交易、期貨相關現貨商品或其他經主管機關核准項目之交易或投資為分析、判斷，並基於該分析、判斷，為委任人執行期貨交易之業務者</p>
+								<!-- <p class="futures-item-intro txt-2">期貨經理事業係指經營接受特定人委任，對委任人之委託交易資產，就有關期貨交易、期貨相關現貨商品或其他經主管機關核准項目之交易或投資為分析、判斷，並基於該分析、判斷，為委任人執行期貨交易之業務者</p> -->
 							</figcaption>
 						</a></figure>
 						<p class="txt-ff1 txt-1">Futures Managed Account</p>
@@ -83,7 +83,7 @@
 								<img src="<?php path_au('img'); ?>pic2.jpg" alt="">
 							</div>
 							<figcaption>
-								<p class="futures-item-intro txt-2">國內期貨信託事業係以向不特定人或符合主管機關所定資格條件之人募集期貨信託基金發行受益憑證，並運用期貨信託基金從事交易或投資之事業。聚集更多的小額資金，配合專業穩健的研究投資團隊，為廣大投資人進行審慎與安全的期貨交易，提供一個可參與國內外期貨市場的管道。</p>
+								<!-- <p class="futures-item-intro txt-2">國內期貨信託事業係以向不特定人或符合主管機關所定資格條件之人募集期貨信託基金發行受益憑證，並運用期貨信託基金從事交易或投資之事業。聚集更多的小額資金，配合專業穩健的研究投資團隊，為廣大投資人進行審慎與安全的期貨交易，提供一個可參與國內外期貨市場的管道。</p> -->
 							</figcaption>
 						</a></figure>
 						<p class="txt-ff1 txt-1">Futures Fund</p>
@@ -94,7 +94,9 @@
 							<div class="futures-pic pic">
 								<img src="<?php path_au('img'); ?>pic3.jpg" alt="">
 							</div>
-							<figcaption><p class="futures-item-intro txt-2">期貨顧問事業業務係以接受委任，對期貨交易、期貨信託基金、期貨相關現貨商品或其他經主管機關公告與核准項目之交易或投資有關事項提供研究分析意見或建議咨詢服務，與執行前款有關期貨交易或投資之出版品發行及舉辦講習者。</p></figcaption>
+							<figcaption>
+								<!-- <p class="futures-item-intro txt-2">期貨顧問事業業務係以接受委任，對期貨交易、期貨信託基金、期貨相關現貨商品或其他經主管機關公告與核准項目之交易或投資有關事項提供研究分析意見或建議咨詢服務，與執行前款有關期貨交易或投資之出版品發行及舉辦講習者。</p> -->
+							</figcaption>
 						</a></figure>
 						<p class="txt-ff1 txt-1">Futures Advisory</p>
 						<p class="txt-ff1 txt-1">期貨顧問事業</p>
