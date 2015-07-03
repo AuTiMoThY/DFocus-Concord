@@ -39,8 +39,8 @@
 	<div  id="pageBanner" class="banner" style="background-image: url('<?php path_au('img'); ?>banner-service.jpg')">
 		<div class="wrapper">
 <div class="phone">
-	<a href="tel:0800-003-958"><span class="txt-1_1 txt-ff1">0800-003-958</span></a>
-	<a href="tel:02-3765-3688"><span class="txt-1_1 txt-ff1">(02)3765-3688</span></a>
+	<a href="tel:0800003958"><span class="txt-1_1 txt-ff1">0800-003-958</span></a>
+	<a href="tel:0237653688"><span class="txt-1_1 txt-ff1">(02)3765-3688</span></a>
 </div>
 		</div>
 	</div>

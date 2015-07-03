@@ -184,6 +184,18 @@ $icon-layout: horizontal;
 	&-5 {
 		@include adjFontSize(51px);
 	}
+	&-6 {
+		color: #fff;
+		font-size: em(17);
+		font-family: $ff-MyriadProLight;
+		letter-spacing: 1px;
+	}
+	&-6_1 {
+		color: #fff;
+		font-size: em(17);
+		font-family: $ff-MHeiHK;
+		letter-spacing: 1px;
+	}
 	&-r1 {
 		color: color($colors, nor, 2) !important;
 	}

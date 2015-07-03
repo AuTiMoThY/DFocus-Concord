@@ -45,6 +45,49 @@
 </section>
 
 <main class="">
+	<section id="netAssetValueBar" class="fullbg row0 net_asset_value">
+		<div class="wrapper cf">
+			<div class="col-3 txt-6">TODAY’S NET ASSET VALUE</div>
+			<div class="col-3">
+				<label for="" class="net_asset_value-label col ">
+					<span class="net_asset_value-label-bg"></span>
+					<span class="net_asset_value-label-cnt txt-6_1">基金淨值日</span>
+				</label>
+				<div class="net_asset_value-txt col txt-6">2015 / 07 / 01</div>
+			</div>
+			<div class="col-3">
+				<label for="" class="net_asset_value-label col ">
+					<span class="net_asset_value-label-bg"></span>
+					<span class="net_asset_value-label-cnt txt-6_1">最新淨值</span>
+				</label>
+				<div class="net_asset_value-txt col txt-6">10.190</div>
+				<button type="button" id="netAssetValueBtn" class="btn btn-more">
+					more
+				</button>
+			</div>
+		</div>
+		<div id="netAssetValuePanel" class="net_asset_value-history">
+			<div class="wrapper">
+<ul class="cf">
+	<li> <span class="date">2015/06/30</span><span class="num">10.158</span> </li>
+	<li> <span class="date">2015/06/29</span><span class="num">10.125</span> </li>
+	<li> <span class="date">2015/06/26</span><span class="num">10.223</span> </li>
+	<li> <span class="date">2015/06/25</span><span class="num">10.225</span> </li>
+	<li> <span class="date">2015/06/24</span><span class="num">10.199</span> </li>
+	<li> <span class="date">2015/06/23</span><span class="num">10.198</span> </li>
+	<li> <span class="date">2015/06/22</span><span class="num">10.161</span> </li>
+	<li> <span class="date">2015/06/18</span><span class="num">10.169</span> </li>
+	<li> <span class="date">2015/06/17</span><span class="num">10.174</span> </li>
+	<li> <span class="date">2015/06/16</span><span class="num">10.179</span> </li>
+	<li> <span class="date">2015/06/15</span><span class="num">10.210</span> </li>
+	<li> <span class="date">2015/06/12</span><span class="num">10.240</span> </li>
+	<li> <span class="date">2015/06/11</span><span class="num">10.221</span> </li>
+	<li> <span class="date">2015/06/10</span><span class="num">10.219</span> </li>
+	<li> <span class="date">2015/06/09</span><span class="num">10.251</span> </li>
+</ul>
+			</div>
+		</div>
+	</section>
 	<section class="fullbg row1">
 		<div class="wrapper xs">
 			<div class="row1-cnt">
@@ -360,6 +403,13 @@ $(function() {
      $('#marquee_next_btn').click(function () {
           $('#charMarquee').trigger('forward');
      });
+
+     // $("#netAssetValuePanel").hide();
+    $("#netAssetValueBtn").click(function() {
+    	isOpen($("#netAssetValueBar"), $("#netAssetValueBar.open"));
+    	$("#netAssetValuePanel").slideToggle(400);
+    });
+    // $("#netAssetValueBar")
 });
 </script>
 <?php
