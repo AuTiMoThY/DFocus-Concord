@@ -49,8 +49,8 @@
 <main class="">
 <?php 	if ($deviceType == 'phone') { ?>
 	<div class="phone" style="text-align: center;">
-		<a href="tel:0800-003-958"><span class="txt-1_1 txt-ff1">0800-003-958</span></a><br>
-		<a href="tel:02-3765-3688"><span class="txt-1_1 txt-ff1">(02)3765-3688</span></a>
+		<a href="tel:0800003958"><span class="txt-1_1 txt-ff1">0800-003-958</span></a>
+		<a href="tel:0237653688"><span class="txt-1_1 txt-ff1">(02)3765-3688</span></a>
 	</div>
 <?php } ?>
 	<section class="row1" <?php if ($deviceType == 'phone') { echo "style=\"padding-top:0;\"";} ?>>

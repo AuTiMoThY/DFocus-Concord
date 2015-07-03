@@ -19,6 +19,8 @@ class PageUrlAu {
 	public $download         = "download.php";
 	public $saleschannel     = "saleschannel.php";
 	public $qa               = "qa.php";
+	public $aboutCPCS               = "aboutCPCS.php";
+	public $teamProfile               = "about.php#teamProfile";
 
 }
 /**
@@ -30,6 +32,10 @@ class navAu extends PageUrlAu {
 		global $detect;
 		global $deviceType;
 
+		$sub_about = array(
+		                   '資產保護' => $this->aboutCPCS,
+		                   '堅強團隊' => $this->teamProfile
+		                   );
 		$sub_futures = array(
 		                    '期貨經理事業' => $this->futures_managed,
 		                    '期貨信託事業' => $this->futures_fund,
@@ -49,7 +55,7 @@ class navAu extends PageUrlAu {
 		                    '常見問題' => $this->qa
 		                     );
 		$Nav = array(
-						'認識康和期經' => $this->about,
+						'認識康和期經' => $sub_about,
 						'三大事業體'   => $sub_futures,
 						'產品介紹'     => $sub_pdt,
 						'市場消息'     => $this->news,

@@ -139,22 +139,6 @@
 	}
 }
 
-
-.iframe-rwd  {
-     position: relative;
-     padding-bottom: (420 / 1200) * 100%;
-     padding-top: 30px;
-     height: 0;
-     overflow: hidden;
-}
-.iframe-rwd iframe {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-}
-
 .concordInf {
 	padding-right: 2em;
 	.txt-1_2 {
@@ -475,5 +459,16 @@
 	}
 }
 
-
+.phone {
+	a {
+		position: relative;
+		// z-index: 999;
+		display: block;
+		-webkit-touch-callout: default;
+		-webkit-tap-hightlight-color: rgba(#d7000f, 0.5);
+		// span {
+		// 	display: block;
+		// }
+	}
+}
 

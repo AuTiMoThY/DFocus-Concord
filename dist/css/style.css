@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /******************************************/
-/*		DFocus
+/*		Concord
 /*			by DFocus AuTiMoThY
 /******************************************/
 /*
@@ -1456,6 +1456,25 @@ div.tab_container h2 {
   margin: 0 0 20px;
 }
 
+.iframe-rwd {
+  position: relative;
+  padding-bottom: 35%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.iframe-rwd iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.iframe-rwd.economic_Calendar {
+  padding: 0;
+  height: 1100px;
+}
+
 /*------------------------------------------------------------------------*\
 /*------------------------------------------------------------------------*\
 /*========================================================================*\
@@ -2499,22 +2518,6 @@ header.chatroom {
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.iframe-rwd {
-  position: relative;
-  padding-bottom: 35%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-
-.iframe-rwd iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .concordInf {
   padding-right: 2em;
 }
@@ -2849,6 +2852,13 @@ header.chatroom {
   padding-left: 9%;
 }
 
+.phone a {
+  position: relative;
+  display: block;
+  -webkit-touch-callout: default;
+  -webkit-tap-hightlight-color: rgba(215, 0, 15, 0.5);
+}
+
 .character-item {
   width: 32.5%;
   margin-left: 1%;
@@ -3054,91 +3064,91 @@ header.chatroom {
 }
 
 .about-character1.character-pic:before {
-  background-position: 92% 65%;
+  background-position: 96% 94%;
 }
 
 .index-character1.character-pic:before {
-  background-position: 9% 97%;
+  background-position: 61% 50%;
 }
 
 .about-character2.character-pic:before {
-  background-position: 100% 91%;
+  background-position: 26% 8%;
 }
 
 .index-character2.character-pic:before {
-  background-position: 98% 46%;
+  background-position: 32% 38%;
 }
 
 .about-character3.character-pic:before {
-  background-position: 56% 97%;
+  background-position: 18% 17%;
 }
 
 .index-character3.character-pic:before {
-  background-position: 65% 49%;
+  background-position: 22% 72%;
 }
 
 .about-character4.character-pic:before {
-  background-position: 47% 92%;
+  background-position: 27% 45%;
 }
 
 .index-character4.character-pic:before {
-  background-position: 43% 45%;
+  background-position: 77% 29%;
 }
 
 .about-character5.character-pic:before {
-  background-position: 27% 54%;
+  background-position: 89% 46%;
 }
 
 .index-character5.character-pic:before {
-  background-position: 17% 61%;
+  background-position: 17% 75%;
 }
 
 .about-character6.character-pic:before {
-  background-position: 1% 89%;
+  background-position: 99% 85%;
 }
 
 .index-character6.character-pic:before {
-  background-position: 48% 49%;
+  background-position: 30% 96%;
 }
 
 .about-character7.character-pic:before {
-  background-position: 13% 2%;
+  background-position: 3% 44%;
 }
 
 .index-character7.character-pic:before {
-  background-position: 37% 94%;
+  background-position: 32% 9%;
 }
 
 .about-character8.character-pic:before {
-  background-position: 77% 56%;
+  background-position: 31% 48%;
 }
 
 .index-character8.character-pic:before {
-  background-position: 62% 44%;
+  background-position: 85% 29%;
 }
 
 .about-character9.character-pic:before {
-  background-position: 25% 8%;
+  background-position: 69% 14%;
 }
 
 .index-character9.character-pic:before {
-  background-position: 19% 82%;
+  background-position: 12% 59%;
 }
 
 .about-character10.character-pic:before {
-  background-position: 54% 39%;
+  background-position: 67% 92%;
 }
 
 .index-character10.character-pic:before {
-  background-position: 73% 12%;
+  background-position: 93% 8%;
 }
 
 .about-character11.character-pic:before {
-  background-position: 39% 32%;
+  background-position: 87% 34%;
 }
 
 .index-character11.character-pic:before {
-  background-position: 34% 26%;
+  background-position: 42% 15%;
 }
 
 .character-pic img {

@@ -16,6 +16,23 @@ function txtmsg1(){
 	alert('由後台自訂連結');
 }
 
+function mainNavLink(whereYouGo) {
+	switch(whereYouGo) {
+		case "goto1":
+			location.href="about.php";
+			break;
+		case "goto2":
+			location.href="index.php#futures";
+			break;
+		case "goto3":
+			location.href="products.php";
+			break;
+		case "goto5":
+			location.href="service.php";
+			break;
+	}
+}
+
 function viewPortWidthHeight() {
   var wh = {};
   if(window.innerWidth) {
@@ -78,19 +95,7 @@ function isOpen($this, $thisClass) {
      };
 }
 
-function mainNavLink(whereYouGo) {
-	switch(whereYouGo) {
-		case "goto2":
-			location.href="index.php#futures";
-			break;
-		case "goto3":
-			location.href="products.php";
-			break;
-		case "goto5":
-			location.href="service.php";
-			break;
-	}
-}
+
 
 /*------------------------------------------------------------------------*\
 /*------------------------------------------------------------------------*\
