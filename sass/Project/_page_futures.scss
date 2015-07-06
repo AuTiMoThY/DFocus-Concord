@@ -133,6 +133,7 @@
 		}
 		a {
 			@include absolute($t:0, $l:0);
+			z-index: 99;
 			@include wh2;
 			display: none;
 		}

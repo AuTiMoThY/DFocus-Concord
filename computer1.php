@@ -3,7 +3,7 @@
 	include_once INC_PATH.'headleader.php';
 	require_once INC_PATH.'aunav.php';
 ?>
-<title>投資報酬率計算機 | <?php echo $webTitle; ?></title>
+<title>理財規劃計算機 | <?php echo $webTitle; ?></title>
 
 <?php
 // -------------------------------

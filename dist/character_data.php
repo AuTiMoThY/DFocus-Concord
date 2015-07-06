@@ -210,11 +210,11 @@ $aboutCharacter = array(
 ',
 	      ),
 	array(
-	      'index'=> '6', 'name'=> '謝增泉', 'title'=>'全權委託協理<br>交易決定人',
+	      'index'=> '6', 'name'=> '謝增泉', 'title'=>'全權委託部主管',
 'col1'=> '
 <span>現任 /</span><br>
 <ul>
-	<li>康和期貨經理事業股份有限公司  全權委託協理 交易決定人</li>
+	<li>康和期貨經理事業股份有限公司  全權委託部主管</li>
 </ul>
 
 ',
