@@ -89,7 +89,7 @@ $aboutCharacter = array(
 ',
 	      ),
 	array(
-	      'index'=> '4', 'name'=> '方琮櫻', 'title'=>'副總經理',
+	      'index'=> '3', 'name'=> '方琮櫻', 'title'=>'副總經理',
 'col1'=> '
 <span>現任 /</span><br>
 <ul>
@@ -135,7 +135,7 @@ $aboutCharacter = array(
 ',
 	      ),
 	array(
-	      'index'=> '3', 'name'=> '林豪威', 'title'=>'投資長',
+	      'index'=> '4', 'name'=> '林豪威', 'title'=>'投資長',
 'col1'=> '
 <span>現任 /</span><br>
 <ul>
@@ -177,7 +177,7 @@ $aboutCharacter = array(
 ',
 	      ),
 	array(
-	      'index'=> '10', 'name'=> '廖又瑨', 'title'=>'顧問事業部主管',
+	      'index'=> '5', 'name'=> '廖又瑨', 'title'=>'顧問事業部主管',
 'col1'=> '
 <p>10餘年計量程式交易經驗，於2008年加入國內期貨商擔任自營部交易員，擁有國內外指數及商品期貨上百套交易策略模組。<br>
 	並於2010年創辦百匯資訊股份有限公司，領導多位台大碩博士開發全球期貨交易策略組合及全自動化交易系統，深耕大陸期貨市場多年，成功導入交易策略模型及雲端歷史資料庫系統建置。<br>
@@ -242,7 +242,7 @@ $aboutCharacter = array(
 ',
 	      ),
 	array(
-	      'index'=> '5', 'name'=> '高昊岑', 'title'=>'信託事業部<br>協理',
+	      'index'=> '7', 'name'=> '高昊岑', 'title'=>'信託事業部<br>協理',
 'col1'=> '
 <span>經歷 /</span><br>
 <ul>
@@ -266,7 +266,7 @@ $aboutCharacter = array(
 	      ),
 
 	array(
-	      'index'=> '7', 'name'=> '張資政', 'title'=>'協管基金經理人',
+	      'index'=> '8', 'name'=> '張資政', 'title'=>'協管基金經理人',
 'col1'=> '
 <p>鑽研全球各類期貨商品(註)長達十餘年之久，係台灣少數擁有美盤、歐盤、日盤、港盤、陸盤及國內盤研究能力和投資經驗的專業期貨人員，具備嫻熟豐富的交易實務歷練。</p>
 
@@ -300,7 +300,7 @@ $aboutCharacter = array(
 ',
 	      ),
 	array(
-	      'index'=> '12', 'name'=> '丁啟倫', 'title'=>'協管基金經理人',
+	      'index'=> '9', 'name'=> '丁啟倫', 'title'=>'協管基金經理人',
 'col1'=> '
 <span>現任 /</span><br>
 <ul>
@@ -336,7 +336,7 @@ $aboutCharacter = array(
 ',
 	      ),
 	array(
-	      'index'=> '8', 'name'=> '簡士傑', 'title'=>'基金事務主管<br>經理',
+	      'index'=> '10', 'name'=> '簡士傑', 'title'=>'基金事務主管<br>經理',
 'col1'=> '
 <span>現任 /</span><br>
 <ul>
@@ -359,7 +359,7 @@ $aboutCharacter = array(
 ',
 	      ),
 	array(
-	      'index'=> '9', 'name'=> '簡祥全', 'title'=>'風險管理室',
+	      'index'=> '11', 'name'=> '簡祥全', 'title'=>'風險管理室',
 'col1'=> '
 <span>經歷 / </span><br>
 <ul>
@@ -381,7 +381,7 @@ $aboutCharacter = array(
 	      ),
 
 	array(
-	      'index'=> '11', 'name'=> '許蕙蘭', 'title'=>'管理部主管',
+	      'index'=> '12', 'name'=> '許蕙蘭', 'title'=>'管理部主管',
 'col1'=> '
 <span>經歷 /</span><br>
 <ul>

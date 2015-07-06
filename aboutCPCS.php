@@ -115,7 +115,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="row">
+<!-- 	<section class="row">
 		<div class="wrapper">
 <div>
   <iframe src="http://widgets.calculatestuff.com/?token=cb3c3e7c1401" frameborder="0" width="100%" height="500" scrolling="no" style="border:none;" id="cb3c3e7c1401"></iframe>
@@ -130,7 +130,7 @@
    </script>
 </div>
 		</div>
-	</section>
+	</section> -->
 	<section id="" class="fullbg row4">
 		<div class="bg"></div>
 		<div class="wrapper">
