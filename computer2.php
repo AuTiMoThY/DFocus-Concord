@@ -85,8 +85,10 @@
 			</div>
     	</div>
     	<div class="form-group form-group-white col-xs-12 col-sm-12 col-md-12">
-			<input type="button" name="1" id="1" class="btn btn-submit btn-success" value="試算結果" onclick="funda()">
-			<input type="reset" name="1" id="1" class="btn btn-reset btn-material-blue-grey" value="清除重填">
+<div class="input-group" style="margin:auto;">
+	<input type="button" name="1" id="1" class="btn btn-submit btn-success" value="試算結果" onclick="funda()">
+	<input type="reset" name="1" id="1" class="btn btn-reset btn-material-blue-grey" value="清除重填">
+</div>
     	</div>
     	<div class="form-group form-group-white col-xs-12 col-sm-12 col-md-12">
     		<label for="" class="col-xs-12 col-sm-4 col-md-4 control-label frm__label">試算結果</label>
