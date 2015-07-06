@@ -243,10 +243,16 @@ echo $content;
 	</section>
 	<section class="row3">
 		<div class="wrapper">
+			<header class="txtImg_title-title-cale <?php //isPhone('mobile_title-group'); ?>">
+				<!-- <h1 class="hidden <?php //isPhone('mobile_title'); ?> title-1" data-lang="en">News & Updates</h1> -->
+				<h2 class="mobile_title title-2" data-lang="tw">今日國際財經日曆</h2>
+			</header>
 <div class="iframe-rwd economic_Calendar">
 	<iframe src="http://ec.cn.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&features=datepicker,timezone&countries=37,6,110,14,48,46,32,17,10,36,43,35,72,22,41,25,12,5,4,26,11,39,42&calType=day&timeZone=28&lang=6" width="636" height="467" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe>
 	<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">实时财经日历由领先金融门户 <a href="http://cn.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link">Investing.com 中文站</a> 提供。</span></div>
 </div>
+<p>免責聲明:康和快訊所提供新聞及今日國際財經日曆內容僅提供一般交易資訊，不能依此作為交易依據。康和期經提供最準確的內容服務投資人，但由於大量的資料和消息來源皆出自於官方，康和期經不會為這些資料的準確性承擔任何責任。即時經濟日曆也有可能在未事先通知的情況下作出修改.還請投資人注意風險.
+</p>
 			<footer class="share_bar cf">
 				<div class="social_share left">
 					<span class="txt-1">文章分享</span>

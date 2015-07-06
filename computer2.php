@@ -3,7 +3,7 @@
 	include_once INC_PATH.'headleader.php';
 	require_once INC_PATH.'aunav.php';
 ?>
-<title>資產保護 | <?php echo $webTitle; ?></title>
+<title>定期定額試算器 | <?php echo $webTitle; ?></title>
 
 <?php
 // -------------------------------
@@ -13,11 +13,26 @@
 // -------------------------------
   include_once INC_PATH.'head.php';
  ?>
-
-
+<link rel="stylesheet" href="<?php path_au('css'); ?>bootstrap.css" />
+<style>
+.frm__label.control-label {
+	color: #000;
+	padding-top: 7px;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.frm__field.form-control {
+	height: 34px;
+	background-color: #fff;
+}
+.input-group .input-group-addon {
+	background-color: #eee;
+	color: #000;
+}
+</style>
 <?php
 //app
-  include_once INC_PATH.'social.php';
+//  include_once INC_PATH.'social.php';
  ?>
 
 <!--[if lt IE 9]>
@@ -38,33 +53,56 @@
 </section>
 
 <main class="">
-	<section class="row1">
-		<div class="wrapper small">
-			<hgroup class="txtImg_title-title-cp <?php isPhone('mobile_title-group'); ?>">
-				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Customize Solution</h1>
-				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">選擇康和期經</h2>
-			</hgroup>
-			<div class="cnt">
-				<p class="txt-1_3">高資產客戶最在乎的事情，除了投資商品的回報率之外，最關心的就是資產保護。當客戶累積財富之後，所思考的問題不再是如何創造更多的財富，而是該把資產放在那裡，能夠兼顧穩定成長及安全性，並且可以傳承給後代子孫。康和期經擁有來自康和證券集團的豐富資源及專業的交易團隊做為後盾，依照您的需求，量身訂做最適合的投資組合，守護資產，成就夢想！</p>
-<!-- 				<p class="txt-1_3">
-					根據美國證監會（SEC）顧客保護條例，客戶資產需與證券公司資產分開，客戶資產的定義為任何己全額支付股票或債券，或以超額保證金購買的證券。萬一這些持有註冊在客戶名下的資產的證券公司倒閉，這些資產將發回給客戶，剩餘資產或顧客財產如現金，將按比例發回給客戶。一旦涉及此問題，SIPC通常訴請聯邦法庭委任一個信託人清算倒閉證券公司資產並保護其客戶，若證券公司沒有足夠的資本償付客戶申領，會動用SIPC的後備款項補助證券公司。SIPC 的法定保額為每個客戶最高$250,000 現金* 和$250,000證券申領，每個客戶合計總額$500,000。
-				</p> -->
+	<section class="row cp_computer-calculator1">
+		<div class="wrapper">
+<form name="form1" method="POST" class="cp_computer-calculator1-form">
+<!-- <form name="form1" method="POST" onsubmit="return funda()"> -->
+    <input type="hidden" name="SharpeKind" value="2">
+    <div class="col-2">
+    	<div class="form-group form-group-white col-xs-12 col-sm-12 col-md-6">
+    		<label for="" class="col-xs-12 col-sm-4 col-md-4 control-label frm__label">每月投資金額</label>
+			<div class="input-group col-xs-12 col-sm-8 col-md-8">
+				<span class="input-group-addon">NT$</span>
+				<input type="text" class="frm__field form-control" name="T1" size="8">
+				<span class="input-group-addon">元</span>
+			</div>
+			<!-- <div class="clearfix visible-xs visible-sm row-faker"></div> -->
+
+    	</div>
+    	<div class="form-group form-group-white col-xs-12 col-sm-12 col-md-6">
+    		<label for="" class="col-xs-12 col-sm-4 col-md-5 control-label frm__label">目標投資年報酬率</label>
+			<div class="input-group col-xs-12 col-sm-8 col-md-7">
+				<input type="text" class="frm__field form-control" name="T2" size="8">
+				<span class="input-group-addon">%</span>
 			</div>
 		</div>
-	</section>
-	<section class="row2 fullbg">
-		<div class="bg"></div>
-		<div class="wrapper small">
-			<hgroup class="txtImg_title-title-cp2 <?php isPhone('mobile_title-group'); ?>">
-				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">風險管理是投資的不二法門</h2>
-			</hgroup>
-			<div class="cnt">
-				<p class="txt-1_3" style="margin-bottom: 1.2em;">西班牙文學巨著，「唐吉訶德」的作者塞萬提斯說過這麼一句話，「不要把所有的雞蛋放在同一個籃子裡」，在投資市場裡則被引申為不要將所有的資金放在單一的部位上面，以避免波動時造成巨大的損失。透過多元資產配置的方式，有別於以往股票或債券的配置，加入期貨、貨幣等資產組合，善用各類別資產的特性，有效達成風險分散的目的。</p>
-				<!-- <p class="txt-1_3" style="margin-bottom: 1.2em;">一個國際企業組織的全部活動中，即在它的經營活動過程、結果、預期經營收益中，都存在著由於外匯匯率變化而引起的外匯風險，在經營活動中的風險為交易風險（Transaction Exposure），在經營活動結果中的風險為會計風險（Accounting Exposure）預期經營收益的風險為經濟風險（Economic Exposure）。</p> -->
+
+    	<div class="form-group form-group-white col-xs-12 col-sm-12 col-md-6">
+    		<label for="" class="col-xs-12 col-sm-4 col-md-4 control-label frm__label">投資期間</label>
+			<div class="input-group col-xs-12 col-sm-8 col-md-8">
+				<input type="text" class="frm__field form-control" name="T3" size="8">
+				<span class="input-group-addon">年</span>
 			</div>
+    	</div>
+    	<div class="form-group form-group-white col-xs-12 col-sm-12 col-md-12">
+			<input type="button" name="1" id="1" class="btn btn-submit btn-success" value="試算結果" onclick="funda()">
+			<input type="reset" name="1" id="1" class="btn btn-reset btn-material-blue-grey" value="清除重填">
+    	</div>
+    	<div class="form-group form-group-white col-xs-12 col-sm-12 col-md-12">
+    		<label for="" class="col-xs-12 col-sm-4 col-md-4 control-label frm__label">試算結果</label>
+		    <div class="remark col-xs-12 col-sm-8 col-md-8">註&nbsp;(1)假設投資期間基金無收益分配情形&nbsp;&nbsp;(2)以月份作為複利的期次&nbsp;&nbsp;(3)申購手續費以1.0%計算</div>
+    		<div class="col-xs-12 col-sm-12 col-md-12">
+    			<div id="s1"></div>
+    		</div>
+    	</div>
+
+
+    </div>
+</form>
 		</div>
-		<div class="barbg" style="margin-bottom:0;"></div>
 	</section>
+
+
 	<section class="row3 cp_computer">
 		<div class="wrapper cf">
 			<div class="col-2">
@@ -116,22 +154,7 @@
 			</div>
 		</div>
 	</section>
-<!-- 	<section class="row">
-		<div class="wrapper">
-<div>
-  <iframe src="http://widgets.calculatestuff.com/?token=cb3c3e7c1401" frameborder="0" width="100%" height="500" scrolling="no" style="border:none;" id="cb3c3e7c1401"></iframe>
-  <script type="text/javascript">
-    (function() {
-      var s = document.createElement("script");
-      s.type = "text/javascript";
-      s.async = true;
-      s.src="http://cdn.calculatestuff.com/resizer.js";
-      (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(s);
-    })();
-   </script>
-</div>
-		</div>
-	</section> -->
+
 	<section id="" class="fullbg row4">
 		<div class="bg"></div>
 		<div class="wrapper">
@@ -152,6 +175,35 @@
 // -------------------------------
   include_once INC_PATH.'scriptfoot.php';
  ?>
+<script>
+function funda() {
+	var vt1=parseFloat(document.form1.T1.value);
+	var vt2=parseFloat(document.form1.T2.value);
+	var vt3=parseFloat(document.form1.T3.value);
+	var va1=vt1;
+	var rate = Math.pow((1+vt2/100),(1/12));
+	for(i=1;i<=vt3*12;i++) {
+		va1=va1*rate + vt1;
+		//document.form1.S1.value += i + "¤ë va1 = " + va1 + ";rate=" + rate + ";\n"
+	}
+	va1=Math.round(va1-vt1);
+	var va2=Math.round(vt1*vt3*12*101/100);
+	var va3=va1-va2;
+    $("#s1").html("你的投資到期總金額為：<span class=\"txt-1_3\">" + chgNA(va1) + "</span>元<br>投資成本為：<span class=\"txt-1_3\">" + chgNA(va2) + "</span>元<br>投資獲利為：<span class=\"txt-1_3\">" + chgNA(va3) + "</span>元");
+    // document.form1.S1.value = "為達到您的目標，需每月投資：\n" + chgNA(va1) + "元\n屆時累計的金額為：" + chgNA(Math.round(tag)) + "元";
+    return false;
+}
+
+function chgNA(val) {
+    if (isNaN(val))
+        return "N/A";
+    return val;
+}
+
+$(function() {
+	funda();
+});
+</script>
 
 <?php
 // -------------------------------

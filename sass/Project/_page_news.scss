@@ -442,3 +442,9 @@ $interval: 1.35%;
 		}
 	}
 };
+
+.economic_Calendar {
+	&~p {
+		@include rhythm-margins(0.6, 1.2);
+	}
+}

@@ -1472,7 +1472,7 @@ div.tab_container h2 {
 }
 .iframe-rwd.economic_Calendar {
   padding: 0;
-  height: 1100px;
+  height: 500px;
 }
 
 /*------------------------------------------------------------------------*\
@@ -2375,6 +2375,13 @@ header.chatroom {
     height: 100%;
   }
 }
+.economic_Calendar ~ p {
+  margin-top: 14px;
+  margin-top: 0.9rem;
+  margin-bottom: 29px;
+  margin-bottom: 1.8rem;
+}
+
 .service_page .row4 {
   z-index: 0;
 }
@@ -3065,91 +3072,91 @@ header.chatroom {
 }
 
 .about-character1.character-pic:before {
-  background-position: 39% 93%;
+  background-position: 68% 62%;
 }
 
 .index-character1.character-pic:before {
-  background-position: 92% 74%;
+  background-position: 89% 50%;
 }
 
 .about-character2.character-pic:before {
-  background-position: 9% 76%;
+  background-position: 85% 84%;
 }
 
 .index-character2.character-pic:before {
-  background-position: 95% 49%;
+  background-position: 88% 100%;
 }
 
 .about-character3.character-pic:before {
-  background-position: 73% 39%;
+  background-position: 34% 13%;
 }
 
 .index-character3.character-pic:before {
-  background-position: 42% 59%;
+  background-position: 54% 57%;
 }
 
 .about-character4.character-pic:before {
-  background-position: 84% 58%;
+  background-position: 61% 98%;
 }
 
 .index-character4.character-pic:before {
-  background-position: 37% 61%;
+  background-position: 37% 84%;
 }
 
 .about-character5.character-pic:before {
-  background-position: 74% 70%;
+  background-position: 85% 53%;
 }
 
 .index-character5.character-pic:before {
-  background-position: 48% 91%;
+  background-position: 32% 40%;
 }
 
 .about-character6.character-pic:before {
-  background-position: 54% 85%;
+  background-position: 95% 86%;
 }
 
 .index-character6.character-pic:before {
-  background-position: 70% 37%;
+  background-position: 99% 4%;
 }
 
 .about-character7.character-pic:before {
-  background-position: 79% 22%;
+  background-position: 91% 20%;
 }
 
 .index-character7.character-pic:before {
-  background-position: 95% 21%;
+  background-position: 36% 83%;
 }
 
 .about-character8.character-pic:before {
-  background-position: 79% 49%;
+  background-position: 16% 26%;
 }
 
 .index-character8.character-pic:before {
-  background-position: 25% 22%;
+  background-position: 14% 51%;
 }
 
 .about-character9.character-pic:before {
-  background-position: 43% 60%;
+  background-position: 100% 17%;
 }
 
 .index-character9.character-pic:before {
-  background-position: 70% 97%;
+  background-position: 86% 99%;
 }
 
 .about-character10.character-pic:before {
-  background-position: 41% 34%;
+  background-position: 71% 69%;
 }
 
 .index-character10.character-pic:before {
-  background-position: 44% 30%;
+  background-position: 32% 62%;
 }
 
 .about-character11.character-pic:before {
-  background-position: 93% 98%;
+  background-position: 52% 36%;
 }
 
 .index-character11.character-pic:before {
-  background-position: 97% 54%;
+  background-position: 48% 79%;
 }
 
 .character-pic img {
