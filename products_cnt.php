@@ -65,7 +65,26 @@
 	<section class="fullbg row2">
 		<div class="bg"></div>
 		<div class="wrapper">
+			<div id="infTab" class="faq-container serviceCnt-container tab_block cf">
+				<div class="row1 cf">
+					<div id="tabsMarquee" class="faq-tabs-wrap left">
+						<ul class="tabs faq-tabs cf">
+						    <li> <a href="products_cnt.php?products=0" id="" class="txt-2">多空成長期貨信託基金</a></li>
+						    <li> <a href="javascript:alert('第二項產品連結');" id="" class="txt-2">康和私募期開得盛信託基金</a></li>
+						</ul>
+					</div>
+				    <div class="faq-tabs-change right">
+				    	<div id="marquee_prev_btn" class="btn btn-faq-tabs-prev faq-tabs-btn left">
+				    		<i class="fa fa-caret-down"></i>
+				    	</div>
+				    	<div id="marquee_next_btn" class="btn btn-faq-tabs-next faq-tabs-btn left">
+				    		<i class="fa fa-caret-up"></i>
+				    	</div>
+				    </div>
+				</div>
+			</div>
 			<div class="cnt editorDF">
+				<!-- 圖文編輯器 -->
 				<?php echo $pdt_editorDF; ?>
 			</div>
 			<div class="" style="margin: 1em auto 5em;">
@@ -87,7 +106,39 @@
 // -------------------------------
   include_once INC_PATH.'scriptfoot.php';
  ?>
+<script>
+$(function() {
+	var tabs = $("ul.tabs");
+	var tabsH = $("ul.tabs").height();
+	// var tabsH2 = tabsH*-1;
+	tabs.css('top', '0');
+	var tabsPrev = $(".btn-faq-tabs-prev");
+	var tabsNext = $(".btn-faq-tabs-next");
+	var pos = 40;
 
+	tabsPrev.click(function(event) {
+		if (tabs.css('top') == tabsH/2*-1+"px") {
+			console.log('yoyo');
+			// return false;
+		}else {
+			tabs.css({
+				top: "-=40"
+			});
+		};
+	});
+	tabsNext.click(function(event) {
+		if (tabs.css('top') == 0+"px") {
+			console.log('yoyo');
+			// return false;
+		}else {
+			tabs.css({
+				top: "+=40"
+			});
+		};
+	});
+
+});
+</script>
 <?php
 // -------------------------------
 // google analytics
