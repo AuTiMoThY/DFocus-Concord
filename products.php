@@ -40,195 +40,44 @@
 </section>
 
 <main class="">
-	<section class="row1 fullbg">
-		<div class="bg"></div>
-		<div class="wrapper">
-			<div class="cnt">
-				<!-- 多空成長期貨信託基金 -->
-				<div class="metro-row cf">
-					<div class="metro-block-style1 pdt">
-						<div class="news-pic pic left">
-							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
-						</div>
-						<div class="metro-art right">
-							<hgroup>
-								<h1 class="pdt-title txt-3">Futures Fund</h1>
-								<h2 class="pdt-subtitle txt-4">多空成長期貨信託基金</h2>
-							</hgroup>
-							<p class="pdt-shrink_text">
-<?php
-//  此處示意 顯示內文前 100 個字，超果以...取代
-$cnt0 = "由專業管理團隊替您考量資產配置、提高投資效率、結合交易策略降低市場風險，穩健增值，讓投資人不論面對多頭、空頭，景氣好與壞，都能掌握獲利契機，滿足投資需求，實踐人生夢想！";
-$showCount = 100;
-$content0 = strip_tags($cnt0);
-$content = mb_substr($content0,0,$showCount,'UTF-8');
-if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
-echo $content;
-?>
-							</p>
-							<a href="products_cnt.php?products=0" class="btn btn-pdtMore txt-r1 link-3">深入了解</a>
-						</div>
-					</div><!-- /.metro-block-style1  END  !! -->
-				</div><!-- /.metro-row  END  !! -->
-				<!-- 國泰康和私募期開得盛信託基金 -->
-				<div class="metro-row cf">
-					<div class="metro-block-style1 pdt">
-						<div class="news-pic pic left">
-							<img src="<?php path_au('temp'); ?>tem-pdt2.jpg" alt="">
-						</div>
-						<div class="metro-art right">
-							<hgroup>
-								<h1 class="pdt-title txt-3"><!-- Cathay Concord Futures No.1 --></h1>
-								<h2 class="pdt-subtitle txt-4">康和私募期開得盛信託基金</h2>
-							</hgroup>
-							<p class="pdt-shrink_text">
-<?php
-//  此處示意 顯示內文前 100 個字，超果以...取代
-$cnt0 = "僅限授權專業投資人登入";
-$showCount = 100;
-$content0 = strip_tags($cnt0);
-$content = mb_substr($content0,0,$showCount,'UTF-8');
-if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
-echo $content;
-?>
-							</p>
-							<a href="https://fm.concordfutures.com.tw/fundM/Login.aspx" class="btn btn-pdtMore txt-r1 link-3 btn2" target="_blank">僅限授權專業投資人登入</a>
-						</div>
-					</div><!-- /.metro-block-style1  END  !! -->
-				</div><!-- /.metro-row  END  !! -->
-				<!-- 康和期經VIP全權委託 -->
-				<div class="metro-row cf">
-					<div class="metro-block-style1 pdt">
-						<div class="news-pic pic left">
-							<img src="<?php path_au('temp'); ?>tem-pdt3.jpg" alt="">
-						</div>
-						<div class="metro-art right">
-							<hgroup>
-								<h1 class="pdt-title txt-3">Futures Trust Fund</h1>
-								<h2 class="pdt-subtitle txt-4">康和期經VIP全權委託</h2>
-							</hgroup>
-							<p class="pdt-shrink_text">
-<?php
-//  此處示意 顯示內文前 100 個字，超果以...取代
-$cnt0 = "由專業管理團隊替您考量資產配置、提高投資效率、結合交易策略降低市場風險，穩健增值，讓投資人不論面對多頭、空頭，景氣好與壞，都能掌握獲利契機，滿足投資需求，實踐人生夢想！";
-$showCount = 100;
-$content0 = strip_tags($cnt0);
-$content = mb_substr($content0,0,$showCount,'UTF-8');
-if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
-echo $content;
-?>
-							</p>
-							<a href="products_cnt.php?products=2" class="btn btn-pdtMore txt-r1 link-3">深入了解</a>
-						</div>
-					</div><!-- /.metro-block-style1  END  !! -->
-				</div><!-- /.metro-row  END  !! -->
-			</div>
+<section class="fullbg row2">
+	<div class="bg"></div>
+	<div class="wrapper">
+
+		<div class="cnt">
+			<ul class="chatroom-list cf">
+				<li class="chatroom-item pdt-item"><a href="products_list1.php">
+					<header class="text-center">
+						<h1 class="txt-3" data-lang="en" style="margin-bottom:0;">Futures Fund</h1>
+						<h2 class="txt-3_2" data-lang="tw" style="margin-top:0;">基金</h2>
+					</header>
+					<div class="chatroom-pic pic">
+						<img src="<?php path_au('img'); ?>pic-pdt1.jpg" alt="">
+					</div>
+				</a></li>
+				<li class="chatroom-item pdt-item"><a href="products_list2.php">
+					<header class="text-center">
+						<h1 class="txt-3" data-lang="en" style="margin-bottom:0;">Futures Managed Account</h1>
+						<h2 class="txt-3_2" data-lang="tw" style="margin-top:0;">全權委託</h2>
+					</header>
+					<div class="chatroom-pic pic">
+						<img src="<?php path_au('img'); ?>pic-pdt2.jpg" alt="">
+					</div>
+				</a></li>
+				<li class="chatroom-item pdt-item"><a href="products_list3.php">
+					<header class="text-center">
+						<h1 class="txt-3" data-lang="en" style="margin-bottom:0;">Futures Advisory</h1>
+						<h2 class="txt-3_2" data-lang="tw" style="margin-top:0;">顧問服務</h2>
+					</header>
+					<div class="chatroom-pic pic">
+						<img src="<?php path_au('img'); ?>pic-pdt3.jpg" alt="">
+					</div>
+				</a></li>
+
+			</ul>
 		</div>
-	</section>
-	<section class="fullbg row2">
-		<div class="bg"></div>
-		<div class="wrapper">
-			<header class="txtImg_title-title-chatroom chatroom <?php isPhone('mobile_title-group'); ?>">
-				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Advisory Chat Room</h1>
-				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">康和期顧相談室</h2>
-			</header>
-			<div class="cnt">
-				<ul class="chatroom-list cf">
-					<li class="chatroom-item">
-						<div class="chatroom-during txt-3">
-							6<span class="txt-3_1">月</span>3<span class="txt-3_1">日</span> ~ 
-							6<span class="txt-3_1">月</span>3<span class="txt-3_1">日</span>
-						</div>
-						<div class="chatroom-pic pic">
-							<img src="<?php path_au('temp'); ?>tem-chat1.jpg" alt="">
-							<a href="chatroom_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
-						</div>
-						<div class="chatroom-block">
-							<div class="chatroom-title txt-1_1">
-								台灣期貨市場新亮點 - 銀行保險業避險增益時代來臨
-							</div>
-							<div class="chatroom-lecturer txt-1_4">
-								講師：汪濟平、楊朝舜
-							</div>
-							<div class="chatroom-guests txt-1_4">
-								嘉賓：吳紹綱（Raymond Wu）、吳冠宏（Ryan, Mr.NTD）
-							</div>
-							<div class="chatroom-date txt-1_4">
-								日期：2015/06/03(週三)
-							</div>
-							<div class="chatroom-time txt-1_4">
-								時間：15:00~18:00
-							</div>
-							<div class="chatroom-money txt-1_4">
-								費用：免費報名
-							</div>
-						</div>
-					</li>
-					<li class="chatroom-item">
-						<div class="chatroom-during txt-3">
-							6<span class="txt-3_1">月</span>3<span class="txt-3_1">日</span> ~ 
-							6<span class="txt-3_1">月</span>3<span class="txt-3_1">日</span>
-						</div>
-						<div class="chatroom-pic pic">
-							<img src="<?php path_au('temp'); ?>tem-chat1.jpg" alt="">
-							<a href="chatroom_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
-						</div>
-						<div class="chatroom-block">
-							<div class="chatroom-title txt-1_1">
-								台灣期貨市場新亮點 - 銀行保險業避險增益時代來臨
-							</div>
-							<div class="chatroom-lecturer txt-1_4">
-								講師：汪濟平、楊朝舜
-							</div>
-							<div class="chatroom-guests txt-1_4">
-								嘉賓：吳紹綱（Raymond Wu）、吳冠宏（Ryan, Mr.NTD）
-							</div>
-							<div class="chatroom-date txt-1_4">
-								日期：2015/06/03(週三)
-							</div>
-							<div class="chatroom-time txt-1_4">
-								時間：15:00~18:00
-							</div>
-							<div class="chatroom-money txt-1_4">
-								費用：免費報名
-							</div>
-						</div>
-					</li>
-					<li class="chatroom-item">
-						<div class="chatroom-during txt-3">
-							6<span class="txt-3_1">月</span>3<span class="txt-3_1">日</span> ~ 
-							6<span class="txt-3_1">月</span>3<span class="txt-3_1">日</span>
-						</div>
-						<div class="chatroom-pic pic">
-							<img src="<?php path_au('temp'); ?>tem-chat1.jpg" alt="">
-							<a href="chatroom_cnt.php" class="btn btn-gochatroomCnt txt-2_1">課程內容</a>
-						</div>
-						<div class="chatroom-block">
-							<div class="chatroom-title txt-1_1">
-								台灣期貨市場新亮點 - 銀行保險業避險增益時代來臨
-							</div>
-							<div class="chatroom-lecturer txt-1_4">
-								講師：汪濟平、楊朝舜
-							</div>
-							<div class="chatroom-guests txt-1_4">
-								嘉賓：吳紹綱（Raymond Wu）、吳冠宏（Ryan, Mr.NTD）
-							</div>
-							<div class="chatroom-date txt-1_4">
-								日期：2015/06/03(週三)
-							</div>
-							<div class="chatroom-time txt-1_4">
-								時間：15:00~18:00
-							</div>
-							<div class="chatroom-money txt-1_4">
-								費用：免費報名
-							</div>
-						</div>
-					</li>
-				</ul>
-				<div style="margin-top: 2em;"><a href="chatroom.php" class="btn-getmore txt_img-morechatroom hide_txt link-2">更多課程內容</a></div>
-			</div>
-		</div>
-	</section>
+	</div>
+</section>
 
 </main>
 

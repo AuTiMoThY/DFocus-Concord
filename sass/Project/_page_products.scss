@@ -143,3 +143,10 @@ header.chatroom {
 		}
 	}
 }
+
+.pdt-item {
+	transition: all 0.3s ease-in-out;
+	&:hover {
+		box-shadow: $boxShadowHover;
+	}
+}

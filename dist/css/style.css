@@ -324,6 +324,9 @@ header.cnt_title {
   display: block;
   margin: auto;
 }
+.editorDF p {
+  line-height: 2.1;
+}
 
 .social_share li {
   margin-right: 1em;
@@ -339,6 +342,11 @@ header.cnt_title {
   -ms-transform: translate(1px, 1px);
   -webkit-transform: translate(1px, 1px);
   transform: translate(1px, 1px);
+}
+
+.col-6 {
+  float: left;
+  width: 50%;
 }
 
 /*------------------------------------------------------------------------*\
@@ -1912,6 +1920,13 @@ header.chatroom {
   line-height: 1.2;
 }
 
+.pdt-item {
+  transition: all 0.3s ease-in-out;
+}
+.pdt-item:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
 .news_page .row2.fullbg > .bg {
   position: absolute;
   top: 0;
@@ -2537,40 +2552,40 @@ header.chatroom {
   border-bottom: 1px solid #c9caca;
 }
 
-.contact-form li {
+.contact-form li, .futures-form li {
   width: 100%;
   margin-bottom: 0.8em;
 }
-.contact-form li .input--df {
+.contact-form li .input--df, .futures-form li .input--df {
   display: block;
   position: relative;
   width: 100%;
 }
-.contact-form .frm__label {
+.contact-form .frm__label, .futures-form .frm__label {
   width: 24.64789%;
 }
 @media screen and (max-width: 480px) {
-  .contact-form .frm__label {
+  .contact-form .frm__label, .futures-form .frm__label {
     width: 100%;
   }
 }
-.contact-form .frm__field {
+.contact-form .frm__field, .futures-form .frm__field {
   width: 74.35211%;
   background-color: #fff;
 }
 @media screen and (max-width: 480px) {
-  .contact-form .frm__field {
+  .contact-form .frm__field, .futures-form .frm__field {
     width: 100%;
   }
 }
-.contact-form .frm__label, .contact-form .frm__field {
+.contact-form .frm__label, .contact-form .frm__field, .futures-form .frm__label, .futures-form .frm__field {
   line-height: 30px;
 }
-.contact-form textarea.frm__field {
+.contact-form textarea.frm__field, .futures-form textarea.frm__field {
   height: 180px;
   resize: none;
 }
-.contact-form-send {
+.contact-form-send, .futures-form-send {
   position: absolute;
   right: 2px;
   bottom: 0;
@@ -2582,7 +2597,7 @@ header.chatroom {
   line-height: 30px;
   text-align: center;
 }
-.contact-form-send:hover {
+.contact-form-send:hover, .futures-form-send:hover {
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -3072,91 +3087,91 @@ header.chatroom {
 }
 
 .about-character1.character-pic:before {
-  background-position: 68% 62%;
+  background-position: 54% 96%;
 }
 
 .index-character1.character-pic:before {
-  background-position: 89% 50%;
+  background-position: 80% 57%;
 }
 
 .about-character2.character-pic:before {
-  background-position: 85% 84%;
+  background-position: 36% 7%;
 }
 
 .index-character2.character-pic:before {
-  background-position: 88% 100%;
+  background-position: 71% 15%;
 }
 
 .about-character3.character-pic:before {
-  background-position: 34% 13%;
+  background-position: 85% 35%;
 }
 
 .index-character3.character-pic:before {
-  background-position: 54% 57%;
+  background-position: 8% 16%;
 }
 
 .about-character4.character-pic:before {
-  background-position: 61% 98%;
+  background-position: 96% 44%;
 }
 
 .index-character4.character-pic:before {
-  background-position: 37% 84%;
+  background-position: 2% 82%;
 }
 
 .about-character5.character-pic:before {
-  background-position: 85% 53%;
+  background-position: 38% 42%;
 }
 
 .index-character5.character-pic:before {
-  background-position: 32% 40%;
+  background-position: 13% 36%;
 }
 
 .about-character6.character-pic:before {
-  background-position: 95% 86%;
+  background-position: 54% 92%;
 }
 
 .index-character6.character-pic:before {
-  background-position: 99% 4%;
+  background-position: 29% 7%;
 }
 
 .about-character7.character-pic:before {
-  background-position: 91% 20%;
+  background-position: 65% 81%;
 }
 
 .index-character7.character-pic:before {
-  background-position: 36% 83%;
+  background-position: 58% 6%;
 }
 
 .about-character8.character-pic:before {
-  background-position: 16% 26%;
+  background-position: 56% 6%;
 }
 
 .index-character8.character-pic:before {
-  background-position: 14% 51%;
+  background-position: 26% 52%;
 }
 
 .about-character9.character-pic:before {
-  background-position: 100% 17%;
+  background-position: 8% 10%;
 }
 
 .index-character9.character-pic:before {
-  background-position: 86% 99%;
+  background-position: 92% 91%;
 }
 
 .about-character10.character-pic:before {
-  background-position: 71% 69%;
+  background-position: 91% 65%;
 }
 
 .index-character10.character-pic:before {
-  background-position: 32% 62%;
+  background-position: 4% 8%;
 }
 
 .about-character11.character-pic:before {
-  background-position: 52% 36%;
+  background-position: 71% 77%;
 }
 
 .index-character11.character-pic:before {
-  background-position: 48% 79%;
+  background-position: 95% 61%;
 }
 
 .character-pic img {
@@ -3410,13 +3425,52 @@ header.chatroom {
   right: 107.5px;
 }
 
+.futures-form .col-6:first-of-type {
+  padding-right: 1.5em;
+}
+.futures-form .col-6 + .col-6 {
+  padding-left: 1.5em;
+  padding-top: 1em;
+}
+.futures-form .input_required .frm__label:after {
+  content: '*';
+  color: #e60012;
+}
+
+.futures_fund-link .col-6:first-of-type {
+  padding-right: 1.5em;
+}
+.futures_fund-link .col-6 + .col-6 {
+  padding-left: 1.5em;
+}
+.futures_fund-link .pic {
+  width: 100%;
+  height: 233px;
+}
+.futures_fund-link img {
+  max-width: none;
+  width: 100%;
+}
+.futures_fund-link figcaption {
+  background-color: #e60012;
+}
+.futures_fund-link figure:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.futures_fund-link figure:hover img {
+  -moz-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+}
+
 /*------------------------------------------------------------------------*\
 /*------------------------------------------------------------------------*\
 /*========================================================================*\
 		>	font & icon
 \*========================================================================*/
-.txtImg_title-sprite, .txtImg_title-title-MemberProfile, .txtImg_title-title-chatroom, .txtImg_title-title-concordInf, .txtImg_title-title-cp, .txtImg_title-title-cp2, .txtImg_title-title-cpComputer1, .txtImg_title-title-cpComputer2, .txtImg_title-title-cpComputer3, .txtImg_title-title-download, .txtImg_title-title-futures1, .txtImg_title-title-futures2, .txtImg_title-title-futures3, .txtImg_title-title-index_row1, .txtImg_title-title-lu, .txtImg_title-title-map, .txtImg_title-title-monthlyreport, .txtImg_title-title-news, .txtImg_title-title-prodCnt, .txtImg_title-title-qa, .txtImg_title-title-sales1, .txtImg_title-title-sales2, .txtImg_title-title-saleschannel, .txtImg_title-title-search, .txtImg_title-title-service1, .txtImg_title-title-service2, .txtImg_title-title-service3, .txtImg_title-title-service4, .txtImg_title-title-solution, .txtImg_title-title-team, .txtImg_title-title-team2 {
-  background-image: url('../images/txtImg_title-s3a2a7d54e1.png');
+.txtImg_title-sprite, .txtImg_title-title-MemberProfile, .txtImg_title-title-chatroom, .txtImg_title-title-concordInf, .txtImg_title-title-contact, .txtImg_title-title-cp, .txtImg_title-title-cp2, .txtImg_title-title-cpComputer1, .txtImg_title-title-cpComputer2, .txtImg_title-title-cpComputer3, .txtImg_title-title-download, .txtImg_title-title-futures1, .txtImg_title-title-futures2, .txtImg_title-title-futures3, .txtImg_title-title-index_row1, .txtImg_title-title-lu, .txtImg_title-title-map, .txtImg_title-title-monthlyreport, .txtImg_title-title-news, .txtImg_title-title-prodCnt, .txtImg_title-title-qa, .txtImg_title-title-sales1, .txtImg_title-title-sales2, .txtImg_title-title-saleschannel, .txtImg_title-title-search, .txtImg_title-title-service1, .txtImg_title-title-service2, .txtImg_title-title-service3, .txtImg_title-title-service4, .txtImg_title-title-solution, .txtImg_title-title-team, .txtImg_title-title-team2 {
+  background-image: url('../images/txtImg_title-sa5be8bcdc4.png');
   background-repeat: no-repeat;
 }
 
@@ -3437,112 +3491,116 @@ header.chatroom {
   background-position: 0 -119px;
 }
 
-.txtImg_title-title-cp {
+.txtImg_title-title-contact {
   background-position: 0 -203px;
 }
 
+.txtImg_title-title-cp {
+  background-position: 0 -236px;
+}
+
 .txtImg_title-title-cp2 {
-  background-position: 0 -295px;
+  background-position: 0 -328px;
 }
 
 .txtImg_title-title-cpComputer1 {
-  background-position: 0 -329px;
-}
-
-.txtImg_title-title-cpComputer2 {
   background-position: 0 -362px;
 }
 
-.txtImg_title-title-cpComputer3 {
+.txtImg_title-title-cpComputer2 {
   background-position: 0 -395px;
 }
 
-.txtImg_title-title-download {
+.txtImg_title-title-cpComputer3 {
   background-position: 0 -428px;
 }
 
+.txtImg_title-title-download {
+  background-position: 0 -461px;
+}
+
 .txtImg_title-title-futures1 {
-  background-position: 0 -520px;
+  background-position: 0 -553px;
 }
 
 .txtImg_title-title-futures2 {
-  background-position: 0 -616px;
+  background-position: 0 -649px;
 }
 
 .txtImg_title-title-futures3 {
-  background-position: 0 -712px;
+  background-position: 0 -745px;
 }
 
 .txtImg_title-title-index_row1 {
-  background-position: 0 -808px;
+  background-position: 0 -841px;
 }
 
 .txtImg_title-title-lu {
-  background-position: 0 -912px;
+  background-position: 0 -945px;
 }
 
 .txtImg_title-title-map {
-  background-position: 0 -959px;
+  background-position: 0 -992px;
 }
 
 .txtImg_title-title-monthlyreport {
-  background-position: 0 -1005px;
+  background-position: 0 -1038px;
 }
 
 .txtImg_title-title-news {
-  background-position: 0 -1097px;
+  background-position: 0 -1130px;
 }
 
 .txtImg_title-title-prodCnt {
-  background-position: 0 -1189px;
+  background-position: 0 -1222px;
 }
 
 .txtImg_title-title-qa {
-  background-position: 0 -1281px;
+  background-position: 0 -1314px;
 }
 
 .txtImg_title-title-sales1 {
-  background-position: 0 -1377px;
-}
-
-.txtImg_title-title-sales2 {
   background-position: 0 -1410px;
 }
 
+.txtImg_title-title-sales2 {
+  background-position: 0 -1443px;
+}
+
 .txtImg_title-title-saleschannel {
-  background-position: 0 -1446px;
+  background-position: 0 -1479px;
 }
 
 .txtImg_title-title-search {
-  background-position: 0 -1538px;
+  background-position: 0 -1571px;
 }
 
 .txtImg_title-title-service1 {
-  background-position: 0 -1631px;
+  background-position: 0 -1664px;
 }
 
 .txtImg_title-title-service2 {
-  background-position: 0 -1695px;
+  background-position: 0 -1728px;
 }
 
 .txtImg_title-title-service3 {
-  background-position: 0 -1759px;
+  background-position: 0 -1792px;
 }
 
 .txtImg_title-title-service4 {
-  background-position: 0 -1824px;
+  background-position: 0 -1857px;
 }
 
 .txtImg_title-title-solution {
-  background-position: 0 -1889px;
+  background-position: 0 -1922px;
 }
 
 .txtImg_title-title-team {
-  background-position: 0 -1981px;
+  background-position: 0 -2014px;
 }
 
 .txtImg_title-title-team2 {
-  background-position: 0 -2082px;
+  background-position: 0 -2115px;
 }
 
 .txtImg_futures-futures-1 {
@@ -3839,6 +3897,16 @@ header.chatroom {
   height: auto;
   background-image: none;
 }
+.txtImg_title-title-contact {
+  width: 353px;
+  height: 33px;
+  margin: auto;
+}
+.txtImg_title-title-contact.mobile_title-group {
+  width: 95%;
+  height: auto;
+  background-image: none;
+}
 .txtImg_title-title-team {
   margin-bottom: 3em;
 }
@@ -3885,6 +3953,9 @@ header.chatroom {
   width: 100%;
   height: auto;
   background-image: none;
+}
+.txtImg_title-title-contact {
+  margin: 0 0 1.2em;
 }
 
 .txtImg_futures-futures-1 {
@@ -4022,6 +4093,15 @@ header.chatroom {
 .txt-3_1 {
   font-size: 0.8125em;
   font-family: "Microsoft JhengHei", "微軟正黑體", \5FAE\x8F6F\6B63\9ED1\4F53, Arial, "Helvetica Neue", Helvetica;
+}
+.txt-3_2 {
+  color: #000;
+  font-family: "MHeiHK", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  font-weight: normal;
 }
 .txt-4 {
   font-size: 35px;

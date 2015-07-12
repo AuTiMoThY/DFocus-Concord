@@ -198,3 +198,53 @@
 #futuresSec3Intro.futures_intro-item:before {
 	@include absolute($r:(255/2)*1px-20);
 }
+
+$gutterW: 1.5em;
+.futures-form {
+	.col-6 {
+		&:first-of-type {
+			padding-right: $gutterW;
+		}
+		&+.col-6 {
+			padding-left: $gutterW;
+			padding-top: 1em;
+		}
+	}
+	.input_required {
+		.frm__label {
+			&:after {
+				content: '*';
+				color: #e60012;
+			}
+		}
+	}
+}
+
+.futures_fund-link {
+	.col-6 {
+		&:first-of-type {
+			padding-right: 1.5em;
+		}
+		&+.col-6 {
+			padding-left: 1.5em;
+		}
+	}
+	.pic {
+		@include wh2(100% 233px);
+	}
+	img {
+		max-width: none;
+		width: 100%;
+	}
+	figcaption {
+		@include bg(#e60012);
+	}
+	figure {
+		&:hover {
+			box-shadow: $boxShadowHover;
+			img {
+				@include scale(1.05);
+			}
+		}
+	}
+}

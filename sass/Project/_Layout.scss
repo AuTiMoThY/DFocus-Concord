@@ -59,6 +59,9 @@ header.cnt_title {
 		display: block;
 		margin: auto;
 	}
+	p {
+		line-height: 2.1;
+	}
 }
 
 
@@ -76,4 +79,9 @@ header.cnt_title {
 			@include hover;
 		}
 	}
+}
+
+.col-6 {
+	float: left;
+	width: 50%;
 }

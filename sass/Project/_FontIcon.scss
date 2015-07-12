@@ -10,7 +10,7 @@ $icon-layout: horizontal;
 
 .txtImg_title {
      &-title {
-		@each $name in team, news, search, index_row1, lu, solution, cp, cp2, cpComputer1, cpComputer2, cpComputer3, chatroom, futures1, futures2, futures3, service4, service3, service2, service1, concordInf, map, monthlyreport, download, sales1, sales2, MemberProfile, team2 {
+		@each $name in team, news, search, index_row1, lu, solution, cp, cp2, cpComputer1, cpComputer2, cpComputer3, chatroom, futures1, futures2, futures3, service4, service3, service2, service1, concordInf, map, monthlyreport, download, sales1, sales2, MemberProfile, team2, contact {
 		   &-#{$name} {
 		        @include wh2(txtImg_title-sprite-width(title-#{$name}) txtImg_title-sprite-height(title-#{$name}));
 		        margin: auto;
@@ -65,6 +65,9 @@ $icon-layout: horizontal;
 				height: auto;
 				background-image: none;
 			}
+		}
+		&-contact {
+			margin: 0 0 1.2em;
 		}
      }
 }
@@ -174,6 +177,12 @@ $icon-layout: horizontal;
 	&-3_1 {
 		font-size: em(13);
 		font-family: $normal_font;
+	}
+	&-3_2 {
+		color: #000;
+		font-family: $ff-MHeiHK;
+		@include adjFontSize(21px, 1);
+		font-weight: normal;
 	}
 	&-4 {
 		@include adjFontSize(35px);
