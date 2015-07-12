@@ -1276,6 +1276,12 @@ address {
   width: 175px;
   text-align: center;
 }
+@media screen and (max-width: 1366px) {
+  .banner .phone {
+    top: 14em;
+    right: 10.7em;
+  }
+}
 @media screen and (max-width: 480px) {
   .banner .phone {
     display: none;
@@ -3087,91 +3093,91 @@ header.chatroom {
 }
 
 .about-character1.character-pic:before {
-  background-position: 54% 96%;
+  background-position: 24% 24%;
 }
 
 .index-character1.character-pic:before {
-  background-position: 80% 57%;
+  background-position: 33% 27%;
 }
 
 .about-character2.character-pic:before {
-  background-position: 36% 7%;
+  background-position: 87% 32%;
 }
 
 .index-character2.character-pic:before {
-  background-position: 71% 15%;
+  background-position: 85% 95%;
 }
 
 .about-character3.character-pic:before {
-  background-position: 85% 35%;
+  background-position: 17% 70%;
 }
 
 .index-character3.character-pic:before {
-  background-position: 8% 16%;
+  background-position: 16% 27%;
 }
 
 .about-character4.character-pic:before {
-  background-position: 96% 44%;
+  background-position: 79% 57%;
 }
 
 .index-character4.character-pic:before {
-  background-position: 2% 82%;
+  background-position: 42% 11%;
 }
 
 .about-character5.character-pic:before {
-  background-position: 38% 42%;
+  background-position: 66% 62%;
 }
 
 .index-character5.character-pic:before {
-  background-position: 13% 36%;
+  background-position: 30% 53%;
 }
 
 .about-character6.character-pic:before {
-  background-position: 54% 92%;
+  background-position: 91% 84%;
 }
 
 .index-character6.character-pic:before {
-  background-position: 29% 7%;
+  background-position: 65% 89%;
 }
 
 .about-character7.character-pic:before {
-  background-position: 65% 81%;
+  background-position: 70% 97%;
 }
 
 .index-character7.character-pic:before {
-  background-position: 58% 6%;
+  background-position: 87% 9%;
 }
 
 .about-character8.character-pic:before {
-  background-position: 56% 6%;
+  background-position: 54% 63%;
 }
 
 .index-character8.character-pic:before {
-  background-position: 26% 52%;
+  background-position: 30% 95%;
 }
 
 .about-character9.character-pic:before {
-  background-position: 8% 10%;
+  background-position: 70% 71%;
 }
 
 .index-character9.character-pic:before {
-  background-position: 92% 91%;
+  background-position: 1% 78%;
 }
 
 .about-character10.character-pic:before {
-  background-position: 91% 65%;
+  background-position: 91% 96%;
 }
 
 .index-character10.character-pic:before {
-  background-position: 4% 8%;
+  background-position: 51% 93%;
 }
 
 .about-character11.character-pic:before {
-  background-position: 71% 77%;
+  background-position: 75% 85%;
 }
 
 .index-character11.character-pic:before {
-  background-position: 95% 61%;
+  background-position: 50% 58%;
 }
 
 .character-pic img {

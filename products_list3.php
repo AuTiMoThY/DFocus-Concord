@@ -235,6 +235,17 @@
 						</div>
 					</li>
 				</ul>
+<div class="pages_btn">
+	<ul>
+		<li class="prev"><a href="#"><i class="icon ib"></i><span class="txt ib">上一頁</span></a></li><!-- 在第一頁時不顯示 -->
+		<li class="number active"><a href="#">1</a></li>
+		<li class="number"><a href="#">2</a></li>
+		<li class="number"><a href="#">3</a></li>
+		<li class="number"><a href="#">4</a></li>
+		<li class="number"><a href="#">5</a></li>
+		<li class="next"><a href="#"><span class="txt ib">下一頁</span><i class="icon ib"></i></a></li><!-- 在最後一頁時不顯示 -->
+	</ul>
+</div>
 		<div class="" style="margin: 1em auto 5em;">
 			<a href="javascript:history.go(-1);" class="txt_img-goback btn-getmore hide_txt link-2">回上一頁</a>
 		</div>
