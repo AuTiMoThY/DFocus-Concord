@@ -32,23 +32,19 @@ $pdt = array(
 				<img src="upload/products/futures_trust_fund/20150608-25.jpg" alt="" class="temporary">
 				<img src="upload/products/futures_trust_fund/20150608-26.jpg" alt="" class="temporary">
 				<img src="upload/products/futures_trust_fund/20150608-27.jpg" alt="" class="temporary">
-'
-	      ),
-
+'),
 	array(
 'index'=> '1',
-'title'=> '',
-'subtitle'=> '',
-'editorDF'=> ''
-	      ),
+'title'=> ' ',
+'subtitle'=> ' ',
+'editorDF'=> ' '),
 	array(
 'index'=> '2',
 'title'=> 'Futures Trust Fund',
 'subtitle'=> '康和期經VIP全權委託',
 'editorDF'=> '
 				<img src="dist/images/temp/tem2.jpg" alt="" class="temporary">
-'
-	      )
+'),
 
 );
 
