@@ -5,22 +5,25 @@
 * 
 */
 class PageUrlAu {
-	public $webPageBuild     = "javascript: alert('網頁建置中，敬請稍待!');";
-	public $index            = "index.php";
-	public $about            = "about.php";
-	public $index_futures    = "index.php#futures";
-	public $futures_managed  = "futures_managed.php";
-	public $futures_fund     = "futures_fund.php";
-	public $futures_advisory = "futures_advisory.php";
-	public $products         = "products.php";
-	public $news             = "news.php";
-	public $service          = "service.php";
-	public $monthlyreport    = "monthlyreport.php";
-	public $download         = "download.php";
-	public $saleschannel     = "saleschannel.php";
-	public $qa               = "qa.php";
-	public $aboutCPCS               = "aboutCPCS.php";
-	public $teamProfile               = "about.php#teamProfile";
+    public $webPageBuild=       "javascript: alert('網頁建置中，敬請稍待!');";
+    public $index=              "index.php";
+    public $about=              "about.php";
+    public $index_futures=      "index.php#futures";
+    public $futures_managed=    "futures_managed.php";
+    public $futures_fund=       "futures_fund.php";
+    public $futures_advisory=   "futures_advisory.php";
+    public $products=           "products.php";
+    public $products_list1=     "products_list1.php";
+    public $products_list2=     "products_list2.php";
+    public $products_list3=     "products_list3.php";
+    public $news=               "news.php";
+    public $service=            "service.php";
+    public $monthlyreport=      "monthlyreport.php";
+    public $download=           "download.php";
+    public $saleschannel=       "saleschannel.php";
+    public $qa=                 "qa.php";
+    public $aboutCPCS=          "aboutCPCS.php";
+    public $teamProfile=        "about.php#teamProfile";
 
 }
 /**
@@ -43,9 +46,9 @@ class navAu extends PageUrlAu {
 		                     );
 
 		$sub_pdt = array(
-		                '基金' => $this->products,
-		                '全權委託' => $this->products,
-		                '顧問服務' => $this->products
+		                '基金' => $this->products_list1,
+		                '全權委託' => $this->products_list2,
+		                '顧問服務' => $this->products_list3
 		                 );
 
 		$sub_service = array(

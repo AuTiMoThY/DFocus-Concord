@@ -97,7 +97,7 @@ echo $content;
 					</div><!-- /.metro-block-style1  END  !! -->
 				</div><!-- /.metro-row  END  !! -->
 		<div class="" style="margin: 1em auto 5em;">
-			<a href="javascript:history.go(-1);" class="txt_img-goback btn-getmore hide_txt link-2">回上一頁</a>
+			<a href="products.php" class="txt_img-goback btn-getmore hide_txt link-2">回產品介紹</a>
 		</div>
 			</div>
 		</div>
