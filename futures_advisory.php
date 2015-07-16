@@ -52,7 +52,7 @@
 			<div class="cnt" style="padding-top:0;">
 				<div class="editorDF"  style="padding-left:0;padding-right:0;">
 					<p class="text-center" style="margin-bottom: 1.5em;">康和期經顧問事業從定期開班課程到特別專題講座以外，也提供異業結合及程式設計的多方位服務，<br>快來與康和期顧相談室洽談來獲得您企業或產品的最佳曝光機會。</p>
-					<a href="javascript:alert('由後台圖文編輯器插入連結');"><img src="<?php path_au('temp'); ?>tem12.jpg" alt="期貨顧問事業 - 程式設計、異業合作、講座舉辦、固定專題" class="temporary"></a>
+					<a href="products_list3.php"><img src="<?php path_au('temp'); ?>tem12.jpg" alt="期貨顧問事業 - 程式設計、異業合作、講座舉辦、固定專題" class="temporary"></a>
 				</div>
 			</div>
 		</div>

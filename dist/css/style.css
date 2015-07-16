@@ -1893,17 +1893,20 @@ header.chatroom {
   width: 100%;
 }
 .chatroom-item {
-  width: 32.5%;
+  width: 32%;
+  min-height: 580px;
   background-color: #fff;
   margin-left: 1.2%;
   margin-bottom: 1em;
+  float: none;
+  display: inline-block;
+  vertical-align: top;
 }
 .chatroom-item:nth-of-type(3n+1) {
   margin-left: 0;
 }
 @media screen and (max-width: 480px) {
   .chatroom-item {
-    float: none;
     width: 100%;
     margin: 0 auto 0.5em;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
@@ -1911,6 +1914,8 @@ header.chatroom {
 }
 .chatroom-pic {
   position: relative;
+  height: 0;
+  padding-bottom: 66.66667%;
 }
 .chatroom-pic .btn {
   position: absolute;
@@ -1923,6 +1928,16 @@ header.chatroom {
 }
 .chatroom-block {
   padding: 1.2em 1.2em 1.8em;
+}
+.chatroom-block-label {
+  width: 14%;
+  display: inline-block;
+  vertical-align: top;
+}
+.chatroom-block-cnt {
+  width: 84.5%;
+  display: inline-block;
+  vertical-align: top;
 }
 .chatroom-title {
   margin-bottom: 0.8em;
@@ -3098,91 +3113,91 @@ header.chatroom {
 }
 
 .about-character1.character-pic:before {
-  background-position: 38% 4%;
+  background-position: 77% 55%;
 }
 
 .index-character1.character-pic:before {
-  background-position: 6% 92%;
+  background-position: 3% 71%;
 }
 
 .about-character2.character-pic:before {
-  background-position: 99% 87%;
+  background-position: 16% 66%;
 }
 
 .index-character2.character-pic:before {
-  background-position: 45% 45%;
+  background-position: 21% 14%;
 }
 
 .about-character3.character-pic:before {
-  background-position: 48% 1%;
+  background-position: 36% 87%;
 }
 
 .index-character3.character-pic:before {
-  background-position: 85% 49%;
+  background-position: 85% 72%;
 }
 
 .about-character4.character-pic:before {
-  background-position: 70% 21%;
+  background-position: 56% 16%;
 }
 
 .index-character4.character-pic:before {
-  background-position: 53% 12%;
+  background-position: 40% 78%;
 }
 
 .about-character5.character-pic:before {
-  background-position: 14% 9%;
+  background-position: 42% 79%;
 }
 
 .index-character5.character-pic:before {
-  background-position: 20% 61%;
+  background-position: 71% 22%;
 }
 
 .about-character6.character-pic:before {
-  background-position: 46% 72%;
+  background-position: 29% 33%;
 }
 
 .index-character6.character-pic:before {
-  background-position: 37% 84%;
+  background-position: 79% 92%;
 }
 
 .about-character7.character-pic:before {
-  background-position: 94% 2%;
+  background-position: 3% 41%;
 }
 
 .index-character7.character-pic:before {
-  background-position: 72% 57%;
+  background-position: 22% 35%;
 }
 
 .about-character8.character-pic:before {
-  background-position: 48% 42%;
+  background-position: 57% 24%;
 }
 
 .index-character8.character-pic:before {
-  background-position: 90% 43%;
+  background-position: 59% 92%;
 }
 
 .about-character9.character-pic:before {
-  background-position: 90% 85%;
+  background-position: 21% 35%;
 }
 
 .index-character9.character-pic:before {
-  background-position: 39% 57%;
+  background-position: 27% 46%;
 }
 
 .about-character10.character-pic:before {
-  background-position: 64% 8%;
+  background-position: 86% 15%;
 }
 
 .index-character10.character-pic:before {
-  background-position: 58% 17%;
+  background-position: 58% 14%;
 }
 
 .about-character11.character-pic:before {
-  background-position: 1% 25%;
+  background-position: 78% 73%;
 }
 
 .index-character11.character-pic:before {
-  background-position: 38% 18%;
+  background-position: 90% 96%;
 }
 
 .character-pic img {

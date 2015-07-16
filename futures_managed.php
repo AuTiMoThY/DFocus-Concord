@@ -52,7 +52,7 @@
 			<div class="cnt" style="padding-top:0;">
 				<div class="editorDF"  style="padding-left:0;padding-right:0;">
 					<p>康和期經團隊融合海內外操作思維，研擬出最適合市場的策略模組。藉由馬可維茲(1952年)組合理論，利用報酬及風險的比例，以較低的風險得到更高的報酬為前提下，為期經事業不同客戶量身訂做商品，經由量化模型設計出低風險高報酬之商品，商品經由多重邏輯分散將更有助於降低非系統風險，且達到低風險高報酬之要求，利用低度相關的不同資產及投資策略納入投資組合，讓資產穩健增值追求絕對報酬以讓客戶資產穩定成長則是我們從未改變的任務。</p>
-					<a href="javascript:alert('由後台圖文編輯器插入連結');"><img src="<?php path_au('temp'); ?>tem8.png" alt="期貨經理產品" class="temporary"></a>
+					<a href="products_list2.php"><img src="<?php path_au('temp'); ?>tem8.png" alt="期貨經理產品" class="temporary"></a>
 				</div>
 			</div>
 		</div>

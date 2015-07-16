@@ -46,30 +46,30 @@
 
 		<div class="cnt">
 			<ul class="chatroom-list cf">
-				<li class="chatroom-item pdt-item"><a href="products_list1.php">
+				<li class="chatroom-item pdt-item" style="min-height:auto;"><a href="products_list1.php">
 					<header class="text-center">
 						<h1 class="txt-3" data-lang="en" style="margin-bottom:0;">Futures Fund</h1>
 						<h2 class="txt-3_2" data-lang="tw" style="margin-top:0;">基金</h2>
 					</header>
-					<div class="chatroom-pic pic">
+					<div class="chatroom-pic pic" style="padding-bottom:0;height:auto;">
 						<img src="<?php path_au('img'); ?>pic-pdt1.jpg" alt="">
 					</div>
 				</a></li>
-				<li class="chatroom-item pdt-item"><a href="products_list2.php">
+				<li class="chatroom-item pdt-item" style="min-height:auto;"><a href="products_list2.php">
 					<header class="text-center">
 						<h1 class="txt-3" data-lang="en" style="margin-bottom:0;">Futures Managed Account</h1>
 						<h2 class="txt-3_2" data-lang="tw" style="margin-top:0;">全權委託</h2>
 					</header>
-					<div class="chatroom-pic pic">
+					<div class="chatroom-pic pic" style="padding-bottom:0;height:auto;">
 						<img src="<?php path_au('img'); ?>pic-pdt2.jpg" alt="">
 					</div>
 				</a></li>
-				<li class="chatroom-item pdt-item"><a href="products_list3.php">
+				<li class="chatroom-item pdt-item" style="min-height:auto;"><a href="products_list3.php">
 					<header class="text-center">
 						<h1 class="txt-3" data-lang="en" style="margin-bottom:0;">Futures Advisory</h1>
 						<h2 class="txt-3_2" data-lang="tw" style="margin-top:0;">顧問服務</h2>
 					</header>
-					<div class="chatroom-pic pic">
+					<div class="chatroom-pic pic" style="padding-bottom:0;height:auto;">
 						<img src="<?php path_au('img'); ?>pic-pdt3.jpg" alt="">
 					</div>
 				</a></li>

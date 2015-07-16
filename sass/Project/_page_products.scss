@@ -109,15 +109,18 @@ header.chatroom {
 		width: 100%;
 	}
 	&-item {
-		width: (390 / 1200) * 100%;
+		width: 32%;
+		// width: (390 / 1200) * 100%;
+		min-height: 580px;
 		@include bg(#fff);
 		margin-left: 1.2%;
 		margin-bottom: 1em;
+		float: none;
+		@include col;
 		&:nth-of-type(3n+1) {
 			margin-left: 0;
 		}
 		@include respondTo(m){
-			float: none;
 			width: 100%;
 			margin: 0 auto 0.5em;
 			box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
@@ -125,6 +128,8 @@ header.chatroom {
 	}
 	&-pic {
 		position: relative;
+		height: 0;
+		padding-bottom: (260 / 390) * 100%;
 		.btn {
 			@include absolute($b:0, $r:0);
 		}
@@ -135,6 +140,14 @@ header.chatroom {
 	}
 	&-block {
 		padding: 1.2em 1.2em 1.8em;
+		&-label {
+			width: 14%;
+			@include col;
+		}
+		&-cnt {
+			width: 84.5%;
+			@include col;
+		}
 	}
 	&-title {
 		margin-bottom: 0.8em;

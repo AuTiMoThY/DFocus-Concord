@@ -2,6 +2,14 @@
 	include_once 'config.php';
 	include_once INC_PATH.'headleader.php';
 	require_once INC_PATH.'aunav.php';
+	include_once 'dist/chatroom_data.php';
+
+
+	$get_id = isset($_GET['id']) ? $_GET['id'] : 1;
+
+	$chatroom_index = $chatroom[$get_id-1]['index'];
+	$chatroom_title = $chatroom[$get_id-1]['title'];
+	$chatroom_cnt = $chatroom[$get_id-1]['cnt'];
 ?>
 <title>康和期經產品介紹 | <?php echo $webTitle; ?></title>
 
@@ -46,6 +54,7 @@
 				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Advisory Chat Room</h1>
 				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">康和期顧相談室</h2>
 			</header>
+			<p class="txt-1 text-center"><?php echo $chatroom_title; ?></p>
 		</div>
 	</section>
 	<section class="fullbg row2">
@@ -54,8 +63,9 @@
 			<div class="cnt cf">
 				<div class="editorDF">
 				<!-- 圖文編輯器範圍 -->
-					<a href="http://edn.udn.com/ACT/2015/Futures_Highlights/">http://edn.udn.com/ACT/2015/Futures_Highlights/</a><br><br>
-					<img src="upload/chat_room/2015-06-08_143353.jpg" alt="" class="temporary">
+				<?php echo $chatroom_cnt; ?>
+<!-- 					<a href="http://edn.udn.com/ACT/2015/Futures_Highlights/">http://edn.udn.com/ACT/2015/Futures_Highlights/</a><br><br>
+					<img src="upload/chat_room/2015-06-08_143353.jpg" alt="" class="temporary"> -->
 				</div>
 			</div>
 			<div class="" style="margin: 1em auto 5em;">

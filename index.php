@@ -36,10 +36,10 @@
  ?>
 <section id="bannerSlider" class="banner flexslider" >
 	<ul class="slides">
-		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index1.jpg')"><a href="javascript: txtmsg1();" class="index-banner hide_txt">more info</a></li>
-		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index2.jpg')"><a href="javascript: txtmsg1();" class="index-banner hide_txt">more info</a></li>
-		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index3.jpg')"><a href="javascript: txtmsg1();" class="index-banner hide_txt">more info</a></li>
-		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index4.jpg')"><a href="javascript: txtmsg1();" class="index-banner hide_txt">more info</a></li>
+		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index1.jpg')"><a href="products_list1.php" class="index-banner hide_txt">more info</a></li>
+		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index2.jpg')"><a href="products_list1.php" class="index-banner hide_txt">more info</a></li>
+		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index3.jpg')"><a href="products_list1.php" class="index-banner hide_txt">more info</a></li>
+		<li class="banner" style="background-image: url('<?php path_au('img'); ?>banner-index4.jpg')"><a href="products_list1.php" class="index-banner hide_txt">more info</a></li>
 	</ul>
 	
 </section>
