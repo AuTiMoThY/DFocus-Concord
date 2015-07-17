@@ -43,7 +43,7 @@ $pdt = array(
 'title'=> 'Futures Trust Fund',
 'subtitle'=> '康和期經VIP全權委託',
 'editorDF'=> '
-				<img src="dist/images/temp/tem2.jpg" alt="" class="temporary">
+				<img src="upload/products/pdt2015071701.jpg" alt="" class="temporary">
 '),
 
 );
