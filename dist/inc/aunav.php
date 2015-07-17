@@ -36,8 +36,7 @@ class navAu extends PageUrlAu {
 		global $deviceType;
 
 		$sub_about = array(
-		                   '資產保護' => $this->aboutCPCS,
-		                   '堅強團隊' => $this->teamProfile
+		                   '資產保護' => $this->aboutCPCS
 		                   );
 		$sub_futures = array(
 		                    '期貨經理事業' => $this->futures_managed,

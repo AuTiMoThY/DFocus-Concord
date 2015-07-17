@@ -47,7 +47,7 @@
 <main class="">
 	<section id="netAssetValueBar" class="fullbg row0 net_asset_value">
 		<div class="wrapper cf">
-			<div class="col-3 txt-6">TODAY’S NET ASSET VALUE</div>
+			<div class="col-3 txt-6">Today's Net Asset Value</div>
 			<div class="col-3">
 				<label for="" class="net_asset_value-label col ">
 					<span class="net_asset_value-label-bg"></span>
@@ -154,8 +154,8 @@
 	<section id="team" class="row3">
 		<div class="wrapper small">
 			<hgroup class="txtImg_title txtImg_title-title-team <?php isPhone('mobile_title-group'); ?>">
-				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Mangment Team</h1>
-				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="tw">堅強團隊</h2>
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Managment Team</h1>
+				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="tw">經營團隊</h2>
 			</hgroup>
 		</div>
 		<footer class="character-ft">
@@ -269,9 +269,9 @@
 	</ul>
 </div> -->
 		<p class="txt-1">繼2014年多空成長成功募集後，2015年康和期經再度網羅業內菁英，完整不同投資人投資標的。
-		<a href="about.php#teamProfile" class="txt-r1 link-1">認識我們的團隊</a>
+		<!-- <a href="about.php#teamProfile" class="txt-r1 link-1">認識我們的團隊</a> -->
 		</p>
-		<!-- <img src="<?php path_au('img'); ?>index-row3.jpg" alt=""> -->
+		<!-- <img src="<?php //path_au('img'); ?>index-row3.jpg" alt=""> -->
 	</section><!--  / section.row3  堅強團隊  END  !!  -->
 	<!-- section.row4  市場消息  START  -->
 	<section class="fullbg row4">
@@ -285,17 +285,18 @@
 					<div class="metro-block-style1 cf ib">
 						<a href="news_cnt.php"></a>
 						<div class="news-pic pic left">
-							<img src="upload/news/news_051701.jpg" alt="">
+							<!-- 此為圖文新聞預設圖片。若無上傳圖片時，顯示預設圖片 -->
+							<img src="dist/images/news-cover.jpg" alt="">
 						</div>
 						<div class="metro-art right">
 							<hgroup>
-								<h1 class="news-title">周線連3黑 520魔咒下周上演?</h1>
-								<p class="news-time">03月24日 2015</p>
+								<h1 class="news-title">股票期貨贏家－蘋果助勢 可成股期可加碼?</h1>
+								<p class="news-time">06月30日 2015</p>
 							</hgroup>
 							<p class="news-shrink_text">
 <?php
      //  此處示意 顯示內文前 77 個字，超果以...取代
-     $cnt0 = "美國升息議題牽動全球資本市場，18日美國公開市場操作委員會（FOMC）會議在即影響，台股期現貨周一走弱，外資進出也偏空。法人認為，最近資金持續往利率寬鬆的美國升息議題牽動全球資本市場，18日美國公開市場操作委員會（FOMC）會議在即影響，台股期現貨周一走弱，外資進出也偏空。法人認為，最近資金持續往利率寬鬆的";
+     $cnt0 = "機殼廠可成（2474）昨（25）日開高拉回震盪，雖然小漲0.4％，不過卻收了一根小黑k。康和期經表示，從基本面來看，下半年還有蘋果新品iPhone 6s要出貨，營運動能可望在第四季強勁回溫，加上技術線型來看，仍屬多頭格局，因此只要股價拉回至月線，都可以逢低加碼。就產品來看，可成吃下大部份iPhone及iPad機殼的產能，雖然今年上半年面臨大客戶機種轉換空窗期，股價不容易出現較大幅度的上漲，但隨著下半年蘋果將發表新機的拉貨需求，營收成長動能將在今年第四季強勁回升。且可成第一季EPS 6元，較市場預估略低，主要為認列匯損所致，而毛利率維持46.6％，符合市場預期。目前可成在NB的主要客戶有蘋果和Dell，手機部分有HTC、RIM、Moto等，至於平板客戶則以非蘋果品牌廠為主，從過去的產線走勢可以發現，NB與手持機殼，主要包括手機與平板，都呈現穩定成長，尤其是手機部分呈現高速成長，NB部分也表現不弱，隨一體成型筆電的滲透率提高，可望持續成長。可成自五月初創下8月年股價新高後拉回，期間雖然有跌落月線之下，而季線發揮下檔支撐功能，昨日盤中回測季線重拾漲勢，收盤再創近";
      $showCount = 77;
      $content0 = strip_tags($cnt0);
      $content = mb_substr($content0,0,$showCount,'UTF-8');
@@ -315,13 +316,13 @@
 						<a href="news_cnt.php"></a>
 						<div class="metro-art">
 							<hgroup>
-								<h1 class="news-title">工商時報│職場達人－林彥全打破偏見闖出期經一片天</h1>
-								<p class="news-time">03月24日 2015</p>
+								<h1 class="news-title">台指選擇權－權值股撐盤 台股等轉機</h1>
+								<p class="news-time">06月18日 2015</p>
 							</hgroup>
 							<p class="news-shrink_text">
 <?php
      //  此處示意 顯示內文前 77 個字，超果以...取代
-     $cnt0 = "「期貨很危險，是賭博、吸毒。」台灣不少投資人一提到期貨，仍舊抱持著這樣的觀念，康和期經首席投資顧問兼副總經理林彥全笑著說。接觸金融業將近20年，他認為「期貨很危險，是賭博、吸毒。」台灣不少投資人一提到期貨，仍舊抱持著這樣的觀念，康和期經首席投資顧問兼副總經理林彥全笑著說。接觸金融業將近20年，他認為";
+     $cnt0 = "昨日6月分台指期結算，雖然集中市場成交量持續低，不過仍可以看到部分權值股撐盤，台股現貨最後收9,189點。康和期經總經理林彥全指出，本周有許多重量級的國際消息待公布，只要能安然度過，下周台股就可以等待轉機。林彥全表示，加權指數大盤量能本周均量持續低迷，電子期貨部分仍持續抗跌，金融與電子持續輪動，然而，傳產弱勢不變，觀察台指期近遠月價差，6、7月價差從周二的170點縮減為120點左右，且摩根價差也由於6月29日台積電除息將會影響大盤將近39點左右，因此以提前反應至2.4大點，由於在近日大盤權值撐盤架構下，當日填息表現將會有效帶動近期弱勢大盤士氣。";
      $showCount = 77;
      $content0 = strip_tags($cnt0);
      $content = mb_substr($content0,0,$showCount,'UTF-8');
@@ -334,17 +335,18 @@
 					<div class="metro-block-style1 cf ib">
 						<a href="news_cnt.php"></a>
 						<div class="news-pic pic left">
-							<img src="<?php path_au('temp'); ?>tem5.jpg" alt="">
+							<!-- 此為圖文新聞預設圖片。若無上傳圖片時，顯示預設圖片 -->
+							<img src="dist/images/news-cover.jpg" alt="">
 						</div>
 						<div class="metro-art right">
 							<hgroup>
-								<h1 class="news-title">|工商時報|B7 期貨| 外資靠攏寬鬆區震盪</h1>
-								<p class="news-time">03月24日 2015</p>
+								<h1 class="news-title">期貨－外資1.48萬口空單 結算壓力重</h1>
+								<p class="news-time">06月18日 2015</p>
 							</hgroup>
 							<p class="news-shrink_text">
 <?php
      //  此處示意 顯示內文前 77 個字，超果以...取代
-     $cnt0 = "美國升息議題牽動全球資本市場，18日美國公開市場操作委員會（FOMC）會議在即影響，台股期現貨周一走弱，外資進出也偏空。法人認為，最近資金持續往利率寬鬆的美國升息議題牽動全球資本市場，18日美國公開市場操作委員會（FOMC）會議在即影響，台股期現貨周一走弱，外資進出也偏空。法人認為，最近資金持續往利率寬鬆的";
+     $cnt0 = "周三台指期將進行結算，且外資期貨未平倉淨空單還有1.48萬口，整體籌碼依舊偏空。不過觀察到近幾日大盤量能卻大幅萎縮，法人認為，在這樣的情況下，多空都難有表現，除非發生希臘真的退出歐元區的大利空，否則預估行情會在9,400～9,200間震盪。此外，集中市場已經第四日成交量低於千億元，昨日更是僅剩751億元，創今年2月以來新低量，凱基期貨分析師陳雙吉指出，台股無量就無行情，目前看來多空力道都不強，因此預估結算前台指期會在9,200點的鐵板，及選擇權買權最看好的9,400點之間震盪。";
      $showCount = 77;
      $content0 = strip_tags($cnt0);
      $content = mb_substr($content0,0,$showCount,'UTF-8');
@@ -383,26 +385,35 @@ $(window).load(function() {
 $(function() {
 	var $charMarquee = $("#charMarquee");
 	var charMarqueeH = $charMarquee.outerHeight();
-	console.log(charMarqueeH);
+	var charLength = $("#charMarquee li").length;
+	console.log(charLength);
 	$("#marquee_prev_btn").css({
 		top: (charMarqueeH-100)/2
 	});
 	$("#marquee_next_btn").css({
 		top: (charMarqueeH-100)/2
 	});
+	if (charLength<=5) {
+		$(".character-caroul-ctrl").hide();
+		$("ul.character-caroul-list").css({
+			width: 'auto',
+			display: 'table',
+			margin: 'auto'
+		});
+	};
 
-     var dis = $('.character-item').outerHeight();
-     $("#charMarquee").scrollbox({
-               // distance: dis,
-               speed: 60,
-               direction: 'h'
-          })
-     $('#marquee_prev_btn').click(function () {
-          $('#charMarquee').trigger('backward');
-     });
-     $('#marquee_next_btn').click(function () {
-          $('#charMarquee').trigger('forward');
-     });
+ //     var dis = $('.character-item').outerHeight();
+ //     $("#charMarquee").scrollbox({
+ //               // distance: dis,
+ //               speed: 60,
+ //               direction: 'h'
+ //          })
+ //     $('#marquee_prev_btn').click(function () {
+ //          $('#charMarquee').trigger('backward');
+ //     });
+ //     $('#marquee_next_btn').click(function () {
+ //          $('#charMarquee').trigger('forward');
+ //     });
 
      // $("#netAssetValuePanel").hide();
     $("#netAssetValueBtn").click(function() {

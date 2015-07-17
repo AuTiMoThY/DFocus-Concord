@@ -198,8 +198,8 @@ header {
 		}
 	}
 	.padding {
-		@include absolute($t:-40%, $l:-25%);
+		@include absolute($t:-50px, $l:-25%);
 		z-index: 79;
-		@include wh2(150% 180%);
+		@include wh2(150% 220px);
 	}
 }

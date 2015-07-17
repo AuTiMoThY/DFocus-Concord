@@ -117,18 +117,20 @@
 			<div class="" style="margin-top: 2em;"><a href="aboutCPCS.php" class="txt_img-getmore btn-getmore hide_txt link-2">進一步了解</a></div>
 		</div>
 	</section>
-	<section id="teamProfile" class="fullbg row4">
+
+	<!-- 20150717  移除 -->
+<!-- 	<section id="teamProfile" class="fullbg row4">
 		<div class="bg"></div>
 		<div class="wrapper">
-			<hgroup class="txtImg_title-title-team2 <?php isPhone('mobile_title-group'); ?>">
-				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Team Profile</h1>
-				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">堅強團隊</h2>
+			<hgroup class="txtImg_title-title-team2 <?php //isPhone('mobile_title-group'); ?>">
+				<h1 class="hidden <?php //isPhone('mobile_title'); ?> title-1" data-lang="en">Team Profile</h1>
+				<h2 class="hidden <?php //isPhone('mobile_title'); ?> title-2" data-lang="tw">堅強團隊</h2>
 			</hgroup>
 			<div class="wrapper small">
 				<p class="txt-1_3">康和期經2015年導入金融機構自營交易系統,多空操作活化資產配置管理期貨操作比重提升資產投資效率l策略交易式選股操作,規避系統性風險導入多重經理人交易策略量化配置系統平滑損益曲線有效控制年化報酬區間，降低整體波動影響</p>
 			</div>
 			<div class="cnt">
-				<ul class="character-list cf">
+				<ul class="character-list cf"> -->
 <!-- 					<li class="character-item"><a href="character.php?character=1">
 						<figure>
 							<div class="character-pic pic about-character1">
@@ -145,32 +147,32 @@
 						</figure>
 					</a></li> -->
 
-<?php foreach ($aboutCharacter as $key => $value) { ?>
+<?php //foreach ($aboutCharacter as $key => $value) { ?>
 
-					<li class="character-item"><a href="character.php?character=<?php echo $aboutCharacter[$key]['index'];?>">
+<!-- 					<li class="character-item"><a href="character.php?character=<?php //echo $aboutCharacter[$key]['index'];?>">
 						<figure>
-							<div class="character-pic pic about-character<?php echo $aboutCharacter[$key]['index'];?>">
-								<img src="upload/character/character<?php echo $aboutCharacter[$key]['index'];?>.png" alt="" class="">
+							<div class="character-pic pic about-character<?php //echo $aboutCharacter[$key]['index'];?>">
+								<img src="upload/character/character<?php //echo $aboutCharacter[$key]['index'];?>.png" alt="" class="">
 							</div>
 							<figcaption>
 								<div class="left">
-									<span class="inner character-name"><?php echo $aboutCharacter[$key]['name'];?></span>
+									<span class="inner character-name"><?php //echo $aboutCharacter[$key]['name'];?></span>
 								</div>
 								<div class="right">
-									<span class="inner character-title"><?php echo $aboutCharacter[$key]['title'];?></span>
+									<span class="inner character-title"><?php //echo $aboutCharacter[$key]['title'];?></span>
 								</div>
 							</figcaption>
 						</figure>
-					</a></li>
+					</a></li> -->
 <?php
-}
+//}
 ?>
 
-				</ul>
+				<!-- </ul> -->
 				<!-- <a href="character.php"><img src="<?php //path_au('img'); ?>about-row4.png" alt=""></a> -->
-			</div>
-		</div>
-	</section>
+			<!-- </div> -->
+		<!-- </div> -->
+	<!-- </section> -->
 </main>
 
 <?php

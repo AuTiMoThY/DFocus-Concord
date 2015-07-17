@@ -94,10 +94,11 @@
 						<span class="input input--df input_required">
 							<label class="frm__label col" for="c_category">問題類別：</label>
 							<select name="" id="" class="frm__field col frm__select">
-								<option value="0">你好我有期貨顧問事業的需求 ...</option>
-								<option value="">選項2</option>
-								<option value="">選項3</option>
-								<option value="">選項4</option>
+								<option value="0">請選擇問題類別 ...</option>
+								<option value="1">你好，我有期貨經理事業的需求 ...</option>
+								<option value="2">你好，我有期貨信託的需求 ...</option>
+								<option value="3">你好，我有期貨顧問事業的需求 ...</option>
+								<option value="4">你好，我有其它問題</option>
 							</select>
 						</span>
 					</li>
