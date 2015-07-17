@@ -66,7 +66,7 @@ if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
 echo $content;
 ?>
 							</p>
-							<a href="products_cnt.php?products=0" class="btn btn-pdtMore txt-r1 link-3">深入了解</a>
+							<a href="product_chart.php" class="btn btn-pdtMore txt-r1 link-3">深入了解</a>
 						</div>
 					</div><!-- /.metro-block-style1  END  !! -->
 				</div><!-- /.metro-row  END  !! -->
