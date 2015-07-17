@@ -60,10 +60,10 @@ $download4 = $download[3]; //公開資料
 			<div id="infTab" class="download-container serviceCnt-container tab_block">
 				<div class="row1">
 				    <ul class="tabs cf">
-				        <li> <a href="#tab1" id="" class="txt-2">開戶文件</a></li>
-				        <li> <a href="#tab2" id="" class="txt-2">交易文件</a></li>
-				        <li> <a href="#tab3" id="" class="txt-2">異動文件</a></li>
-				        <li> <a href="#tab4" id="" class="txt-2">公開資料</a></li>
+				        <li> <a id="tab1Btn" href="#tab1" id="" class="txt-2">開戶文件</a></li>
+				        <li> <a id="tab2Btn" href="#tab2" id="" class="txt-2">交易文件</a></li>
+				        <li> <a id="tab3Btn" href="#tab3" id="" class="txt-2">異動文件</a></li>
+				        <li> <a id="tab4Btn" href="#tab4" id="" class="txt-2">公開資料</a></li>
 				    </ul>
 				</div>
 				<div class="row2 tab_container">
@@ -201,6 +201,20 @@ $(function() {
 	}, function() {
 		$(this).find(".icon-download").removeClass('animated');
 	});
+
+	var getTab = location.hash.substr(0);
+	var showTab = location.hash.substr(4);
+	if (getTab=="") {
+		getTab = "#tab1";
+	}else{
+		getTab = location.hash.substr(0);
+	};
+
+	if (getTab != -1) {
+		$('ul.tabs li').eq(showTab-1).addClass('active').siblings('.active').removeClass('active');
+		$(getTab).stop(false, true).fadeIn().siblings().hide();
+	}
+
 
 });
 </script>

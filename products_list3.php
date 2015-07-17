@@ -341,7 +341,6 @@ if ($p>$maxPage || $p<1 || !is_int($p*1) || !isset($_GET["p"])) {
 		}else {
 			echo "<li class=\"number\"><a href=\"products_list3.php?p={$i}\">{$i}</a></li>";
 		}
-		echo "&nbsp;&nbsp;&nbsp;";
 	}
 
 
