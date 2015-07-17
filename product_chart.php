@@ -183,7 +183,7 @@ AmCharts.ready(function() {
     var dataSet = new AmCharts.DataSet();
     dataSet.color = "#c3c3c3";
     dataSet.dataProvider = chartData;
-    dataSet.fieldMappings = [{fromField:"val", toField:"value"}];
+    dataSet.fieldMappings = [{fromField:"val", toField:"value"},{fromField:"dateCol", toField:"dateCol"}];
     dataSet.categoryField = "date";
     dataSet.dateFormat = "YYYY-MM-DD";
     chart.dataSets = [dataSet];
@@ -192,14 +192,14 @@ AmCharts.ready(function() {
 	// first stock panel
 	var stockPanel1 = new AmCharts.StockPanel();
 	stockPanel1.showCategoryAxis = false;
-	stockPanel1.title = "每日淨值";
+	stockPanel1.title = "淨值走勢圖";
 	stockPanel1.percentHeight = 70;
 
 	// graph of first stock panel
 	var graph1 = new AmCharts.StockGraph();
 	graph1.valueField = "value";
 	graph1.type = "smoothedLine";
-	graph1.title = "date";
+	graph1.title = "每日淨值";
 	graph1.fillAlphas = 0.8;
 	graph1.lineThickness = 2;
 	graph1.dateFormat = "YYYY-MM-DD";
@@ -208,7 +208,7 @@ AmCharts.ready(function() {
 	graph1.bulletBorderColor = "#fff";
 	graph1.bulletBorderAlpha = 1;
 	graph1.bulletBorderThickness = 3;
-	graph1.balloonText = "[[date]]:<div style='margin-bottom:30px;text-shadow: 2px 2px rgba(0, 0, 0, 0.1); font-weight:200;font-size:30px; color:#000'>[[value]]</div>";
+	graph1.balloonText = "[[dateCol]]:<div style='margin-bottom:30px;text-shadow: 2px 2px rgba(0, 0, 0, 0.1); font-weight:200;font-size:30px; color:#000'>[[value]]</div>";
 	graph1.comparable = true;
 	graph1.compareField = "value";
 	graph1.compareGraphBalloonText = "淨值:<b>[[value]]</b>";
