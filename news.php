@@ -277,13 +277,7 @@ echo $content;
 							<div class="metro-block-video ib">
 								<a href="news_cnt.php"></a>
 								<div class="news-pic news-video pic">
-								<?php 
-									if ($news[$start+6]['pic']=='') {
-										echo "<img src=\"dist/images/news-cover.jpg\" alt=\"\">";
-									}else{
-										echo "<img src=\"{$news[$start+6]['pic']}\" alt=\"\">";
-									}
-								?>
+									<img src="<?php path_au('temp'); ?>tem4.jpg" alt="">
 								</div>
 							</div><!-- /.metro-block-video  END  !! -->
 							<div class="metro-block-single ib">
