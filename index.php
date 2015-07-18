@@ -47,23 +47,28 @@
 <main class="">
 	<section id="netAssetValueBar" class="fullbg row0 net_asset_value">
 		<div class="wrapper cf">
-			<div class="col-3 txt-6">Today's Net Asset Value</div>
-			<div class="col-3">
+			<div class="col-4 txt-6">Today's Net Asset Value</div>
+			<div class="col-4">
 				<label for="" class="net_asset_value-label col ">
 					<span class="net_asset_value-label-bg"></span>
 					<span class="net_asset_value-label-cnt txt-6_1">基金淨值日</span>
 				</label>
 				<div class="net_asset_value-txt col txt-6">2015/07/01</div>
 			</div>
-			<div class="col-3">
+			<div class="col-4">
 				<label for="" class="net_asset_value-label col ">
 					<span class="net_asset_value-label-bg"></span>
 					<span class="net_asset_value-label-cnt txt-6_1">最新淨值</span>
 				</label>
 				<div class="net_asset_value-txt col txt-6">10.190</div>
+			</div>
+			<div class="col-4">
 				<button type="button" id="netAssetValueBtn" class="btn btn-more">
 					more
 				</button>
+				<a href="product_chart.php" id="" class="btn btn-moreChart">
+					詳細資訊<i class="fa fa-line-chart"></i>
+				</a>
 			</div>
 		</div>
 		<div id="netAssetValuePanel" class="net_asset_value-history">

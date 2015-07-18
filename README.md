@@ -38,8 +38,13 @@ qa.php:                 客服中心 - 常見問題
 
 
 ```
+- - -
+## 修改：
+### 20150717
+- 人物改為四個,只留首頁的團隊
+- 加入基金淨值走勢圖
 
-
+- - -
 ## amcharts
 [Using PHP to hook up charts to MySQL data base](http://www.amcharts.com/tutorials/using-php-to-hook-up-charts-to-mysql-data-base/)
 

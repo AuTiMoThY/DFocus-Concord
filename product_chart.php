@@ -14,18 +14,7 @@
 // -------------------------------
   include_once INC_PATH.'head.php';
  ?>
-<style>
-.amcharts-graph-g1 .amcharts-graph-fill {
-  filter: url(#blur);
-}
 
-.amcharts-graph-g2 .amcharts-graph-fill {filter: url(#blur);
-}
-
-.amcharts-cursor-fill {
-  filter: url(#shadow);
-}					
-</style>
 <link rel="stylesheet" href="amstockchart/amcharts/style.css" type="text/css">
 <script src="amstockchart/amcharts/amcharts.js" type="text/javascript"></script>
 <script src="amstockchart/amcharts/serial.js" type="text/javascript"></script>
@@ -110,8 +99,126 @@ AmCharts.loadJSON = function(url) {
 				</div>
 			</div>
 			<div class="cnt editorDF">
-				<!-- 圖文編輯器 -->
 				<div id="chartdiv" style="width:90%; height:600px; margin:auto;"></div>
+				<div class="net_asset_value-cnt cf">
+					<div class="col-2">
+						<table class="table1">
+							<tr>
+								<th>日期</th>
+								<th>淨值</th>
+							</tr>
+							<tr>
+								<td>2015-07-01</td>
+								<td>10.190</td>
+							</tr>
+							<tr>
+								<td>2015-06-30</td>
+								<td>10.158</td>
+							</tr>
+							<tr>
+								<td>2015-06-29</td>
+								<td>10.125</td>
+							</tr>
+							<tr>
+								<td>2015-06-26</td>
+								<td>10.223</td>
+							</tr>
+							<tr>
+								<td>2015-06-25</td>
+								<td>10.225</td>
+							</tr>
+							<tr>
+								<td>2015-06-24</td>
+								<td>10.199</td>
+							</tr>
+							<tr>
+								<td>2015-06-23</td>
+								<td>10.198</td>
+							</tr>
+							<tr>
+								<td>2015-06-22</td>
+								<td>10.161</td>
+							</tr>
+						</table>
+						<table class="table1-1">
+							<tr>
+								<th>日期</th>
+								<th>淨值</th>
+							</tr>
+							<tr>
+								<td>2015-06-18</td>
+								<td>10.169</td>
+							</tr>
+							<tr>
+								<td>2015-06-17</td>
+								<td>10.174</td>
+							</tr>
+							<tr>
+								<td>2015-06-16</td>
+								<td>10.179</td>
+							</tr>
+							<tr>
+								<td>2015-06-15</td>
+								<td>10.210</td>
+							</tr>
+							<tr>
+								<td>2015-06-12</td>
+								<td>10.240</td>
+							</tr>
+							<tr>
+								<td>2015-06-11</td>
+								<td>10.221</td>
+							</tr>
+							<tr>
+								<td>2015-06-10</td>
+								<td>10.219</td>
+							</tr>
+							<tr>
+								<td>2015-06-09</td>
+								<td>10.251</td>
+							</tr>
+						</table>
+					</div>
+					<div class="col-2">
+						<table class="table2">
+							<tr>
+								<th colspan="2">康和多空成長期貨信託基金小檔案</th>
+							</tr>
+							<tr>
+								<td>基金型態</td>
+								<td>開放式一般型期貨信託基金</td>
+							</tr>
+							<tr>
+								<td>投資地區</td>
+								<td>全球期貨交易國內有價證劵</td>
+							</tr>
+							<tr>
+								<td>保管銀行</td>
+								<td>永豐商業銀行</td>
+							</tr>
+							<tr>
+								<td>計價幣別</td>
+								<td>新台幣</td>
+							</tr>
+							<tr>
+								<td>申購淨值計算日</td>
+								<td>T日</td>
+							</tr>
+							<tr>
+								<td>買回淨值計算日</td>
+								<td>T+1營業日</td>
+							</tr>
+							<tr>
+								<td>買回價金計算日</td>
+								<td>T+5營業日</td>
+							</tr>
+							<tr>
+								<td>基金經理人</td>
+								<td>林豪威</td>
+							</tr>
+						</table>
+					</div>
+				</div>
 			</div>
 			<div class="" style="margin: 1em auto 5em;">
 				<a href="products.php" class="txt_img-goProdList btn-getmore hide_txt"></a>
@@ -205,7 +312,7 @@ AmCharts.ready(function() {
 	graph1.dateFormat = "YYYY-MM-DD";
 	graph1.stackable = false;
 	graph1.bullet = "round";
-	graph1.bulletBorderColor = "#fff";
+	graph1.bulletBorderColor = "#CE7077";
 	graph1.bulletBorderAlpha = 1;
 	graph1.bulletBorderThickness = 3;
 	graph1.balloonText = "[[dateCol]]:<div style='margin-bottom:30px;text-shadow: 2px 2px rgba(0, 0, 0, 0.1); font-weight:200;font-size:30px; color:#000'>[[value]]</div>";
