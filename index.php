@@ -73,6 +73,19 @@
 		</div>
 		<div id="netAssetValuePanel" class="net_asset_value-history">
 			<div class="wrapper">
+<?php 
+if ($deviceType == 'phone') {
+?>
+<ul class="cf">
+	<li> <span class="date">2015/06/30</span><span class="num">10.158</span> </li>
+	<li> <span class="date">2015/06/29</span><span class="num">10.125</span> </li>
+	<li> <span class="date">2015/06/26</span><span class="num">10.223</span> </li>
+	<li> <span class="date">2015/06/25</span><span class="num">10.225</span> </li>
+	<li> <span class="date">2015/06/24</span><span class="num">10.199</span> </li>
+</ul>
+<?
+}else {
+?>
 <ul class="cf">
 	<li> <span class="date">2015/06/30</span><span class="num">10.158</span> </li>
 	<li> <span class="date">2015/06/29</span><span class="num">10.125</span> </li>
@@ -90,6 +103,7 @@
 	<li> <span class="date">2015/06/10</span><span class="num">10.219</span> </li>
 	<li> <span class="date">2015/06/09</span><span class="num">10.251</span> </li>
 </ul>
+<?php } ?>
 			</div>
 		</div>
 	</section>

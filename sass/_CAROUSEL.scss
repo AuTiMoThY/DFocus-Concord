@@ -9,8 +9,8 @@ $slider-pb: (857 / 1920) * 100%;
 	background-repeat: no-repeat;
 	// @include bg(fixed);
 	@include respondTo(m){
-		padding-bottom: 65%;
-		@include bg(90%, 0);
+		padding-bottom: 55% !important;
+		@include bg(50%, 0);
 	};
 	.about_page & {
 		@include bgRWD('null', 1920, 478);

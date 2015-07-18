@@ -9,7 +9,7 @@
 			</div>
 			<div class="footer-sec sec2 col">
 				<i class="ib icon icon-phone"></i>
-				<div class="footer-sec-txt ib" style="margin-left: 0.8em;">
+				<div class="footer-sec-txt ib">
 					<p><span class="txt-ft-3 txt-ft-3-1" style="margin-right: 10px;">客服專線</span><span class="txt-ft-2 txt-ft-2-1">02-3765-3688</span></p>
 					<p><span class="txt-ft-3" style="margin-right: 17px;">免付費專線</span><span class="txt-ft-2 txt-ft-2-1">0800-003-958</span></p>
 				</div>

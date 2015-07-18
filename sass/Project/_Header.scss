@@ -48,9 +48,9 @@ header {
 		top: (90 - 45) / 2 * 1px;
 		left: 2em;
 		margin: auto;
-		a {
-			@include wh;
-			display: block;
+		@media screen and (max-width: 1280px) {
+		    width: 430px;
+		    height: 39px;
 		}
 		@include respondTo(Mobile){
 			width: 75%;
@@ -59,6 +59,10 @@ header {
 			top: 13px;
 			left: 1em;
 		};
+		a {
+			@include wh;
+			display: block;
+		}
 	}// header#logo  END
 }
 /*========================================================================*\
@@ -77,9 +81,15 @@ header {
 			display: block;
 		}
 	};
+	@include respondTo(Sscreen){
+		// width: 55%;
+	};
 	ul {
 		position: relative;
 		height: 100%;
+		@media screen and (max-width: 1280px) {
+			margin-right: 90px;
+		}
 		@include respondTo(m){
 			height: 100vh;
 		};
@@ -104,6 +114,11 @@ header {
 				height: 40px;
 				margin: 0;
 				@include translateY(0);
+			};
+			@media screen and (max-width: 1280px) {
+				margin: auto;
+				position: absolute;
+				right: -90px;
 			};
 			.login {
 				a {
@@ -137,6 +152,12 @@ header {
 				height: 40px;
 				line-height: 40px;
 			}
+		}
+		@media screen and (max-width: 1280px) {
+			margin: 0 0.6em;
+		};
+		@include respondTo(Sscreen){
+			margin: 0 0.3em;
 		};
 		a, span {
 			display: block;

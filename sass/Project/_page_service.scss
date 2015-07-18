@@ -403,6 +403,16 @@
 		.row1 {
 			height: 40px;
 			overflow: hidden;
+			@include respondTo(m) {
+				width: 1200px;
+				overflow-x: scroll; /* 1 */
+				-webkit-overflow-scrolling: touch; /* 2 */
+			};
+			ul {
+				content: '';
+				display: inline-block;
+				width: 100%;
+			}
 		}
 	}
 	&-tabs {

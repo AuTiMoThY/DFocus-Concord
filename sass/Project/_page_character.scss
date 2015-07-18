@@ -146,15 +146,28 @@ $ctrlSize: 100px;
 		width: 100%;
 		height: 455px;
 		overflow: hidden;
+		@include respondTo(m){
+			height: auto;
+		};
 	}
 	&-caroul-list {
 		width: 1000%;
+		@include respondTo(m){
+			width: 100% !important;
+		};
 		.character-item {
 			width: 360px !important;
 			margin-left: 18px !important;
 			&:nth-of-type(3n+1) {
 				margin-left: 18px !important;
 			}
+			@include respondTo(m){
+				width: 100% !important;
+				margin-left: 0 !important;
+				&:nth-of-type(3n+1) {
+					margin-left: 0 !important;
+				}
+			};
 		}
 	}
 	&-caroul-ctrl {
@@ -338,6 +351,9 @@ img {
 			&:first-of-type {
 				margin-left: 0;
 			}
+			@include respondTo(m){
+				width: 100%;
+			};
 		}
 	}
 	[class*="index-character"] {

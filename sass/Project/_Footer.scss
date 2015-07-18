@@ -28,6 +28,9 @@ footer {
 		}
 		p {
 			margin-bottom: 0;
+			@include respondTo(m){
+				padding: 0 1em;
+			};
 		}
 	}
 }
@@ -69,9 +72,11 @@ footer {
 			width: 310px;
 			height: 100%;
 			padding: 0 0.6em;
+			margin-left: 0.8em;
 			@include respondTo(m){
 				width: 230px;
 				padding: 0;
+				margin-left: 0;
 			};
 		}
 		.icon-like {
@@ -110,6 +115,13 @@ footer {
 	}
 }
 
+.footer_row2 {
+	.txt-ft-5 {
+		@include respondTo(m){
+			padding: 0.3em 1em;
+		};
+	}
+}
 .footer_row3 {
 	@include rhythm-margins(0.6, 0.3);
 }

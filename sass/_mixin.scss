@@ -532,8 +532,11 @@ $easeSean: (
   @else if $screenWidth == Tablet {
     @media screen and (max-width: 768px) { @content; }
   }
-  @else if $screenWidth == Mobile or m {
+  @else if $screenWidth == 'Mobile' or 'm' {
     @media screen and (max-width: 480px) { @content; }
+  }
+  @else if is-number($screenWidth) {
+  	@media screen and (max-width: #{$screenWidth}px) { @content; }
   }
 }
 

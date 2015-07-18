@@ -79,6 +79,10 @@
 		width: 25%;
 		height: 45px;
 		line-height: 45px;
+		@include respondTo(m){
+			width: 100%;
+			border-bottom: 1px solid #000;
+		};
 	}
 	&-label {
 		position: relative;
@@ -115,6 +119,9 @@
 			font-family: $ff-MHeiHK;
 			letter-spacing: 1px;
 			@include adjFontSize(13px, 1.6);
+			@include respondTo(m){
+				width: 100%;
+			};
 		}
 		.date {
 			margin-right: 1.5em;
@@ -128,22 +135,31 @@
 			width: 50%;
 			&:first-of-type {
 				padding-right: 0.8em;
+				@include respondTo(m){
+					padding: 0;
+				};
 			}
 			&:nth-of-type(2) {
 				padding-left: 0.8em;
+				@include respondTo(m){
+					padding: 0;
+				};
 			}
+			@include respondTo(m){
+				width: 100%;
+			};
 		}
 		table {
+			margin-bottom: 0.8em;
 			box-shadow: 0 1px 3px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.24);
 			border: 1px solid #e0e0e0;
 		}
-		.table1 {
+		.table1, .table1-1 {
 			width: 50%;
 			float: left;
-		}
-		.table1-1 {
-			width: 50%;
-			float: left;
+			@include respondTo(m){
+				width: 100%;
+			};
 		}
 		.table2 {
 			width: 100%;
