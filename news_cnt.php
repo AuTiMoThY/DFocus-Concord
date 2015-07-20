@@ -2,6 +2,20 @@
 	include_once 'config.php';
 	include_once INC_PATH.'headleader.php';
 	require_once INC_PATH.'aunav.php';
+	include_once 'dist/news_data.php';
+
+
+
+$get_id = isset($_GET['id']) ? $_GET['id'] : 1;
+
+// $qq = array_search
+// $qq = array_keys($news);
+// $qq1 = array_search($get_id, $qq);
+// $news_index = $news[$get_id-1]['index'];
+$news_title = $news[$get_id-1]['title'];
+$news_date = $news[$get_id-1]['date'];
+$news_cnt = $news[$get_id-1]['cnt'];
+
 ?>
 <title>市場消息 / 康和快訊 | <?php echo $webTitle; ?></title>
 
@@ -38,15 +52,16 @@
 <section id="pageBanner" class="banner" style="background-image: url('<?php path_au('img'); ?>banner-news.jpg')">
 	
 </section>
-
 <main class="">
 	<header class="cnt_title">
 		<div class="wrapper small">
 			<h2 class="news-title">
-				周線連3黑 520魔咒下周上演?
+				<?php echo $news_title; ?>
+				<!-- 周線連3黑 520魔咒下周上演? -->
 			</h2>
 			<p class="news-time">
-				03月24日 2015
+				<?php echo $news_date; ?>
+				<!-- 03月24日 2015 -->
 			</p>
 		</div>
 	</header>
@@ -56,7 +71,8 @@
 			<div class="cnt cf">
 				<article class="editorDF">
 					<!-- 圖文編輯器範圍 -->
-					<img src="upload/news/news_051701.jpg" alt=""><br>
+					<?php echo $news_cnt; ?>
+<!-- 					<img src="upload/news/news_051701.jpg" alt=""><br>
 					<img src="upload/news/news_051702.jpg" alt=""><br>
 					<img src="upload/news/news_051703.jpg" alt=""><br>
 					<p>新聞分享：</p>
@@ -68,7 +84,7 @@
 					<p>不過大展投顧策略長李政諺認為，從絕對金額來看，外資還是站在買方，昨日現貨買超7.21億，因此雖然盤是偏空，但指數要大跌情況機率不大，只不過在外資買盤力道縮減、內資撤離，且散戶觀望下，重整市場信心還需要一點時間。</p>
 					<p>目前盤面主流難產，葉時雙認為，可以關注比較不受財報影響且有題材的族群，像是搭上未來趨勢的行動支付、產品面橫跨手機、WIFI和基地台的砷化鎵，及近年需求持續升溫的航太，雖然近期台股偏弱，但股價相對有撐。</p>
 					<p>相關連結：<a href="http://money.chinatimes.com/news/news-content.aspx?id=20150516000138&cid=1203" target="_blank">http://money.chinatimes.com/news/news-content.aspx?id=20150516000138&cid=1203</a></p>
-				</article>
+ -->				</article>
 				<!--<img src="<?php// path_au('img'); ?>news-cnt.jpg" alt="" class="temporary">-->
 				<footer class="share_bar cf">
 					<div class="social_share left" style="margin-top: 2.5em;">

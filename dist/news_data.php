@@ -1,7 +1,31 @@
 <?php 
 $news = array(
 array(
-      'index'=>'1','title'=>'股票期貨贏家－蘋果助勢 可成股期可加碼',
+      'index'=>'1','title'=>'台指選擇權─專家觀點－9,200點賣壓重 買進賣權因應',
+      'date'=>'06月30日 2015',
+      'pic'=>'',
+      'cnt'=>'
+<p>新聞分享</p>
+<p>台股上周開始量縮整理，且日線連續4天收黑K棒，顯示追價力道不足、上檔反壓沉重。康和期經認為，觀察8月分合約，考量估計除息點數影響，實值收盤價差由正轉為逆價差，加上先前在9,200點附近的套牢賣壓不小，後續行情較為保守看待。</p>
+<p>在7月分期指結算後，目前外資空單部位不到千口，對後市並無較為明顯的操作方向，在現貨市場小幅買超，呈現買現貨空期貨的避險策略；加上進入股票除權息的高峰期，因富人稅及可扣抵稅額減半的影響下，大戶的棄權賣壓機會較大，遇到前波9,200點大量套牢區則不易一次越過，因此多頭反攻力道難以持續。</p>
+<p>指數從萬點下跌以來，跌破所有均線，呈現空頭排列，短線上難出現大漲走勢，電子股在傳統淡季及面臨大陸紅色供應鏈的挑戰之下，電子類股普遍營收不佳，表現較為弱勢；反觀金融類股在各家金控獲利持續增長下，相對抗跌，發揮撐盤角色，但金融類股所占權值不大，對整體指數助益不大。</p>
+<p>康和期經認為，隨著下半年美、英兩國即將升息的預期，及大陸股市震盪幅度加劇下，台股指數的波動勢必大幅增加，且在技術面及基本面皆對多頭不利的影響之下，投資人可利用買進賣權的策略因應。(工商時報)</p><br>
+<a href="http://www.chinatimes.com/newspapers/20150720000199-260206" target="_blank">http://www.chinatimes.com/newspapers/20150720000199-260206</a><br>
+      '),
+array(
+      'index'=>'2','title'=>'股票期貨贏家－華通順利填息 可布局股期',
+      'date'=>'06月30日 2015',
+      'pic'=>'',
+      'cnt'=>'
+<p>新聞分享</p>
+<p>印刷電路板廠華通（2313）上周進行除權息，然而遇到國際股市動盪，導致股價一度跌落年線之下，但在法人持續加碼的拉升力道之下，昨日出現反彈且順利填息，加上下半年蘋果新手機即將問市的利多刺激下，預估第三季營收將大幅成長及本益比偏低的雙重利多因素下，值得低檔加碼。</p>
+<p>華通為國內第二大手機及平板裝置HDI版供應廠，本身為蘋果供應鏈，下半年對其出貨比重將增加，為今年營收成長的主因之一。由於製程良率提升、產能利用率拉高及重慶新廠加入量產，相較於其他同業可能出現虧損及負成長的表現之下，華通較其他同業表現出色。</p>
+<p>機構預測2015年及2016年全球智慧型手機銷售量皆有雙位數的成長，華通掌握蘋果及前五大陸系手機中的三家訂單，客戶結構良好，全球高階HDI的寡占競爭，且華通已站穩供應地位，預估營收及獲利將可穩定成長。</p>
+<p>在現階段台股整體表現較弱的型態下，建議投資人可以選擇後續有題材，且成長動能明顯的標的，才有獲利機會。華通在上周除息後，於昨日順利填息，由此表現可看出投資人對後市並不看淡，再加上三大法人回檔積極布局之下，可利用股票期貨進行操作。(工商時報)</p><br>
+<a href="http://www.chinatimes.com/newspapers/20150714000282-260206" target="_blank">http://www.chinatimes.com/newspapers/20150714000282-260206</a><br>
+      '),
+array(
+      'index'=>'3','title'=>'股票期貨贏家－蘋果助勢 可成股期可加碼',
       'date'=>'06月30日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -13,7 +37,7 @@ array(
 <a href="http://www.chinatimes.com/newspapers/20150626000308-260206" target="_blank">http://www.chinatimes.com/newspapers/20150626000308-260206</a><br>
       '),
 array(
-      'index'=>'2','title'=>'台指選擇權－權值股撐盤 台股等轉機',
+      'index'=>'4','title'=>'台指選擇權－權值股撐盤 台股等轉機',
       'date'=>'06月18日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -25,7 +49,7 @@ array(
 <br><a href="http://www.chinatimes.com/newspapers/20150618000265-260206" target="_blank">http://www.chinatimes.com/newspapers/20150618000265-260206</a><br>
       '),
 array(
-      'index'=>'3','title'=>'期貨－外資1.48萬口空單 結算壓力重',
+      'index'=>'5','title'=>'期貨－外資1.48萬口空單 結算壓力重',
       'date'=>'06月18日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -39,7 +63,7 @@ array(
 <br><a href="http://www.chinatimes.com/newspapers/20150616000295-260206" target="_blank">http://www.chinatimes.com/newspapers/20150616000295-260206</a><br>
       '),
 array(
-      'index'=>'4','title'=>'健．康．有．術－養氣 練功、蔬食、沏好茶',
+      'index'=>'6','title'=>'健．康．有．術－養氣 練功、蔬食、沏好茶',
       'date'=>'06月08日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -59,7 +83,7 @@ array(
 <p>至於在飲食方面，由於必須長時間在外工作，因此並沒有特別準備，單純盡量吃健康一點，或者有辦法的話就吃素。葉一豐提到，吃素其實身體會比較沒有負擔，同時不吃素肉或者其他加工食品，幾乎以天然食材為主。過去在美國有段時間，光是吃素搭配上運動，就因此瘦了20公斤，整個人氣色也好很多，加上台灣吃素很方便，所以只要時間與空間允許，他都會盡量選擇素食。</p>
       '),
 array(
-      'index'=>'5','title'=>'大立光吃蘋果 股期可操作',
+      'index'=>'7','title'=>'大立光吃蘋果 股期可操作',
       'date'=>'06月08日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -72,7 +96,7 @@ array(
 <br><a href="http://www.chinatimes.com/newspapers/20150608000243-260206" target="_blank">http://www.chinatimes.com/newspapers/20150608000243-260206</a><br>
       '),
 array(
-      'index'=>'6','title'=>'台指選擇權─新制實施 震盪加劇',
+      'index'=>'8','title'=>'台指選擇權─新制實施 震盪加劇',
       'date'=>'06月03日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -84,7 +108,7 @@ array(
 <br><a href="http://www.chinatimes.com/newspapers/20150603000252-260206" target="_blank">http://www.chinatimes.com/newspapers/20150603000252-260206</a><br>
       '),
 array(
-      'index'=>'7','title'=>'周線連3黑 520魔咒下周上演？',
+      'index'=>'9','title'=>'周線連3黑 520魔咒下周上演？',
       'date'=>'05月17日 2015',
       'pic'=>'upload/news/news_051701.jpg',
       'cnt'=>'
@@ -100,7 +124,7 @@ array(
 <br><a href="http://money.chinatimes.com/news/news-content.aspx?id=20150516000138&cid=1203" target="_blank">http://money.chinatimes.com/news/news-content.aspx?id=20150516000138&cid=1203</a><br>
       '),
 array(
-      'index'=>'8','title'=>'４月長紅 台股５月變數多',
+      'index'=>'10','title'=>'４月長紅 台股５月變數多',
       'date'=>'05月01日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -116,7 +140,7 @@ array(
 <br><a href="http://www.chinatimes.com/newspapers/20150501000046-260202" target="_blank">http://www.chinatimes.com/newspapers/20150501000046-260202</a><br>
       '),
 array(
-      'index'=>'9','title'=>'暌違15年 台股第4波破萬點',
+      'index'=>'11','title'=>'暌違15年 台股第4波破萬點',
       'date'=>'05月01日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -129,7 +153,7 @@ array(
 <br><a href="http://theme.udn.com/theme/story/6773/866517-%E6%9A%8C%E9%81%9515%E5%B9%B4-%E5%8F%B0%E8%82%A1%E7%AC%AC4%E6%B3%A2%E7%A0%B4%E8%90%AC%E9%BB%9E" target="_blank">http://theme.udn.com/theme/story/6773/866517-%E6%9A%8C%E9%81%9515%E5%B9%B4-%E5%8F%B0%E8%82%A1%E7%AC%AC4%E6%B3%A2%E7%A0%B4%E8%90%AC%E9%BB%9E</a><br>
       '),
 array(
-      'index'=>'10','title'=>'期貨─正價差收斂 台指期倍感壓力',
+      'index'=>'12','title'=>'期貨─正價差收斂 台指期倍感壓力',
       'date'=>'04月21日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -143,7 +167,7 @@ array(
 <br><a href="http://www.chinatimes.com/newspapers/20150421000282-260206" target="_blank">http://www.chinatimes.com/newspapers/20150421000282-260206</a><br>
       '),
 array(
-      'index'=>'11','title'=>'陸股再飆高 法人：小心短線過熱',
+      'index'=>'13','title'=>'陸股再飆高 法人：小心短線過熱',
       'date'=>'04月17日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -157,7 +181,7 @@ array(
 <br><a href="http://udn.com/news/story/7335/843406" target="_blank">http://udn.com/news/story/7335/843406</a><br>
       '),
 array(
-      'index'=>'12','title'=>'陸股站穩4千點 專家：滬深300上看8千點',
+      'index'=>'14','title'=>'陸股站穩4千點 專家：滬深300上看8千點',
       'date'=>'04月10日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -173,7 +197,7 @@ array(
 <br><a href="http://money.udn.com/storypage.php?sub_id=5641&art_id=828326" target="_blank">http://money.udn.com/storypage.php?sub_id=5641&art_id=828326</a><br>
       '),
 array(
-      'index'=>'13','title'=>'歐QE滿月喜 就業、景氣雙回暖',
+      'index'=>'15','title'=>'歐QE滿月喜 就業、景氣雙回暖',
       'date'=>'04月08日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -188,7 +212,7 @@ array(
 <br><a href="http://money.udn.com/storypage.php?sub_id=5618&art_id=823684" target="_blank">http://money.udn.com/storypage.php?sub_id=5618&art_id=823684</a><br>
       '),
 array(
-      'index'=>'14','title'=>'台指選擇權－外資加碼 台指期翻淨多單',
+      'index'=>'16','title'=>'台指選擇權－外資加碼 台指期翻淨多單',
       'date'=>'04月07日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -202,7 +226,7 @@ array(
 <br><a href="http://www.chinatimes.com/newspapers/20150407000190-260206" target="_blank">http://www.chinatimes.com/newspapers/20150407000190-260206</a><br>
       '),
 array(
-      'index'=>'15','title'=>'美保健股揮棒 首季強升6%',
+      'index'=>'17','title'=>'美保健股揮棒 首季強升6%',
       'date'=>'04月01日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -216,7 +240,7 @@ array(
 <br><a href="" target="_blank"></a><br>
       '),
 array(
-      'index'=>'16','title'=>'專家：歐股4大利多簇擁 後市看旺',
+      'index'=>'18','title'=>'專家：歐股4大利多簇擁 後市看旺',
       'date'=>'03月24日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -231,7 +255,7 @@ array(
 <br><a href="http://fund.udn.com/fund/story/5858/785739-%E5%B0%88%E5%AE%B6%EF%BC%9A%E6%AD%90%E8%82%A14%E5%A4%A7%E5%88%A9%E5%A4%9A%E7%B0%87%E6%93%81-%E5%BE%8C%E5%B8%82%E7%9C%8B%E6%97%BA" target="_blank">http://fund.udn.com/fund/story/5858/785739-%E5%B0%88%E5%AE%B6%EF%BC%9A%E6%AD%90%E8%82%A14%E5%A4%A7%E5%88%A9%E5%A4%9A%E7%B0%87%E6%93%81-%E5%BE%8C%E5%B8%82%E7%9C%8B%E6%97%BA</a><br>
       '),
 array(
-      'index'=>'17','title'=>'工商時報 | 產業特刊 ─ 職場達人－林彥全打破偏見 闖出期經一片天',
+      'index'=>'19','title'=>'工商時報 | 產業特刊 ─ 職場達人－林彥全打破偏見 闖出期經一片天',
       'date'=>'03月24日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -252,7 +276,7 @@ array(
 <br><a href="http://fm.concordfutures.com.tw/news_more.aspx?indx=103" target="_blank">http://fm.concordfutures.com.tw/news_more.aspx?indx=103</a><br>
       '),
 array(
-      'index'=>'18','title'=>'| 工商時報 | B7 期貨 ─　外資靠攏寬鬆區 震盪',
+      'index'=>'20','title'=>'| 工商時報 | B7 期貨 ─　外資靠攏寬鬆區 震盪',
       'date'=>'03月24日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -267,7 +291,7 @@ array(
 <br><a href="http://fm.concordfutures.com.tw/news_more.aspx?indx=102" target="_blank">http://fm.concordfutures.com.tw/news_more.aspx?indx=102</a><br>
       '),
 array(
-      'index'=>'19','title'=>'聯準會失去耐心? 專家:市場已有準備',
+      'index'=>'21','title'=>'聯準會失去耐心? 專家:市場已有準備',
       'date'=>'03月19日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -281,7 +305,7 @@ array(
 <br><a href="http://money.udn.com/storypage.php?sub_id=5641&art_id=775325" target="_blank">http://money.udn.com/storypage.php?sub_id=5641&art_id=775325</a><br>
       '),
 array(
-      'index'=>'20','title'=>'外資靠攏寬鬆區 震盪',
+      'index'=>'22','title'=>'外資靠攏寬鬆區 震盪',
       'date'=>'03月17日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -296,7 +320,7 @@ array(
 <br><a href="http://www.chinatimes.com/newspapers/20150317000241-260206" target="_blank">http://www.chinatimes.com/newspapers/20150317000241-260206</a><br>
       '),
 array(
-      'index'=>'21','title'=>'職場達人－林彥全打破偏見 闖出期經一片天',
+      'index'=>'23','title'=>'職場達人－林彥全打破偏見 闖出期經一片天',
       'date'=>'03月15日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -323,7 +347,7 @@ array(
 <br><a href="http://www.chinatimes.com/newspapers/20150314000205-260210" target="_blank">http://www.chinatimes.com/newspapers/20150314000205-260210</a><br>
       '),
 array(
-      'index'=>'22','title'=>'利空雖淡化 但美股短期恐震盪',
+      'index'=>'24','title'=>'利空雖淡化 但美股短期恐震盪',
       'date'=>'03月13日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -337,7 +361,7 @@ array(
 <br><a href="http://money.udn.com/storypage.php?sub_id=5618&art_id=762853" target="_blank">http://money.udn.com/storypage.php?sub_id=5618&art_id=762853</a><br>
       '),
 array(
-      'index'=>'23','title'=>'內資落跑 櫃買指數重挫',
+      'index'=>'25','title'=>'內資落跑 櫃買指數重挫',
       'date'=>'03月11日 2015',
       'pic'=>'',
       'cnt'=>'
@@ -351,7 +375,7 @@ array(
 <br><a href="http://www.chinatimes.com/newspapers/20150311000239-260206" target="_blank">http://www.chinatimes.com/newspapers/20150311000239-260206</a><br>
       '),
 array(
-      'index'=>'24','title'=>'開立單一全權委託帳戶 鬆綁',
+      'index'=>'26','title'=>'開立單一全權委託帳戶 鬆綁',
       'date'=>'10月31日 2014',
       'pic'=>'',
       'cnt'=>'
