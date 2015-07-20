@@ -58,7 +58,8 @@
 						    <li> <a href="#tab3" id="" class="txt-2">異動項目</a></li>
 						    <li> <a href="#tab4" id="" class="txt-2">基金知識</a></li>
 						    <li> <a href="#tab5" id="" class="txt-2">其他問題</a></li>
-						    <li> <a href="#tab6" id="" class="txt-2">自訂問題1</a></li>
+						    <li> <a href="#tab6" id="" class="txt-2">全權委託問題</a></li>
+						    <li> <a href="#tab7" id="" class="txt-2">自訂問題1</a></li>
 						</ul>
 					</div>
 				    <div class="faq-tabs-change right">
@@ -574,6 +575,47 @@
 								<li class="faq-item">
 									<h3 class="faq-item-q">
 										<span class="col">Q 01：</span>
+										<span class="col">請問全權委託最低代操金額額度為多少?</span>
+										<i class="fa fa-caret-down"></i>
+									</h3>
+									<div class="faq-item-a">
+									<!-- 圖文編輯器 -->
+										<p>法令規定最低為100萬元，但康和期經對於操作金額及風險還是因應個別客戶群不同，會提供最適方案。</p>
+									</div>
+								</li>
+								<li class="faq-item">
+									<h3 class="faq-item-q">
+										<span class="col">Q 02：</span>
+										<span class="col">請問康和期經全權委託可以隨時出入金嗎?</span>
+										<i class="fa fa-caret-down"></i>
+									</h3>
+									<div class="faq-item-a">
+									<!-- 圖文編輯器 -->
+										<p>全權委託代操依照合約規定可以依照客戶需求別在簽約時做調整，然而為維持策略運作平穩性，還是建議客戶定期做財務最適分配。</p>
+									</div>
+								</li>
+								<li class="faq-item">
+									<h3 class="faq-item-q">
+										<span class="col">Q 03：</span>
+										<span class="col">請問康和期經全權委託可以指定經理人嗎?</span>
+										<i class="fa fa-caret-down"></i>
+									</h3>
+									<div class="faq-item-a">
+									<!-- 圖文編輯器 -->
+										<p>可以，依照法令規定，全權委託客戶需在合約明定委託經理人。</p>
+									</div>
+								</li>
+							</ul>
+					   </section>
+					</div><!--  /#tab6 .tab_content  END  !!  -->
+					<!--  #tab7 .tab_content  START  !!  -->
+					<div id="tab7" class="tab_content">
+					   <section class="mod mod-tab_cnt">
+					        <!-- 內容 -->
+							<ul class="faq-list cf">
+								<li class="faq-item">
+									<h3 class="faq-item-q">
+										<span class="col">Q 01：</span>
 										<span class="col">自訂問題1問題1</span>
 										<i class="fa fa-caret-down"></i>
 									</h3>
@@ -606,7 +648,7 @@
 								</li>
 							</ul>
 					   </section>
-					</div><!--  /#tab6 .tab_content  END  !!  -->
+					</div><!--  /#tab7 .tab_content  END  !!  -->
 				</div>
 
 			</div>
