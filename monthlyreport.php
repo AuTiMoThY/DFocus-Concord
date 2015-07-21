@@ -83,15 +83,32 @@
 								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
 							</hgroup>
 							<div class="monthlyreport-time">
-								<span class="txt-4 txt-ff1"><span class="txt-5">5</span>月</span>
-								<span class="txt-1">2015 / Q1 / MAY</span>
+								<span class="txt-4 txt-ff1"><span class="txt-5">6</span>月</span>
+								<span class="txt-1">2015 / 06</span>
 							</div>
 							<div class="news-link">
-								<a href="" class="txt-r1">http://www.concordmanagedfutures.com/what-we-do/investment-management/</a>
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150630.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150630.pdf/</a>
 							</div>
 						</div>
 					</li>
-
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">5</span>月</span>
+								<span class="txt-1">2015 / 05</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150529.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150529.pdf/</a>
+							</div>
+						</div>
+					</li>
 					<li class="art_search-item monthlyreport-item cf">
 						<div class="news-pic pic left">
 							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
@@ -103,14 +120,13 @@
 							</hgroup>
 							<div class="monthlyreport-time">
 								<span class="txt-4 txt-ff1"><span class="txt-5">4</span>月</span>
-								<span class="txt-1">2015 / Q1 / MAY</span>
+								<span class="txt-1">2015 / 04</span>
 							</div>
 							<div class="news-link">
-								<a href="" class="txt-r1">http://www.concordmanagedfutures.com/what-we-do/investment-management/</a>
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150430.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150430.pdf/</a>
 							</div>
 						</div>
 					</li>
-
 					<li class="art_search-item monthlyreport-item cf">
 						<div class="news-pic pic left">
 							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
@@ -122,10 +138,280 @@
 							</hgroup>
 							<div class="monthlyreport-time">
 								<span class="txt-4 txt-ff1"><span class="txt-5">3</span>月</span>
-								<span class="txt-1">2015 / Q1 / MAY</span>
+								<span class="txt-1">2015 / 03</span>
 							</div>
 							<div class="news-link">
-								<a href="" class="txt-r1">http://www.concordmanagedfutures.com/what-we-do/investment-management/</a>
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150331.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150331.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">2</span>月</span>
+								<span class="txt-1">2015 / 02</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150226.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150226.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">1</span>月</span>
+								<span class="txt-1">2015 / 01</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150130.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020150130.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">12</span>月</span>
+								<span class="txt-1">2014 / 12</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020141231.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020141231.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">11</span>月</span>
+								<span class="txt-1">2014 / 11</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020141128.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020141128.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">10</span>月</span>
+								<span class="txt-1">2014 / 10</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020141031.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020141031.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">9</span>月</span>
+								<span class="txt-1">2014 / 09</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140930.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140930.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">8</span>月</span>
+								<span class="txt-1">2014 / 08</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140829.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140829.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">7</span>月</span>
+								<span class="txt-1">2014 / 07</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140731.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140731.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">6</span>月</span>
+								<span class="txt-1">2014 / 06</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140630.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140630.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">5</span>月</span>
+								<span class="txt-1">2014 / 05</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140530.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140530.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">4</span>月</span>
+								<span class="txt-1">2014 / 04</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140430.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140430.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">3</span>月</span>
+								<span class="txt-1">2014 / 03</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140331.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140331.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">2</span>月</span>
+								<span class="txt-1">2014 / 02</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140228.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140228.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">1</span>月</span>
+								<span class="txt-1">2014 / 01</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140131.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020140131.pdf/</a>
+							</div>
+						</div>
+					</li>
+					<li class="art_search-item monthlyreport-item cf">
+						<div class="news-pic pic left">
+							<img src="<?php path_au('temp'); ?>tem-pdt1.jpg" alt="">
+						</div>
+						<div class="news-intro left">
+							<hgroup class="cnt_title">
+								<h1 class="txt-1_1">康和多空成長期貨信託基金</h1>
+								<p class="txt-1_4">Concord Dream Futures Trust Fund</p>
+							</hgroup>
+							<div class="monthlyreport-time">
+								<span class="txt-4 txt-ff1"><span class="txt-5">12</span>月</span>
+								<span class="txt-1">2013 / 12</span>
+							</div>
+							<div class="news-link">
+								<a href="http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020141231.pdf" class="txt-r1" target="_blank">http://austen.ecmd.com.tw/concord/upload/report/Concord%20Dream%20Futures%20Trust%20Fund%2020141231.pdf/</a>
 							</div>
 						</div>
 					</li>

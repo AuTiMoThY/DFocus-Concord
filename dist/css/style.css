@@ -226,6 +226,10 @@ dl dd {
   text-decoration: line-through;
 }
 
+.tdu {
+  text-decoration: underline;
+}
+
 .swing {
   -webkit-transform-origin: 50% 80%;
   -ms-transform-origin: 50% 80%;
@@ -3306,91 +3310,91 @@ header.chatroom {
 }
 
 .about-character1.character-pic:before {
-  background-position: 15% 14%;
+  background-position: 14% 33%;
 }
 
 .index-character1.character-pic:before {
-  background-position: 75% 48%;
+  background-position: 28% 27%;
 }
 
 .about-character2.character-pic:before {
-  background-position: 12% 43%;
+  background-position: 14% 65%;
 }
 
 .index-character2.character-pic:before {
-  background-position: 22% 35%;
+  background-position: 100% 11%;
 }
 
 .about-character3.character-pic:before {
-  background-position: 68% 33%;
+  background-position: 79% 48%;
 }
 
 .index-character3.character-pic:before {
-  background-position: 56% 68%;
+  background-position: 42% 72%;
 }
 
 .about-character4.character-pic:before {
-  background-position: 76% 36%;
+  background-position: 14% 1%;
 }
 
 .index-character4.character-pic:before {
-  background-position: 49% 41%;
+  background-position: 62% 12%;
 }
 
 .about-character5.character-pic:before {
-  background-position: 64% 67%;
+  background-position: 57% 60%;
 }
 
 .index-character5.character-pic:before {
-  background-position: 58% 41%;
+  background-position: 73% 73%;
 }
 
 .about-character6.character-pic:before {
-  background-position: 7% 82%;
+  background-position: 7% 15%;
 }
 
 .index-character6.character-pic:before {
-  background-position: 70% 34%;
+  background-position: 26% 49%;
 }
 
 .about-character7.character-pic:before {
-  background-position: 30% 26%;
+  background-position: 21% 66%;
 }
 
 .index-character7.character-pic:before {
-  background-position: 25% 87%;
+  background-position: 17% 16%;
 }
 
 .about-character8.character-pic:before {
-  background-position: 50% 60%;
+  background-position: 62% 31%;
 }
 
 .index-character8.character-pic:before {
-  background-position: 92% 82%;
+  background-position: 96% 26%;
 }
 
 .about-character9.character-pic:before {
-  background-position: 75% 1%;
+  background-position: 15% 47%;
 }
 
 .index-character9.character-pic:before {
-  background-position: 65% 19%;
+  background-position: 47% 5%;
 }
 
 .about-character10.character-pic:before {
-  background-position: 28% 84%;
+  background-position: 100% 50%;
 }
 
 .index-character10.character-pic:before {
-  background-position: 83% 21%;
+  background-position: 7% 16%;
 }
 
 .about-character11.character-pic:before {
-  background-position: 34% 57%;
+  background-position: 67% 67%;
 }
 
 .index-character11.character-pic:before {
-  background-position: 86% 53%;
+  background-position: 7% 66%;
 }
 
 .character-pic img {
