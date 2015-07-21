@@ -53,14 +53,14 @@
 					<span class="net_asset_value-label-bg"></span>
 					<span class="net_asset_value-label-cnt txt-6_1">基金淨值日</span>
 				</label>
-				<div class="net_asset_value-txt col txt-6">2015/07/01</div>
+				<div class="net_asset_value-txt col txt-6">2015/07/16</div>
 			</div>
 			<div class="col-4">
 				<label for="" class="net_asset_value-label col ">
 					<span class="net_asset_value-label-bg"></span>
 					<span class="net_asset_value-label-cnt txt-6_1">最新淨值</span>
 				</label>
-				<div class="net_asset_value-txt col txt-6">10.190</div>
+				<div class="net_asset_value-txt col txt-6">10.150</div>
 			</div>
 			<div class="col-4">
 				<button type="button" id="netAssetValueBtn" class="btn btn-more">
