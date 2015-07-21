@@ -48,7 +48,7 @@
 		</div>
 	</header>
 	<section class="row1" style="padding-top:0;">
-		<div class="wrapper small">
+		<div class="wrapper">
 			<div class="cnt" style="padding-top:0;">
 				<div class="editorDF"  style="padding-left:0;padding-right:0;">
 					<p class="text-center" style="margin-bottom: 1.5em;">康和期經顧問事業從定期開班課程到特別專題講座以外，也提供異業結合及程式設計的多方位服務，<br>快來與康和期顧相談室洽談來獲得您企業或產品的最佳曝光機會。</p>

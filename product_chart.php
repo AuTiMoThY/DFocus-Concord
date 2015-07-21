@@ -81,7 +81,7 @@ AmCharts.loadJSON = function(url) {
 					<div id="tabsMarquee" class="faq-tabs-wrap left">
 						<ul class="tabs faq-tabs cf">
 						    <li> <a href="products_cnt.php?products=0" id="" class="txt-2" title="多空成長期貨信託基金">多空成長期貨信託基金</a></li>
-						    <li> <a href="https://fm.concordfutures.com.tw/fundM/Login.aspx" id="" class="txt-2" title="康和私募期開得盛信託基金" target="_blank">康和私募期開得盛信託基金</a></li>
+						    <li> <a href="https://fm.concordfutures.com.tw/fundM/Login.aspx" id="" class="txt-2" title="康和私募期開得盛信託基金" target="_blank">康和基金</a></li>
 						    <li> <a href="javascript:alert('第三項產品連結');" id="" class="txt-2" title="基金產品三">基金產品三</a></li>
 						    <li> <a href="javascript:alert('第四項產品連結');" id="" class="txt-2" title="基金產品四">基金產品四</a></li>
 						    <li> <a href="javascript:alert('第五項產品連結');" id="" class="txt-2" title="基金產品五">基金產品五</a></li>
