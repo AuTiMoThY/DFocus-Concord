@@ -59,7 +59,7 @@
 						    <li> <a href="#tab4" id="" class="txt-2">基金知識</a></li>
 						    <li> <a href="#tab5" id="" class="txt-2">其他問題</a></li>
 						    <li> <a href="#tab6" id="" class="txt-2">全權委託問題</a></li>
-						    <li> <a href="#tab7" id="" class="txt-2">自訂問題1</a></li>
+						    <!-- <li> <a href="#tab7" id="" class="txt-2">自訂問題1</a></li> -->
 						</ul>
 					</div>
 				    <div class="faq-tabs-change right">
