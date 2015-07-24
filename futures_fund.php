@@ -69,7 +69,7 @@
 					<li class="col-6" style="padding-left:1.2em;"><a href="https://fm.concordfutures.com.tw/fundM/Login.aspx">
 						<figure>
 							<div class="pic"><img src="dist/images/pic5.jpg" alt=""></div>
-							<figcaption class="txt-2_1 text-center">私募基金</figcaption>
+							<figcaption class="txt-2_1 text-center">康和期經特定投資人園地</figcaption>
 						</figure>
 					</a></li>
 				</ul>

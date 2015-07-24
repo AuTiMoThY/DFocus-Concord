@@ -53,7 +53,7 @@
 						</div>
 						<div class="metro-art right">
 							<hgroup>
-								<h1 class="pdt-title txt-3">Futures Trust Fund</h1>
+								<h1 class="pdt-title txt-3">Futures Manages Accounts</h1>
 								<h2 class="pdt-subtitle txt-4">康和期經VIP全權委託</h2>
 							</hgroup>
 							<p class="pdt-shrink_text">

@@ -79,7 +79,7 @@ echo $content;
 						<div class="metro-art right">
 							<hgroup>
 								<h1 class="pdt-title txt-3"><!-- Cathay Concord Futures No.1 --></h1>
-								<h2 class="pdt-subtitle txt-4">康和基金</h2>
+								<h2 class="pdt-subtitle txt-4">康和期經特定投資人園地</h2>
 							</hgroup>
 							<p class="pdt-shrink_text">
 <?php
