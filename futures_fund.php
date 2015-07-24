@@ -63,7 +63,7 @@
 					<li class="col-6" style="padding-right:1.2em;"><a href="product_chart.php">
 						<figure>
 							<div class="pic"><img src="dist/images/pic4.jpg" alt=""></div>
-							<figcaption class="txt-2_1 text-center">公募基金</figcaption>
+							<figcaption class="txt-2_1 text-center">對不特定人募集之基金(公募基金)</figcaption>
 						</figure>
 					</a></li>
 					<li class="col-6" style="padding-left:1.2em;"><a href="https://fm.concordfutures.com.tw/fundM/Login.aspx">

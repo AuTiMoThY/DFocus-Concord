@@ -52,13 +52,13 @@
 						</div>
 						<div class="metro-art right">
 							<hgroup>
-								<h1 class="pdt-title txt-3">Futures Fund</h1>
+								<h1 class="pdt-title txt-3">Futures Trust Fund</h1>
 								<h2 class="pdt-subtitle txt-4">多空成長期貨信託基金</h2>
 							</hgroup>
 							<p class="pdt-shrink_text">
 <?php
 //  此處示意 顯示內文前 100 個字，超果以...取代
-$cnt0 = "由專業管理團隊替您考量資產配置、提高投資效率、結合交易策略降低市場風險，穩健增值，讓投資人不論面對多頭、空頭，景氣好與壞，都能掌握獲利契機，滿足投資需求，實踐人生夢想！";
+$cnt0 = "由專業管理團隊替您考量資產配置、提高投資效率、結合交易及避險策略降低市場風險，穩健成長，讓投資人不論面對多頭、空頭，景氣好與壞，都能掌握獲利契機，滿足投資需求，實踐人生夢想！";
 $showCount = 100;
 $content0 = strip_tags($cnt0);
 $content = mb_substr($content0,0,$showCount,'UTF-8');

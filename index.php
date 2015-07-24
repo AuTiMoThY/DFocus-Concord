@@ -173,7 +173,7 @@ if ($deviceType == 'phone') {
 	<section id="team" class="row3">
 		<div class="wrapper small">
 			<hgroup class="txtImg_title txtImg_title-title-team <?php isPhone('mobile_title-group'); ?>">
-				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Managment Team</h1>
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Management Team</h1>
 				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="tw">經營團隊</h2>
 			</hgroup>
 		</div>

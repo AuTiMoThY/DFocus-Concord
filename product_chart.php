@@ -68,7 +68,7 @@ AmCharts.loadJSON = function(url) {
 	<section class="row1">
 		<div class="wrapper small">
 			<hgroup>
-				<h1 class="pdt-title txt-3 text-center">Futures Fund</h1>
+				<h1 class="pdt-title txt-3 text-center">Futures Trust Fund</h1>
 				<h2 class="pdt-subtitle txt-4 text-center">多空成長期貨信託基金</h2>
 			</hgroup>
 		</div>
