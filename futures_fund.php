@@ -42,7 +42,7 @@
 	<header class="cnt_title">
 		<div class="wrapper small">
 			<hgroup class="txtImg_title-title-futures2 <?php isPhone('mobile_title-group'); ?>">
-				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Futures Fund</h1>
+				<h1 class="hidden <?php isPhone('mobile_title'); ?> title-1" data-lang="en">Futures Trust Fund</h1>
 				<h2 class="hidden <?php isPhone('mobile_title'); ?> title-2" data-lang="tw">期貨信託事業</h2>
 			</hgroup>
 		</div>
@@ -57,7 +57,7 @@
 					<hr>
 					<img src="dist/images/temp/tem10.jpg" alt="康和期貨時間軸" class="temporary" style="margin-bottom:1.2em;">
 					<img src="dist/images/temp/tem11.jpg" alt="康和期貨時間軸" class="temporary" style="margin:0.8em 0;">
-					<p>康和多空成長基金為國內第一檔百分之百國人所開發的期貨信託基金，在國內期貨市場期貨信託基金佔比本就為少數情況下，又僅此一檔徹頭至尾前、中、後台皆為國人自行開發及操作，也因此，康和期經了解，對於擁有期貨市場標榜指標性角色，康和期經擁有責無旁貸的使命感必須背負。康和期經除了已將國際行之有年的CTA制度成功導入國內，在今年多空成長更將國際CPO多重經理人概念導入，多重經理人在國際型期貨基金架構下除了更能平滑績效以外，多重經理人加上多重策略在績效上更能有效避免系統性風險.</p>
+					<p>康和多空成長基金為國內百分之百國人所開發的期貨信託基金，在國內期貨市場期貨信託基金佔比本就為少數情況下，又徹頭至尾前、中、後台皆為國人自行開發及操作，實屬難得，也因此，康和期經了解，對於擁有期貨市場標榜指標性角色，康和期經擁有責無旁貸的使命感必須背負。康和期經除了已將國際行之有年的CTA制度成功導入國內，在今年多空成長更將國際CPO多重經理人概念導入，多重經理人在國際型期貨基金架構下除了更能平滑績效以外，多重經理人加上多重策略在績效上更能有效避免系統性風險.</p>
 				</div><!-- /.editorDF  END  !! -->
 				<ul class="cf futures_fund-link">
 					<li class="col-6" style="padding-right:1.2em;"><a href="product_chart.php">

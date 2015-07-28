@@ -148,7 +148,7 @@ if ($deviceType == 'phone') {
 								<!-- <p class="futures-item-intro txt-2">國內期貨信託事業係以向不特定人或符合主管機關所定資格條件之人募集期貨信託基金發行受益憑證，並運用期貨信託基金從事交易或投資之事業。聚集更多的小額資金，配合專業穩健的研究投資團隊，為廣大投資人進行審慎與安全的期貨交易，提供一個可參與國內外期貨市場的管道。</p> -->
 							</figcaption>
 						</a></figure>
-						<p class="txt-ff1 txt-1">Futures Fund</p>
+						<p class="txt-ff1 txt-1">Futures Trust Fund</p>
 						<p class="txt-ff1 txt-1">期貨信託事業</p>
 					</li>
 					<li class="futures-item">

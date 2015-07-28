@@ -3310,91 +3310,91 @@ header.chatroom {
 }
 
 .about-character1.character-pic:before {
-  background-position: 95% 73%;
+  background-position: 19% 100%;
 }
 
 .index-character1.character-pic:before {
-  background-position: 57% 84%;
+  background-position: 16% 71%;
 }
 
 .about-character2.character-pic:before {
-  background-position: 77% 79%;
+  background-position: 51% 53%;
 }
 
 .index-character2.character-pic:before {
-  background-position: 30% 11%;
+  background-position: 53% 89%;
 }
 
 .about-character3.character-pic:before {
-  background-position: 11% 23%;
+  background-position: 4% 64%;
 }
 
 .index-character3.character-pic:before {
-  background-position: 62% 6%;
+  background-position: 21% 33%;
 }
 
 .about-character4.character-pic:before {
-  background-position: 40% 24%;
+  background-position: 65% 55%;
 }
 
 .index-character4.character-pic:before {
-  background-position: 68% 68%;
+  background-position: 12% 64%;
 }
 
 .about-character5.character-pic:before {
-  background-position: 96% 14%;
+  background-position: 60% 59%;
 }
 
 .index-character5.character-pic:before {
-  background-position: 46% 52%;
+  background-position: 85% 22%;
 }
 
 .about-character6.character-pic:before {
-  background-position: 94% 85%;
+  background-position: 54% 57%;
 }
 
 .index-character6.character-pic:before {
-  background-position: 100% 52%;
+  background-position: 3% 41%;
 }
 
 .about-character7.character-pic:before {
-  background-position: 23% 24%;
+  background-position: 99% 31%;
 }
 
 .index-character7.character-pic:before {
-  background-position: 35% 97%;
+  background-position: 65% 82%;
 }
 
 .about-character8.character-pic:before {
-  background-position: 91% 28%;
+  background-position: 87% 42%;
 }
 
 .index-character8.character-pic:before {
-  background-position: 97% 27%;
+  background-position: 76% 31%;
 }
 
 .about-character9.character-pic:before {
-  background-position: 93% 70%;
+  background-position: 5% 40%;
 }
 
 .index-character9.character-pic:before {
-  background-position: 37% 47%;
+  background-position: 42% 20%;
 }
 
 .about-character10.character-pic:before {
-  background-position: 65% 30%;
+  background-position: 65% 47%;
 }
 
 .index-character10.character-pic:before {
-  background-position: 10% 2%;
+  background-position: 80% 72%;
 }
 
 .about-character11.character-pic:before {
-  background-position: 76% 60%;
+  background-position: 6% 3%;
 }
 
 .index-character11.character-pic:before {
-  background-position: 46% 40%;
+  background-position: 34% 81%;
 }
 
 .character-pic img {
@@ -3698,7 +3698,7 @@ header.chatroom {
 		>	font & icon
 \*========================================================================*/
 .txtImg_title-sprite, .txtImg_title-title-MemberProfile, .txtImg_title-title-chatroom, .txtImg_title-title-concordInf, .txtImg_title-title-contact, .txtImg_title-title-cp, .txtImg_title-title-cp2, .txtImg_title-title-cpComputer1, .txtImg_title-title-cpComputer2, .txtImg_title-title-cpComputer3, .txtImg_title-title-download, .txtImg_title-title-futures1, .txtImg_title-title-futures2, .txtImg_title-title-futures3, .txtImg_title-title-index_row1, .txtImg_title-title-lu, .txtImg_title-title-map, .txtImg_title-title-monthlyreport, .txtImg_title-title-news, .txtImg_title-title-prodCnt, .txtImg_title-title-qa, .txtImg_title-title-sales1, .txtImg_title-title-sales2, .txtImg_title-title-saleschannel, .txtImg_title-title-search, .txtImg_title-title-service1, .txtImg_title-title-service2, .txtImg_title-title-service3, .txtImg_title-title-service4, .txtImg_title-title-solution, .txtImg_title-title-team, .txtImg_title-title-team2 {
-  background-image: url('../images/txtImg_title-s1910d3dc18.png');
+  background-image: url('../images/txtImg_title-se441321828.png');
   background-repeat: no-repeat;
 }
 
@@ -3986,7 +3986,7 @@ header.chatroom {
   background-image: none;
 }
 .txtImg_title-title-futures2 {
-  width: 296px;
+  width: 426px;
   height: 96px;
   margin: auto;
 }
